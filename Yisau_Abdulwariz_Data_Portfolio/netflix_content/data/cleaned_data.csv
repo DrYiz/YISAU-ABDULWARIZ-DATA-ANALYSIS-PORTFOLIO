@@ -1,0 +1,601 @@
+show_id,type,title,director,cast,country,date_added,release_year,rating,duration,listed_in,description,year_added,duration_minutes,duration_seasons
+s1,Movie,Movie Title 1,Bong Joon Ho,Actor 109,Spain,2018-12-21,2015,PG,70 min,"Comedies, Crime TV Shows",A story exploring themes of comedies.,2018.0,70.0,
+s2,TV Show,Series Title 2,Rajiv Menon,"Actor 377, Actor 98, Actor 31, Actor 57",India,2020-04-12,2020,TV-G,8 Seasons,"Documentaries, Thrillers, Sci-Fi & Fantasy",A story exploring themes of documentaries.,2020.0,,8.0
+s3,TV Show,Series Title 3,Greg Daniels,"Actor 47, Actor 365, Actor 206",Australia,2017-03-08,2017,TV-MA,7 Seasons,"Horror Movies, Action & Adventure, Stand-Up Comedy",A story exploring themes of horror movies.,2017.0,,7.0
+s4,Movie,Movie Title 4,Jane Campion,Actor 233,"Brazil, Germany",2004-07-03,2001,TV-Y7,83 min,Horror Movies,A story exploring themes of horror movies.,2004.0,83.0,
+s5,Movie,Movie Title 5,Martin Scorsese,Actor 279,Mexico,,2018,R,150 min,"Action & Adventure, Horror Movies, Kids' TV",A story exploring themes of action & adventure.,,150.0,
+s6,TV Show,Series Title 6,Bong Joon Ho,"Actor 179, Actor 153",Australia,2008-07-20,2005,TV-PG,2 Seasons,"Crime TV Shows, Stand-Up Comedy, International Movies",A story exploring themes of crime tv shows.,2008.0,,2.0
+s7,Movie,Movie Title 7,Denis Villeneuve,"Actor 86, Actor 143","Brazil, United States",2002-03-17,1999,PG,92 min,Documentaries,A story exploring themes of documentaries.,2002.0,92.0,
+s8,TV Show,Series Title 8,Rajiv Menon,"Actor 329, Actor 190, Actor 320, Actor 322, Actor 139",Australia,2004-07-15,2004,TV-PG,5 Seasons,Romantic Movies,A story exploring themes of romantic movies.,2004.0,,5.0
+s9,TV Show,Series Title 9,Unknown,Actor 116,"India, Mexico",2021-11-01,2018,NR,1 Seasons,"Action & Adventure, Thrillers",A story exploring themes of action & adventure.,2021.0,,1.0
+s10,Movie,Movie Title 10,Rajiv Menon,Actor 33,United Kingdom,2011-12-27,2008,PG,98 min,"Horror Movies, Dramas",A story exploring themes of horror movies.,2011.0,98.0,
+s11,Movie,Movie Title 11,Kunle Afolayan,"Actor 29, Actor 321, Actor 387","Germany, Brazil",2013-07-18,2011,TV-PG,153 min,Anime Series,A story exploring themes of anime series.,2013.0,153.0,
+s12,Movie,Movie Title 12,Unknown,"Actor 293, Actor 127, Actor 161, Actor 165, Actor 108","India, Australia",2014-06-05,2011,R,79 min,"Anime Series, British TV Shows",A story exploring themes of anime series.,2014.0,79.0,
+s13,Movie,Movie Title 13,Greg Daniels,Not listed,Germany,2009-03-16,2007,PG-13,77 min,Reality TV,A story exploring themes of reality tv.,2009.0,77.0,
+s14,Movie,Movie Title 14,Sofia Coppola,Actor 197,Mexico,2015-03-25,2012,NR,144 min,Kids' TV,A story exploring themes of kids' tv.,2015.0,144.0,
+s15,Movie,Movie Title 15,Unknown,"Actor 392, Actor 305, Actor 300",India,2002-03-05,1999,TV-14,118 min,"Horror Movies, Crime TV Shows, Kids' TV",A story exploring themes of horror movies.,2002.0,118.0,
+s16,Movie,Movie Title 16,Ava DuVernay,"Actor 242, Actor 265","United Kingdom, Nigeria",2005-11-22,2004,TV-PG,90 min,Crime TV Shows,A story exploring themes of crime tv shows.,2005.0,90.0,
+s17,TV Show,Series Title 17,Bong Joon Ho,"Actor 235, Actor 293",Japan,,2009,PG-13,8 Season,"Documentaries, Action & Adventure, British TV Shows",A story exploring themes of documentaries.,,,8.0
+s18,TV Show,Series Title 18,Denis Villeneuve,"Actor 215, Actor 367, Actor 156, Actor 124, Actor 25",Canada,2008-10-21,2005,TV-PG,3 Seasons,"Romantic Movies, Sci-Fi & Fantasy",A story exploring themes of romantic movies.,2008.0,,3.0
+s19,Movie,Movie Title 19,Denis Villeneuve,"Actor 389, Actor 79","Australia, South Korea",2004-06-09,2001,TV-14,132 min,"Reality TV, Documentaries, Stand-Up Comedy",A story exploring themes of reality tv.,2004.0,132.0,
+s20,TV Show,Series Title 20,Kunle Afolayan,"Actor 140, Actor 245, Actor 348, Actor 27, Actor 197","United States, Australia",2022-02-20,2019,TV-G,1 Seasons,Dramas,A story exploring themes of dramas.,2022.0,,1.0
+s21,Movie,Movie Title 21,Rajiv Menon,"Actor 313, Actor 281, Actor 356","Japan, Brazil",2012-09-23,2011,NR,141 min,"Anime Series, British TV Shows",A story exploring themes of anime series.,2012.0,141.0,
+s22,Movie,Movie Title 22,Martin Scorsese,"Actor 87, Actor 302",Brazil,2004-04-26,2003,TV-PG,119 min,"Anime Series, Thrillers, Romantic Movies",A story exploring themes of anime series.,2004.0,119.0,
+s23,Movie,Movie Title 23,Greg Daniels,"Actor 18, Actor 226, Actor 188, Actor 269",Australia,2004-02-12,2003,TV-G,148 min,Documentaries,A story exploring themes of documentaries.,2004.0,148.0,
+s24,Movie,Movie Title 24,Jane Campion,Actor 125,"Japan, Germany",2010-07-08,2010,PG-13,111 min,Kids' TV,A story exploring themes of kids' tv.,2010.0,111.0,
+s25,Movie,Movie Title 25,Unknown,"Actor 14, Actor 296, Actor 162",Germany,2003-09-05,2000,PG,150 min,International Movies,A story exploring themes of international movies.,2003.0,150.0,
+s26,Movie,Movie Title 26,Ava DuVernay,"Actor 124, Actor 81, Actor 290, Actor 102, Actor 310","United Kingdom, India",2014-11-17,2013,PG,150 min,"Documentaries, Horror Movies",A story exploring themes of documentaries.,2014.0,150.0,
+s27,Movie,Movie Title 27,Bong Joon Ho,Actor 281,Nigeria,2005-08-02,2004,R,178 min,"Sci-Fi & Fantasy, British TV Shows",A story exploring themes of sci-fi & fantasy.,2005.0,178.0,
+s28,TV Show,Series Title 28,Ava DuVernay,"Actor 29, Actor 203, Actor 13","Australia, United Kingdom",2020-05-01,2020,NR,6 Seasons,Comedies,A story exploring themes of comedies.,2020.0,,6.0
+s29,Movie,Movie Title 29,Martin Scorsese,"Actor 261, Actor 359, Actor 77, Actor 254, Actor 370",Japan,2019-08-20,2019,R,166 min,Anime Series,A story exploring themes of anime series.,2019.0,166.0,
+s30,Movie,Movie Title 30,Denis Villeneuve,Actor 63,"Canada, Spain",2001-03-27,1998,NR,63 min,Documentaries,A story exploring themes of documentaries.,2001.0,63.0,
+s31,Movie,Movie Title 31,Jane Campion,Actor 93,"United States, India",2011-03-03,2010,TV-Y7,138 min,"Crime TV Shows, Comedies, Stand-Up Comedy",A story exploring themes of crime tv shows.,2011.0,138.0,
+s32,Movie,Movie Title 32,Martin Scorsese,Actor 27,Unknown,2020-08-17,2017,TV-14,122 min,Dramas,A story exploring themes of dramas.,2020.0,122.0,
+s33,Movie,Movie Title 33,Unknown,"Actor 128, Actor 391, Actor 335, Actor 98, Actor 368",Canada,2020-12-22,2017,NR,91 min,"Anime Series, Documentaries",A story exploring themes of anime series.,2020.0,91.0,
+s34,Movie,Movie Title 34,Unknown,"Actor 358, Actor 397, Actor 127, Actor 318, Actor 112","Nigeria, Germany",2006-07-10,2005,NR,60 min,"Action & Adventure, Sci-Fi & Fantasy, Romantic Movies",A story exploring themes of action & adventure.,2006.0,60.0,
+s35,TV Show,Series Title 35,Greg Daniels,"Actor 174, Actor 368, Actor 380",Nigeria,2000-03-02,2000,NR,4 Seasons,"Kids' TV, Dramas, Stand-Up Comedy",A story exploring themes of kids' tv.,2000.0,,4.0
+s36,Movie,Movie Title 36,Unknown,"Actor 166, Actor 6, Actor 173, Actor 279","Canada, India",2013-04-12,2013,TV-14,142 min,"Sci-Fi & Fantasy, Anime Series, Music & Musicals",A story exploring themes of sci-fi & fantasy.,2013.0,142.0,
+s37,Movie,Movie Title 37,Bong Joon Ho,"Actor 132, Actor 23, Actor 214",United Kingdom,,2009,TV-Y7,90 min,Romantic Movies,A story exploring themes of romantic movies.,,90.0,
+s38,Movie,Movie Title 38,Denis Villeneuve,"Actor 197, Actor 291, Actor 186, Actor 263, Actor 343","Australia, Canada",2012-05-24,2010,PG-13,120 min,"Sci-Fi & Fantasy, International Movies, Stand-Up Comedy",A story exploring themes of sci-fi & fantasy.,2012.0,120.0,
+s39,TV Show,Series Title 39,Greg Daniels,"Actor 217, Actor 198, Actor 152, Actor 376","United States, France",2012-10-20,2011,TV-PG,6 Seasons,"Anime Series, Action & Adventure",A story exploring themes of anime series.,2012.0,,6.0
+s40,Movie,Movie Title 40,Unknown,Not listed,Unknown,2005-08-02,2004,TV-G,71 min,"Stand-Up Comedy, Dramas",A story exploring themes of stand-up comedy.,2005.0,71.0,
+s41,Movie,Movie Title 41,Ava DuVernay,"Actor 209, Actor 242",Germany,2002-12-12,2002,NR,84 min,"Reality TV, International Movies",A story exploring themes of reality tv.,2002.0,84.0,
+s42,TV Show,Series Title 42,Martin Scorsese,Actor 297,France,2006-02-10,2004,TV-G,2 Season,"Horror Movies, Reality TV, Sci-Fi & Fantasy",A story exploring themes of horror movies.,2006.0,,2.0
+s43,Movie,Movie Title 43,Denis Villeneuve,"Actor 361, Actor 380, Actor 99, Actor 173",Japan,2012-06-04,2011,PG,111 min,"Stand-Up Comedy, Documentaries, British TV Shows",A story exploring themes of stand-up comedy.,2012.0,111.0,
+s44,TV Show,Series Title 44,Unknown,"Actor 112, Actor 12, Actor 281, Actor 121, Actor 167",United States,,2019,TV-Y7,5 Seasons,"Reality TV, Stand-Up Comedy, Kids' TV",A story exploring themes of reality tv.,,,5.0
+s45,Movie,Movie Title 45,Kunle Afolayan,"Actor 44, Actor 324, Actor 324",France,2002-03-25,2001,TV-G,70 min,"Crime TV Shows, Kids' TV",A story exploring themes of crime tv shows.,2002.0,70.0,
+s46,TV Show,Series Title 46,Kunle Afolayan,"Actor 204, Actor 295, Actor 46, Actor 284","Nigeria, Australia",2009-03-15,2009,TV-PG,1 Seasons,Romantic Movies,A story exploring themes of romantic movies.,2009.0,,1.0
+s47,Movie,Movie Title 47,Kunle Afolayan,"Actor 71, Actor 331, Actor 256",Japan,2018-04-22,2015,TV-Y7,179 min,"Sci-Fi & Fantasy, Stand-Up Comedy",A story exploring themes of sci-fi & fantasy.,2018.0,179.0,
+s48,Movie,Movie Title 48,Unknown,"Actor 359, Actor 164, Actor 247, Actor 374","Brazil, France",,2007,NR,81 min,"British TV Shows, International Movies",A story exploring themes of british tv shows.,,81.0,
+s49,Movie,Movie Title 49,Martin Scorsese,Not listed,France,2003-05-17,2000,TV-PG,110 min,British TV Shows,A story exploring themes of british tv shows.,2003.0,110.0,
+s50,TV Show,Series Title 50,Greg Daniels,"Actor 228, Actor 174, Actor 3, Actor 325",Unknown,2011-08-09,2010,R,8 Seasons,Reality TV,A story exploring themes of reality tv.,2011.0,,8.0
+s51,Movie,Movie Title 51,Rajiv Menon,"Actor 116, Actor 121, Actor 358, Actor 389",Brazil,2001-11-21,2000,R,138 min,International Movies,A story exploring themes of international movies.,2001.0,138.0,
+s52,Movie,Movie Title 52,Ava DuVernay,"Actor 24, Actor 382, Actor 237","Mexico, India",2018-06-06,2016,NR,77 min,"Crime TV Shows, Dramas, International Movies",A story exploring themes of crime tv shows.,2018.0,77.0,
+s53,Movie,Movie Title 53,Martin Scorsese,Not listed,India,2001-10-03,1998,TV-Y7,95 min,"Action & Adventure, Kids' TV, Music & Musicals",A story exploring themes of action & adventure.,2001.0,95.0,
+s54,Movie,Movie Title 54,Greg Daniels,Actor 180,"United States, Australia",2006-11-09,2005,PG-13,138 min,"Stand-Up Comedy, Romantic Movies",A story exploring themes of stand-up comedy.,2006.0,138.0,
+s55,Movie,Movie Title 55,Sofia Coppola,Not listed,"Brazil, France",2012-07-25,2011,TV-G,151 min,Stand-Up Comedy,A story exploring themes of stand-up comedy.,2012.0,151.0,
+s56,Movie,Movie Title 56,Unknown,Not listed,Spain,2014-01-06,2012,R,112 min,"Thrillers, Kids' TV",A story exploring themes of thrillers.,2014.0,112.0,
+s57,TV Show,Series Title 57,Unknown,"Actor 211, Actor 113, Actor 26, Actor 51, Actor 113",United States,2008-08-24,2007,R,8 Seasons,"Crime TV Shows, Stand-Up Comedy, Horror Movies",A story exploring themes of crime tv shows.,2008.0,,8.0
+s58,Movie,Movie Title 58,Martin Scorsese,"Actor 350, Actor 114, Actor 121, Actor 62",Unknown,2018-08-17,2018,TV-Y7,121 min,"International Movies, Sci-Fi & Fantasy, Comedies",A story exploring themes of international movies.,2018.0,121.0,
+s59,TV Show,Series Title 59,Unknown,"Actor 242, Actor 366, Actor 221",United States,2010-02-14,2009,PG,4 Seasons,Reality TV,A story exploring themes of reality tv.,2010.0,,4.0
+s60,Movie,Movie Title 60,Bong Joon Ho,"Actor 105, Actor 374, Actor 222, Actor 205",Japan,2012-06-22,2009,TV-MA,178 min,"Comedies, Kids' TV, British TV Shows",A story exploring themes of comedies.,2012.0,178.0,
+s61,Movie,Movie Title 61,Unknown,"Actor 360, Actor 198, Actor 357, Actor 355",France,2000-03-20,2000,PG,70 min,Horror Movies,A story exploring themes of horror movies.,2000.0,70.0,
+s62,Movie,Movie Title 62,Denis Villeneuve,"Actor 366, Actor 251, Actor 387, Actor 181",Mexico,1999-05-25,1998,NR,175 min,"Kids' TV, Horror Movies",A story exploring themes of kids' tv.,1999.0,175.0,
+s63,Movie,Movie Title 63,Rajiv Menon,Actor 224,"Japan, Brazil",2021-05-27,2018,TV-PG,71 min,"Anime Series, Stand-Up Comedy",A story exploring themes of anime series.,2021.0,71.0,
+s64,Movie,Movie Title 64,Unknown,"Actor 121, Actor 75, Actor 102, Actor 4, Actor 304",United States,2018-05-27,2017,R,154 min,"Reality TV, Thrillers, Action & Adventure",A story exploring themes of reality tv.,2018.0,154.0,
+s65,Movie,Movie Title 65,Denis Villeneuve,Not listed,Nigeria,2016-09-02,2014,TV-G,65 min,"Music & Musicals, Comedies, Crime TV Shows",A story exploring themes of music & musicals.,2016.0,65.0,
+s66,Movie,Movie Title 66,Unknown,"Actor 20, Actor 353, Actor 375",India,2014-01-15,2012,TV-14,88 min,British TV Shows,A story exploring themes of british tv shows.,2014.0,88.0,
+s67,Movie,Movie Title 67,Sofia Coppola,"Actor 302, Actor 389, Actor 169, Actor 7",France,2009-09-20,2007,TV-Y7,89 min,"Romantic Movies, Reality TV, Horror Movies",A story exploring themes of romantic movies.,2009.0,89.0,
+s68,Movie,Movie Title 68,Unknown,"Actor 193, Actor 187, Actor 239, Actor 165","Germany, Japan",2008-06-15,2007,R,133 min,"Music & Musicals, Romantic Movies",A story exploring themes of music & musicals.,2008.0,133.0,
+s69,TV Show,Series Title 69,Greg Daniels,Not listed,"Brazil, South Korea",2020-04-07,2019,TV-14,8 Seasons,"Anime Series, Romantic Movies",A story exploring themes of anime series.,2020.0,,8.0
+s70,Movie,Movie Title 70,Unknown,Not listed,Brazil,2022-05-06,2019,PG-13,126 min,"Romantic Movies, Horror Movies",A story exploring themes of romantic movies.,2022.0,126.0,
+s71,Movie,Movie Title 71,Kunle Afolayan,Actor 272,Nigeria,2017-08-11,2017,TV-14,164 min,"Horror Movies, Music & Musicals, International Movies",A story exploring themes of horror movies.,2017.0,164.0,
+s72,Movie,Movie Title 72,Jane Campion,"Actor 319, Actor 230, Actor 66","India, Spain",2022-02-22,2020,TV-PG,99 min,"Thrillers, Action & Adventure",A story exploring themes of thrillers.,2022.0,99.0,
+s73,TV Show,Series Title 73,Unknown,"Actor 260, Actor 355, Actor 2, Actor 23, Actor 24","Germany, Mexico",2006-09-03,2003,PG,4 Season,"British TV Shows, Action & Adventure, Thrillers",A story exploring themes of british tv shows.,2006.0,,4.0
+s74,Movie,Movie Title 74,Unknown,Actor 271,"Germany, United States",2015-05-11,2014,R,98 min,"Crime TV Shows, Thrillers",A story exploring themes of crime tv shows.,2015.0,98.0,
+s75,Movie,Movie Title 75,Martin Scorsese,"Actor 336, Actor 88",United States,2006-08-17,2005,R,63 min,"Thrillers, Anime Series",A story exploring themes of thrillers.,2006.0,63.0,
+s76,TV Show,Series Title 76,Bong Joon Ho,"Actor 51, Actor 104, Actor 356",Germany,2022-10-25,2020,TV-14,6 Seasons,Comedies,A story exploring themes of comedies.,2022.0,,6.0
+s77,TV Show,Series Title 77,Kunle Afolayan,"Actor 316, Actor 265, Actor 56, Actor 118",Japan,2010-02-04,2009,PG-13,2 Seasons,"Action & Adventure, Horror Movies, Thrillers",A story exploring themes of action & adventure.,2010.0,,2.0
+s78,TV Show,Series Title 78,Ava DuVernay,"Actor 4, Actor 396, Actor 83, Actor 245",India,2005-10-10,2004,TV-G,6 Seasons,British TV Shows,A story exploring themes of british tv shows.,2005.0,,6.0
+s79,Movie,Movie Title 79,Bong Joon Ho,"Actor 16, Actor 370, Actor 389",Brazil,2018-12-18,2016,TV-G,85 min,Stand-Up Comedy,A story exploring themes of stand-up comedy.,2018.0,85.0,
+s80,Movie,Movie Title 80,Greg Daniels,Actor 186,Mexico,1998-09-12,1998,TV-14,113 min,"Action & Adventure, Comedies, Horror Movies",A story exploring themes of action & adventure.,1998.0,113.0,
+s81,Movie,Movie Title 81,Unknown,Actor 69,Mexico,2016-10-06,2014,TV-MA,129 min,Documentaries,A story exploring themes of documentaries.,2016.0,129.0,
+s82,TV Show,Series Title 82,Kunle Afolayan,"Actor 185, Actor 279, Actor 238, Actor 332","Mexico, Brazil",2022-11-03,2020,PG-13,6 Seasons,British TV Shows,A story exploring themes of british tv shows.,2022.0,,6.0
+s83,Movie,Movie Title 83,Unknown,"Actor 318, Actor 148",Japan,2006-08-10,2004,R,80 min,Reality TV,A story exploring themes of reality tv.,2006.0,80.0,
+s84,Movie,Movie Title 84,Unknown,"Actor 15, Actor 380",United States,2010-05-19,2008,TV-MA,131 min,"Thrillers, Documentaries, Action & Adventure",A story exploring themes of thrillers.,2010.0,131.0,
+s85,TV Show,Series Title 85,Bong Joon Ho,"Actor 78, Actor 173, Actor 123, Actor 62",Nigeria,2018-09-14,2015,R,6 Seasons,"Anime Series, Romantic Movies",A story exploring themes of anime series.,2018.0,,6.0
+s86,Movie,Movie Title 86,Martin Scorsese,"Actor 171, Actor 330, Actor 79, Actor 178","Brazil, Spain",2007-03-25,2006,TV-PG,172 min,"Documentaries, Dramas",A story exploring themes of documentaries.,2007.0,172.0,
+s87,Movie,Movie Title 87,Kunle Afolayan,"Actor 59, Actor 362",Mexico,2009-05-04,2006,TV-Y7,170 min,"Kids' TV, Stand-Up Comedy",A story exploring themes of kids' tv.,2009.0,170.0,
+s88,Movie,Movie Title 88,Denis Villeneuve,"Actor 5, Actor 21",South Korea,2001-12-24,1998,TV-PG,100 min,"Documentaries, Sci-Fi & Fantasy, Comedies",A story exploring themes of documentaries.,2001.0,100.0,
+s89,Movie,Movie Title 89,Unknown,Not listed,Mexico,2018-06-24,2016,TV-PG,124 min,Crime TV Shows,A story exploring themes of crime tv shows.,2018.0,124.0,
+s90,Movie,Movie Title 90,Kunle Afolayan,"Actor 99, Actor 174, Actor 383",United Kingdom,2000-06-12,1999,TV-Y7,88 min,Comedies,A story exploring themes of comedies.,2000.0,88.0,
+s91,Movie,Movie Title 91,Kunle Afolayan,"Actor 1, Actor 308",United Kingdom,2001-03-09,1999,TV-MA,168 min,"Music & Musicals, Crime TV Shows",A story exploring themes of music & musicals.,2001.0,168.0,
+s92,TV Show,Series Title 92,Unknown,Actor 124,India,2007-07-19,2006,PG-13,5 Seasons,Horror Movies,A story exploring themes of horror movies.,2007.0,,5.0
+s93,Movie,Movie Title 93,Greg Daniels,"Actor 54, Actor 369, Actor 143, Actor 238",Canada,2022-01-19,2020,R,164 min,Documentaries,A story exploring themes of documentaries.,2022.0,164.0,
+s94,Movie,Movie Title 94,Jane Campion,Not listed,United States,2022-05-24,2021,TV-G,93 min,"Reality TV, Action & Adventure",A story exploring themes of reality tv.,2022.0,93.0,
+s95,Movie,Movie Title 95,Bong Joon Ho,"Actor 88, Actor 255","Nigeria, India",2016-12-02,2013,TV-Y7,127 min,"Documentaries, Sci-Fi & Fantasy",A story exploring themes of documentaries.,2016.0,127.0,
+s96,TV Show,Series Title 96,Denis Villeneuve,"Actor 95, Actor 261, Actor 26, Actor 273, Actor 77","France, Nigeria",2000-11-27,2000,TV-14,5 Seasons,Horror Movies,A story exploring themes of horror movies.,2000.0,,5.0
+s97,Movie,Movie Title 97,Jane Campion,"Actor 354, Actor 107","Spain, United Kingdom",2011-05-10,2010,TV-PG,136 min,"Action & Adventure, Dramas, Thrillers",A story exploring themes of action & adventure.,2011.0,136.0,
+s98,Movie,Movie Title 98,Unknown,"Actor 317, Actor 120, Actor 394, Actor 263, Actor 97",United Kingdom,2022-06-23,2020,PG,137 min,Reality TV,A story exploring themes of reality tv.,2022.0,137.0,
+s99,Movie,Movie Title 99,Denis Villeneuve,"Actor 134, Actor 255, Actor 307","Germany, Canada",2021-06-21,2018,TV-G,161 min,Crime TV Shows,A story exploring themes of crime tv shows.,2021.0,161.0,
+s100,Movie,Movie Title 100,Martin Scorsese,"Actor 19, Actor 271, Actor 352, Actor 108",Canada,,2011,R,146 min,"Kids' TV, Music & Musicals",A story exploring themes of kids' tv.,,146.0,
+s101,TV Show,Series Title 101,Martin Scorsese,Actor 92,"United States, Mexico",2011-05-08,2008,NR,2 Season,"Crime TV Shows, International Movies",A story exploring themes of crime tv shows.,2011.0,,2.0
+s102,Movie,Movie Title 102,Ava DuVernay,"Actor 340, Actor 65, Actor 243","Mexico, Brazil",2001-05-16,1999,R,122 min,Comedies,A story exploring themes of comedies.,2001.0,122.0,
+s103,Movie,Movie Title 103,Sofia Coppola,"Actor 151, Actor 63, Actor 247, Actor 296",France,2007-01-21,2005,TV-14,108 min,"International Movies, Romantic Movies, Comedies",A story exploring themes of international movies.,2007.0,108.0,
+s104,Movie,Movie Title 104,Unknown,"Actor 339, Actor 339",Brazil,2020-07-14,2017,TV-Y7,115 min,Horror Movies,A story exploring themes of horror movies.,2020.0,115.0,
+s105,TV Show,Series Title 105,Greg Daniels,Not listed,Spain,,2015,R,6 Seasons,Anime Series,A story exploring themes of anime series.,,,6.0
+s106,Movie,Movie Title 106,Bong Joon Ho,Actor 396,"Spain, United States",2008-06-21,2006,R,164 min,"Music & Musicals, International Movies, Comedies",A story exploring themes of music & musicals.,2008.0,164.0,
+s107,Movie,Movie Title 107,Denis Villeneuve,"Actor 99, Actor 221, Actor 283, Actor 145",Nigeria,2002-07-27,2002,TV-PG,101 min,Stand-Up Comedy,A story exploring themes of stand-up comedy.,2002.0,101.0,
+s108,TV Show,Series Title 108,Ava DuVernay,"Actor 109, Actor 207, Actor 150",Germany,1999-12-18,1999,TV-PG,5 Seasons,Thrillers,A story exploring themes of thrillers.,1999.0,,5.0
+s109,Movie,Movie Title 109,Bong Joon Ho,"Actor 5, Actor 390, Actor 390, Actor 250",Canada,2007-10-19,2006,TV-Y7,112 min,"Romantic Movies, Dramas",A story exploring themes of romantic movies.,2007.0,112.0,
+s110,Movie,Movie Title 110,Jane Campion,"Actor 150, Actor 293, Actor 67, Actor 370",United Kingdom,2007-01-24,2006,R,168 min,British TV Shows,A story exploring themes of british tv shows.,2007.0,168.0,
+s111,TV Show,Series Title 111,Kunle Afolayan,"Actor 279, Actor 180",Mexico,,2016,TV-G,1 Seasons,Comedies,A story exploring themes of comedies.,,,1.0
+s112,TV Show,Series Title 112,Jane Campion,Actor 62,Germany,2020-10-08,2019,TV-G,7 Seasons,"Crime TV Shows, Dramas, Action & Adventure",A story exploring themes of crime tv shows.,2020.0,,7.0
+s113,Movie,Movie Title 113,Greg Daniels,Not listed,"Canada, Germany",2018-10-05,2016,PG,117 min,"Action & Adventure, Kids' TV, Dramas",A story exploring themes of action & adventure.,2018.0,117.0,
+s114,TV Show,Series Title 114,Sofia Coppola,Not listed,Nigeria,2014-03-22,2013,TV-Y7,6 Seasons,Crime TV Shows,A story exploring themes of crime tv shows.,2014.0,,6.0
+s115,Movie,Movie Title 115,Greg Daniels,"Actor 125, Actor 112, Actor 96, Actor 299","United Kingdom, Germany",2001-04-25,2001,TV-G,91 min,"Dramas, Sci-Fi & Fantasy, Action & Adventure",A story exploring themes of dramas.,2001.0,91.0,
+s116,TV Show,Series Title 116,Unknown,Actor 254,Nigeria,2016-12-13,2014,TV-Y7,7 Seasons,"Stand-Up Comedy, Crime TV Shows",A story exploring themes of stand-up comedy.,2016.0,,7.0
+s117,TV Show,Series Title 117,Unknown,"Actor 126, Actor 37, Actor 365","Australia, South Korea",2004-08-26,2002,PG,5 Season,International Movies,A story exploring themes of international movies.,2004.0,,5.0
+s118,Movie,Movie Title 118,Unknown,Actor 13,Brazil,2009-11-15,2007,TV-PG,173 min,British TV Shows,A story exploring themes of british tv shows.,2009.0,173.0,
+s119,Movie,Movie Title 119,Unknown,Not listed,Spain,2007-01-01,2004,TV-PG,90 min,Action & Adventure,A story exploring themes of action & adventure.,2007.0,90.0,
+s120,TV Show,Series Title 120,Martin Scorsese,"Actor 131, Actor 85, Actor 339, Actor 370, Actor 371",Brazil,2005-05-19,2002,PG,2 Seasons,Reality TV,A story exploring themes of reality tv.,2005.0,,2.0
+s121,Movie,Movie Title 121,Kunle Afolayan,Actor 279,"United States, Germany",2010-09-26,2007,TV-14,160 min,"Comedies, Sci-Fi & Fantasy",A story exploring themes of comedies.,2010.0,160.0,
+s122,Movie,Movie Title 122,Unknown,Actor 88,Unknown,2020-05-01,2020,TV-PG,83 min,"Action & Adventure, Dramas",A story exploring themes of action & adventure.,2020.0,83.0,
+s123,TV Show,Series Title 123,Unknown,Actor 58,Australia,2002-11-08,2002,PG,3 Seasons,"Comedies, British TV Shows",A story exploring themes of comedies.,2002.0,,3.0
+s124,Movie,Movie Title 124,Unknown,Actor 21,Japan,2004-05-09,2002,TV-G,127 min,"Dramas, Action & Adventure",A story exploring themes of dramas.,2004.0,127.0,
+s125,TV Show,Series Title 125,Unknown,"Actor 59, Actor 137, Actor 107, Actor 231, Actor 325",Spain,2007-09-21,2006,TV-14,4 Season,International Movies,A story exploring themes of international movies.,2007.0,,4.0
+s126,Movie,Movie Title 126,Kunle Afolayan,"Actor 112, Actor 340","Germany, India",2017-02-02,2017,R,147 min,"Reality TV, International Movies, Horror Movies",A story exploring themes of reality tv.,2017.0,147.0,
+s127,Movie,Movie Title 127,Bong Joon Ho,"Actor 99, Actor 220","United States, Brazil",2002-06-18,2000,PG,146 min,Sci-Fi & Fantasy,A story exploring themes of sci-fi & fantasy.,2002.0,146.0,
+s128,Movie,Movie Title 128,Sofia Coppola,Actor 322,"Mexico, Brazil",2021-09-22,2019,TV-G,99 min,Crime TV Shows,A story exploring themes of crime tv shows.,2021.0,99.0,
+s129,Movie,Movie Title 129,Unknown,"Actor 338, Actor 45, Actor 163","United States, Germany",2020-01-11,2017,TV-MA,92 min,"Anime Series, Horror Movies, Stand-Up Comedy",A story exploring themes of anime series.,2020.0,92.0,
+s130,Movie,Movie Title 130,Kunle Afolayan,"Actor 285, Actor 4, Actor 331","United States, Brazil",,1998,TV-PG,123 min,Documentaries,A story exploring themes of documentaries.,,123.0,
+s131,TV Show,Series Title 131,Greg Daniels,"Actor 349, Actor 126",Brazil,2022-10-19,2020,TV-G,4 Seasons,International Movies,A story exploring themes of international movies.,2022.0,,4.0
+s132,Movie,Movie Title 132,Jane Campion,"Actor 171, Actor 338, Actor 227",Brazil,2007-01-15,2006,PG-13,87 min,"Romantic Movies, International Movies",A story exploring themes of romantic movies.,2007.0,87.0,
+s133,Movie,Movie Title 133,Kunle Afolayan,Actor 93,South Korea,2005-07-13,2002,TV-Y7,145 min,"Horror Movies, Romantic Movies",A story exploring themes of horror movies.,2005.0,145.0,
+s134,Movie,Movie Title 134,Martin Scorsese,"Actor 366, Actor 176",Germany,2001-12-05,2000,TV-MA,119 min,"Action & Adventure, Sci-Fi & Fantasy, Thrillers",A story exploring themes of action & adventure.,2001.0,119.0,
+s135,TV Show,Series Title 135,Unknown,"Actor 396, Actor 331, Actor 94, Actor 295, Actor 392","Spain, United Kingdom",2017-12-19,2015,TV-14,6 Seasons,"Romantic Movies, Documentaries",A story exploring themes of romantic movies.,2017.0,,6.0
+s136,Movie,Movie Title 136,Unknown,"Actor 117, Actor 104, Actor 195",United States,2017-06-14,2016,TV-G,150 min,"International Movies, Crime TV Shows, Horror Movies",A story exploring themes of international movies.,2017.0,150.0,
+s137,TV Show,Series Title 137,Denis Villeneuve,"Actor 100, Actor 130, Actor 298",Unknown,2022-01-07,2020,PG,1 Seasons,"Crime TV Shows, Stand-Up Comedy, Documentaries",A story exploring themes of crime tv shows.,2022.0,,1.0
+s138,Movie,Movie Title 138,Unknown,Not listed,Mexico,2014-04-25,2011,TV-Y7,83 min,"British TV Shows, International Movies",A story exploring themes of british tv shows.,2014.0,83.0,
+s139,Movie,Movie Title 139,Bong Joon Ho,Not listed,"Canada, Brazil",2017-06-14,2015,PG-13,62 min,Comedies,A story exploring themes of comedies.,2017.0,62.0,
+s140,TV Show,Series Title 140,Kunle Afolayan,Actor 93,"Japan, United Kingdom",2009-11-24,2006,TV-14,6 Seasons,"Stand-Up Comedy, Thrillers",A story exploring themes of stand-up comedy.,2009.0,,6.0
+s141,TV Show,Series Title 141,Bong Joon Ho,"Actor 178, Actor 168, Actor 319, Actor 66","Spain, United Kingdom",2016-10-13,2016,R,7 Seasons,"Anime Series, Music & Musicals, Comedies",A story exploring themes of anime series.,2016.0,,7.0
+s142,Movie,Movie Title 142,Ava DuVernay,"Actor 8, Actor 337, Actor 96, Actor 355",Australia,2022-08-21,2021,NR,120 min,"Thrillers, Horror Movies",A story exploring themes of thrillers.,2022.0,120.0,
+s143,Movie,Movie Title 143,Greg Daniels,Actor 88,Japan,2022-01-17,2020,TV-G,95 min,"Horror Movies, Reality TV, Kids' TV",A story exploring themes of horror movies.,2022.0,95.0,
+s144,TV Show,Series Title 144,Denis Villeneuve,"Actor 208, Actor 175",Spain,2016-07-07,2016,TV-Y7,8 Seasons,"British TV Shows, Crime TV Shows",A story exploring themes of british tv shows.,2016.0,,8.0
+s145,Movie,Movie Title 145,Sofia Coppola,"Actor 18, Actor 188, Actor 360",Brazil,2006-02-17,2006,R,84 min,"Horror Movies, Crime TV Shows",A story exploring themes of horror movies.,2006.0,84.0,
+s146,TV Show,Series Title 146,Martin Scorsese,Not listed,Mexico,2005-06-15,2003,TV-G,1 Seasons,Stand-Up Comedy,A story exploring themes of stand-up comedy.,2005.0,,1.0
+s147,Movie,Movie Title 147,Rajiv Menon,"Actor 49, Actor 168",Brazil,2009-01-20,2006,R,75 min,"Stand-Up Comedy, Crime TV Shows",A story exploring themes of stand-up comedy.,2009.0,75.0,
+s148,Movie,Movie Title 148,Sofia Coppola,"Actor 335, Actor 123, Actor 396, Actor 356, Actor 224","Germany, Brazil",2007-07-21,2005,R,85 min,"Music & Musicals, Action & Adventure",A story exploring themes of music & musicals.,2007.0,85.0,
+s149,Movie,Movie Title 149,Unknown,Not listed,"United States, Spain",2000-12-09,2000,TV-Y7,85 min,"Dramas, Kids' TV, International Movies",A story exploring themes of dramas.,2000.0,85.0,
+s150,TV Show,Series Title 150,Martin Scorsese,Not listed,"India, Germany",2002-09-24,2001,TV-14,3 Seasons,Romantic Movies,A story exploring themes of romantic movies.,2002.0,,3.0
+s151,Movie,Movie Title 151,Unknown,Actor 279,United Kingdom,2016-07-21,2016,TV-14,139 min,"Horror Movies, Dramas",A story exploring themes of horror movies.,2016.0,139.0,
+s152,TV Show,Series Title 152,Ava DuVernay,"Actor 209, Actor 101, Actor 232","Canada, Japan",,2009,NR,5 Season,"Reality TV, Anime Series, Horror Movies",A story exploring themes of reality tv.,,,5.0
+s153,Movie,Movie Title 153,Jane Campion,Actor 306,"Germany, United Kingdom",2008-03-27,2005,TV-G,100 min,"Comedies, Horror Movies",A story exploring themes of comedies.,2008.0,100.0,
+s154,TV Show,Series Title 154,Sofia Coppola,Not listed,Mexico,2002-06-05,2000,TV-PG,1 Seasons,"Horror Movies, British TV Shows, Anime Series",A story exploring themes of horror movies.,2002.0,,1.0
+s155,Movie,Movie Title 155,Kunle Afolayan,Not listed,Japan,2004-02-14,2003,TV-G,149 min,"Action & Adventure, Dramas, Anime Series",A story exploring themes of action & adventure.,2004.0,149.0,
+s156,TV Show,Series Title 156,Rajiv Menon,Actor 132,Brazil,2008-03-16,2005,TV-PG,3 Seasons,Kids' TV,A story exploring themes of kids' tv.,2008.0,,3.0
+s157,Movie,Movie Title 157,Unknown,Actor 61,Japan,2020-07-06,2018,TV-PG,164 min,Action & Adventure,A story exploring themes of action & adventure.,2020.0,164.0,
+s158,Movie,Movie Title 158,Jane Campion,"Actor 150, Actor 61, Actor 60, Actor 317",Germany,2018-06-23,2015,TV-14,72 min,"Romantic Movies, Documentaries, Reality TV",A story exploring themes of romantic movies.,2018.0,72.0,
+s159,Movie,Movie Title 159,Denis Villeneuve,"Actor 104, Actor 71, Actor 301, Actor 249, Actor 150",Spain,2009-04-26,2006,TV-PG,143 min,Thrillers,A story exploring themes of thrillers.,2009.0,143.0,
+s160,Movie,Movie Title 160,Unknown,"Actor 332, Actor 358, Actor 150, Actor 263, Actor 209",Spain,2007-07-20,2005,TV-PG,104 min,"Dramas, Reality TV",A story exploring themes of dramas.,2007.0,104.0,
+s161,Movie,Movie Title 161,Ava DuVernay,Not listed,United Kingdom,2017-02-02,2015,TV-MA,178 min,Sci-Fi & Fantasy,A story exploring themes of sci-fi & fantasy.,2017.0,178.0,
+s162,TV Show,Series Title 162,Martin Scorsese,"Actor 382, Actor 39","Nigeria, Canada",2019-02-15,2016,TV-MA,8 Seasons,"Anime Series, Music & Musicals",A story exploring themes of anime series.,2019.0,,8.0
+s163,TV Show,Series Title 163,Jane Campion,"Actor 367, Actor 127, Actor 62","France, Canada",2009-08-25,2006,TV-G,3 Seasons,Music & Musicals,A story exploring themes of music & musicals.,2009.0,,3.0
+s164,Movie,Movie Title 164,Unknown,"Actor 214, Actor 360, Actor 17, Actor 65, Actor 270",France,2000-11-23,1998,PG-13,133 min,"Comedies, Kids' TV",A story exploring themes of comedies.,2000.0,133.0,
+s165,Movie,Movie Title 165,Unknown,Not listed,France,,2002,NR,128 min,"Stand-Up Comedy, Music & Musicals, Action & Adventure",A story exploring themes of stand-up comedy.,,128.0,
+s166,Movie,Movie Title 166,Ava DuVernay,"Actor 340, Actor 381",Unknown,2011-08-22,2009,R,65 min,"International Movies, Anime Series",A story exploring themes of international movies.,2011.0,65.0,
+s167,Movie,Movie Title 167,Unknown,"Actor 157, Actor 158, Actor 26, Actor 158",Unknown,2009-03-23,2008,TV-Y7,117 min,British TV Shows,A story exploring themes of british tv shows.,2009.0,117.0,
+s168,Movie,Movie Title 168,Rajiv Menon,"Actor 119, Actor 74","Australia, France",2013-03-25,2010,NR,125 min,"Anime Series, Stand-Up Comedy",A story exploring themes of anime series.,2013.0,125.0,
+s169,Movie,Movie Title 169,Ava DuVernay,Not listed,Spain,2021-01-21,2020,R,147 min,"Comedies, Horror Movies",A story exploring themes of comedies.,2021.0,147.0,
+s170,TV Show,Series Title 170,Bong Joon Ho,"Actor 101, Actor 258, Actor 275, Actor 358, Actor 164","France, South Korea",2014-09-16,2014,R,4 Seasons,"Kids' TV, International Movies, Sci-Fi & Fantasy",A story exploring themes of kids' tv.,2014.0,,4.0
+s171,Movie,Movie Title 171,Sofia Coppola,"Actor 340, Actor 93, Actor 33","Brazil, Japan",2000-07-13,2000,R,73 min,"Sci-Fi & Fantasy, Documentaries, Thrillers",A story exploring themes of sci-fi & fantasy.,2000.0,73.0,
+s172,Movie,Movie Title 172,Kunle Afolayan,"Actor 277, Actor 29, Actor 19, Actor 34","Brazil, Australia",2022-12-19,2020,TV-Y7,172 min,"Music & Musicals, Documentaries, Dramas",A story exploring themes of music & musicals.,2022.0,172.0,
+s173,Movie,Movie Title 173,Ava DuVernay,"Actor 327, Actor 39, Actor 27, Actor 198","India, Japan",2021-03-01,2020,TV-MA,76 min,"Horror Movies, Comedies",A story exploring themes of horror movies.,2021.0,76.0,
+s174,Movie,Movie Title 174,Rajiv Menon,"Actor 39, Actor 119, Actor 118, Actor 393, Actor 11","South Korea, Japan",2012-08-07,2010,R,138 min,"Romantic Movies, Comedies, Stand-Up Comedy",A story exploring themes of romantic movies.,2012.0,138.0,
+s175,Movie,Movie Title 175,Sofia Coppola,"Actor 89, Actor 40","India, Australia",2004-06-15,2004,TV-G,136 min,"International Movies, Dramas",A story exploring themes of international movies.,2004.0,136.0,
+s176,Movie,Movie Title 176,Bong Joon Ho,Not listed,Australia,2004-12-16,2003,TV-G,120 min,"Anime Series, Music & Musicals",A story exploring themes of anime series.,2004.0,120.0,
+s177,TV Show,Series Title 177,Kunle Afolayan,"Actor 24, Actor 213, Actor 248, Actor 70",Mexico,2011-03-27,2009,NR,1 Seasons,"Music & Musicals, Sci-Fi & Fantasy, Anime Series",A story exploring themes of music & musicals.,2011.0,,1.0
+s178,TV Show,Series Title 178,Jane Campion,"Actor 27, Actor 294, Actor 6","United Kingdom, Nigeria",2013-12-23,2010,TV-Y7,4 Seasons,"International Movies, Anime Series",A story exploring themes of international movies.,2013.0,,4.0
+s179,TV Show,Series Title 179,Denis Villeneuve,"Actor 18, Actor 207, Actor 107","Australia, South Korea",2006-03-22,2004,R,3 Seasons,"Kids' TV, Dramas, Reality TV",A story exploring themes of kids' tv.,2006.0,,3.0
+s180,Movie,Movie Title 180,Jane Campion,"Actor 307, Actor 90, Actor 289, Actor 104",Unknown,2018-03-24,2018,NR,148 min,Crime TV Shows,A story exploring themes of crime tv shows.,2018.0,148.0,
+s181,TV Show,Series Title 181,Unknown,Actor 151,Mexico,2002-07-04,2001,TV-Y7,6 Seasons,"Crime TV Shows, Reality TV, Sci-Fi & Fantasy",A story exploring themes of crime tv shows.,2002.0,,6.0
+s182,TV Show,Series Title 182,Greg Daniels,"Actor 78, Actor 337","Germany, Canada",2008-11-01,2008,TV-G,2 Seasons,"Sci-Fi & Fantasy, Horror Movies",A story exploring themes of sci-fi & fantasy.,2008.0,,2.0
+s183,TV Show,Series Title 183,Kunle Afolayan,"Actor 87, Actor 185","Japan, South Korea",,2021,PG-13,7 Seasons,"Action & Adventure, British TV Shows, Documentaries",A story exploring themes of action & adventure.,,,7.0
+s184,Movie,Movie Title 184,Unknown,"Actor 277, Actor 81",Unknown,2022-12-19,2019,PG,179 min,"Stand-Up Comedy, British TV Shows, Documentaries",A story exploring themes of stand-up comedy.,2022.0,179.0,
+s185,TV Show,Series Title 185,Greg Daniels,Not listed,"Brazil, Canada",2011-09-25,2008,TV-G,2 Seasons,"Action & Adventure, Thrillers",A story exploring themes of action & adventure.,2011.0,,2.0
+s186,Movie,Movie Title 186,Sofia Coppola,Not listed,Japan,2004-11-08,2003,PG,170 min,"Thrillers, Stand-Up Comedy",A story exploring themes of thrillers.,2004.0,170.0,
+s187,Movie,Movie Title 187,Ava DuVernay,Actor 70,Brazil,2004-04-03,2003,R,91 min,"Romantic Movies, Kids' TV, Action & Adventure",A story exploring themes of romantic movies.,2004.0,91.0,
+s188,Movie,Movie Title 188,Unknown,Not listed,"Australia, Brazil",2014-12-12,2014,TV-G,160 min,"Kids' TV, Reality TV",A story exploring themes of kids' tv.,2014.0,160.0,
+s189,Movie,Movie Title 189,Unknown,Actor 366,"Australia, United Kingdom",2015-02-05,2013,NR,93 min,"Thrillers, Horror Movies",A story exploring themes of thrillers.,2015.0,93.0,
+s190,Movie,Movie Title 190,Jane Campion,"Actor 211, Actor 352, Actor 70",Japan,2016-11-17,2014,TV-Y7,108 min,"British TV Shows, Reality TV, Sci-Fi & Fantasy",A story exploring themes of british tv shows.,2016.0,108.0,
+s191,Movie,Movie Title 191,Rajiv Menon,Actor 199,Nigeria,2016-02-21,2016,PG-13,105 min,"Stand-Up Comedy, Dramas, Horror Movies",A story exploring themes of stand-up comedy.,2016.0,105.0,
+s192,Movie,Movie Title 192,Rajiv Menon,"Actor 288, Actor 115, Actor 101, Actor 175","Brazil, India",2008-07-13,2006,TV-G,83 min,"Music & Musicals, Anime Series",A story exploring themes of music & musicals.,2008.0,83.0,
+s193,Movie,Movie Title 193,Denis Villeneuve,Actor 196,"Brazil, Japan",2020-08-02,2020,PG-13,170 min,"Stand-Up Comedy, Action & Adventure",A story exploring themes of stand-up comedy.,2020.0,170.0,
+s194,Movie,Movie Title 194,Jane Campion,"Actor 284, Actor 265, Actor 39","United Kingdom, Australia",2020-01-01,2018,TV-G,120 min,"International Movies, Comedies",A story exploring themes of international movies.,2020.0,120.0,
+s195,Movie,Movie Title 195,Unknown,Not listed,Unknown,2010-11-07,2007,TV-G,173 min,"International Movies, Documentaries",A story exploring themes of international movies.,2010.0,173.0,
+s196,Movie,Movie Title 196,Bong Joon Ho,"Actor 286, Actor 38",Germany,2019-08-27,2017,TV-14,168 min,"Dramas, Action & Adventure",A story exploring themes of dramas.,2019.0,168.0,
+s197,Movie,Movie Title 197,Unknown,"Actor 9, Actor 22, Actor 46",Brazil,2020-06-09,2017,TV-Y7,178 min,Stand-Up Comedy,A story exploring themes of stand-up comedy.,2020.0,178.0,
+s198,Movie,Movie Title 198,Denis Villeneuve,"Actor 60, Actor 172, Actor 215",Japan,2007-06-25,2005,TV-Y7,117 min,Romantic Movies,A story exploring themes of romantic movies.,2007.0,117.0,
+s199,TV Show,Series Title 199,Unknown,Actor 95,United Kingdom,2014-09-26,2014,TV-G,5 Seasons,Sci-Fi & Fantasy,A story exploring themes of sci-fi & fantasy.,2014.0,,5.0
+s200,Movie,Movie Title 200,Bong Joon Ho,"Actor 387, Actor 243, Actor 353, Actor 129, Actor 180",Australia,2000-03-22,1999,TV-14,122 min,Anime Series,A story exploring themes of anime series.,2000.0,122.0,
+s201,TV Show,Series Title 201,Denis Villeneuve,Actor 168,Canada,2014-05-17,2014,TV-14,2 Seasons,Reality TV,A story exploring themes of reality tv.,2014.0,,2.0
+s202,Movie,Movie Title 202,Unknown,"Actor 171, Actor 306, Actor 307, Actor 294, Actor 305",Mexico,2000-01-18,1998,NR,92 min,Kids' TV,A story exploring themes of kids' tv.,2000.0,92.0,
+s203,Movie,Movie Title 203,Greg Daniels,"Actor 368, Actor 227, Actor 324, Actor 186","South Korea, Australia",2003-08-03,2002,TV-MA,94 min,Kids' TV,A story exploring themes of kids' tv.,2003.0,94.0,
+s204,Movie,Movie Title 204,Jane Campion,"Actor 263, Actor 75, Actor 152, Actor 5, Actor 169",France,2018-10-27,2018,R,126 min,"British TV Shows, Sci-Fi & Fantasy, Crime TV Shows",A story exploring themes of british tv shows.,2018.0,126.0,
+s205,Movie,Movie Title 205,Greg Daniels,"Actor 342, Actor 305, Actor 287, Actor 381","Brazil, Germany",1999-09-02,1999,TV-MA,82 min,"Horror Movies, Crime TV Shows, International Movies",A story exploring themes of horror movies.,1999.0,82.0,
+s206,Movie,Movie Title 206,Ava DuVernay,"Actor 150, Actor 374, Actor 289","Germany, South Korea",2001-12-13,1998,R,147 min,"Documentaries, Comedies, Romantic Movies",A story exploring themes of documentaries.,2001.0,147.0,
+s207,TV Show,Series Title 207,Kunle Afolayan,Not listed,"Nigeria, United States",2009-03-26,2007,TV-14,2 Seasons,"Anime Series, Crime TV Shows",A story exploring themes of anime series.,2009.0,,2.0
+s208,TV Show,Series Title 208,Bong Joon Ho,"Actor 399, Actor 189",Canada,2016-03-13,2013,PG-13,2 Seasons,"Music & Musicals, Anime Series",A story exploring themes of music & musicals.,2016.0,,2.0
+s209,TV Show,Series Title 209,Denis Villeneuve,"Actor 273, Actor 179",Canada,2009-03-15,2009,TV-PG,1 Seasons,Kids' TV,A story exploring themes of kids' tv.,2009.0,,1.0
+s210,Movie,Movie Title 210,Jane Campion,"Actor 12, Actor 133, Actor 285, Actor 148",Brazil,2012-03-08,2012,TV-PG,129 min,"Comedies, Dramas, Stand-Up Comedy",A story exploring themes of comedies.,2012.0,129.0,
+s211,Movie,Movie Title 211,Denis Villeneuve,Not listed,"Australia, France",2019-06-03,2018,PG,156 min,Crime TV Shows,A story exploring themes of crime tv shows.,2019.0,156.0,
+s212,Movie,Movie Title 212,Unknown,"Actor 191, Actor 184, Actor 185, Actor 54, Actor 216",Germany,2010-09-05,2008,TV-14,133 min,"International Movies, Thrillers",A story exploring themes of international movies.,2010.0,133.0,
+s213,Movie,Movie Title 213,Unknown,Actor 386,Unknown,2019-04-21,2017,NR,82 min,"Crime TV Shows, Kids' TV",A story exploring themes of crime tv shows.,2019.0,82.0,
+s214,Movie,Movie Title 214,Unknown,Not listed,Brazil,2018-12-04,2016,PG-13,131 min,"Comedies, Reality TV",A story exploring themes of comedies.,2018.0,131.0,
+s215,TV Show,Series Title 215,Denis Villeneuve,"Actor 221, Actor 56","Mexico, South Korea",2008-05-03,2006,PG-13,2 Season,"Anime Series, British TV Shows, Stand-Up Comedy",A story exploring themes of anime series.,2008.0,,2.0
+s216,Movie,Movie Title 216,Bong Joon Ho,Actor 264,"South Korea, India",2006-09-07,2003,TV-PG,83 min,"Horror Movies, Crime TV Shows",A story exploring themes of horror movies.,2006.0,83.0,
+s217,TV Show,Series Title 217,Rajiv Menon,"Actor 392, Actor 317, Actor 266, Actor 389, Actor 360",Mexico,2002-02-18,1999,TV-PG,5 Seasons,Reality TV,A story exploring themes of reality tv.,2002.0,,5.0
+s218,TV Show,Series Title 218,Bong Joon Ho,"Actor 374, Actor 217, Actor 149, Actor 337, Actor 188",Mexico,2004-12-03,2001,NR,7 Seasons,"Kids' TV, Dramas, British TV Shows",A story exploring themes of kids' tv.,2004.0,,7.0
+s219,Movie,Movie Title 219,Bong Joon Ho,"Actor 62, Actor 65",United Kingdom,2002-03-12,1999,TV-G,65 min,"International Movies, Reality TV",A story exploring themes of international movies.,2002.0,65.0,
+s220,TV Show,Series Title 220,Ava DuVernay,"Actor 122, Actor 195, Actor 80, Actor 212",Mexico,2015-05-02,2015,TV-14,2 Season,"Music & Musicals, Reality TV",A story exploring themes of music & musicals.,2015.0,,2.0
+s221,TV Show,Series Title 221,Bong Joon Ho,"Actor 128, Actor 252, Actor 156",Germany,1999-11-10,1998,PG-13,5 Seasons,Documentaries,A story exploring themes of documentaries.,1999.0,,5.0
+s222,Movie,Movie Title 222,Jane Campion,"Actor 225, Actor 363, Actor 196, Actor 378, Actor 272",Germany,2012-11-07,2009,TV-PG,124 min,Reality TV,A story exploring themes of reality tv.,2012.0,124.0,
+s223,Movie,Movie Title 223,Bong Joon Ho,Not listed,"India, Spain",2011-11-09,2011,TV-Y7,71 min,"Thrillers, Anime Series, Kids' TV",A story exploring themes of thrillers.,2011.0,71.0,
+s224,Movie,Movie Title 224,Jane Campion,Actor 144,India,2015-01-24,2014,TV-MA,74 min,"Reality TV, Dramas",A story exploring themes of reality tv.,2015.0,74.0,
+s225,Movie,Movie Title 225,Unknown,"Actor 386, Actor 124",Unknown,,2000,TV-MA,134 min,"Thrillers, Crime TV Shows, International Movies",A story exploring themes of thrillers.,,134.0,
+s226,Movie,Movie Title 226,Greg Daniels,"Actor 163, Actor 146, Actor 108","India, Nigeria",2003-08-05,2001,PG-13,174 min,Comedies,A story exploring themes of comedies.,2003.0,174.0,
+s227,Movie,Movie Title 227,Rajiv Menon,"Actor 21, Actor 353",Nigeria,2000-04-15,2000,R,69 min,"Horror Movies, Anime Series",A story exploring themes of horror movies.,2000.0,69.0,
+s228,Movie,Movie Title 228,Ava DuVernay,"Actor 94, Actor 38, Actor 152",United Kingdom,2001-08-11,1998,TV-14,60 min,"Stand-Up Comedy, Kids' TV",A story exploring themes of stand-up comedy.,2001.0,60.0,
+s229,TV Show,Series Title 229,Martin Scorsese,"Actor 47, Actor 307","South Korea, Brazil",2021-12-10,2021,TV-Y7,3 Seasons,Anime Series,A story exploring themes of anime series.,2021.0,,3.0
+s230,TV Show,Series Title 230,Martin Scorsese,"Actor 344, Actor 14, Actor 42",Unknown,2009-10-16,2007,TV-PG,5 Seasons,"Reality TV, Comedies",A story exploring themes of reality tv.,2009.0,,5.0
+s231,Movie,Movie Title 231,Unknown,"Actor 158, Actor 29",Nigeria,2020-04-17,2019,R,164 min,Kids' TV,A story exploring themes of kids' tv.,2020.0,164.0,
+s232,TV Show,Series Title 232,Jane Campion,Not listed,Canada,2021-10-09,2018,TV-Y7,6 Seasons,"Romantic Movies, Horror Movies, Kids' TV",A story exploring themes of romantic movies.,2021.0,,6.0
+s233,TV Show,Series Title 233,Unknown,Not listed,"South Korea, Germany",2006-08-13,2003,PG-13,4 Seasons,Thrillers,A story exploring themes of thrillers.,2006.0,,4.0
+s234,TV Show,Series Title 234,Denis Villeneuve,"Actor 324, Actor 12, Actor 23",Mexico,2019-10-02,2016,TV-G,1 Seasons,Action & Adventure,A story exploring themes of action & adventure.,2019.0,,1.0
+s235,Movie,Movie Title 235,Ava DuVernay,"Actor 291, Actor 202",India,2021-09-25,2021,NR,168 min,Dramas,A story exploring themes of dramas.,2021.0,168.0,
+s236,Movie,Movie Title 236,Greg Daniels,"Actor 156, Actor 146","India, Mexico",2015-04-02,2013,TV-Y7,67 min,"Crime TV Shows, Romantic Movies",A story exploring themes of crime tv shows.,2015.0,67.0,
+s237,Movie,Movie Title 237,Jane Campion,Not listed,Mexico,2004-02-19,2001,R,67 min,"Dramas, Horror Movies",A story exploring themes of dramas.,2004.0,67.0,
+s238,Movie,Movie Title 238,Kunle Afolayan,"Actor 360, Actor 270, Actor 124, Actor 236, Actor 73","Canada, Australia",2018-04-12,2018,TV-Y7,146 min,"Thrillers, Comedies, Action & Adventure",A story exploring themes of thrillers.,2018.0,146.0,
+s239,Movie,Movie Title 239,Rajiv Menon,"Actor 66, Actor 37, Actor 325, Actor 351","Mexico, Spain",2012-05-15,2009,TV-PG,88 min,"British TV Shows, Dramas",A story exploring themes of british tv shows.,2012.0,88.0,
+s240,TV Show,Series Title 240,Sofia Coppola,"Actor 388, Actor 215","France, Spain",2014-07-10,2013,TV-MA,4 Seasons,"Music & Musicals, Dramas, Action & Adventure",A story exploring themes of music & musicals.,2014.0,,4.0
+s241,Movie,Movie Title 241,Martin Scorsese,Not listed,United States,2001-10-03,1999,NR,103 min,"Crime TV Shows, Sci-Fi & Fantasy, International Movies",A story exploring themes of crime tv shows.,2001.0,103.0,
+s242,Movie,Movie Title 242,Bong Joon Ho,"Actor 138, Actor 199, Actor 71, Actor 326",India,2016-12-11,2016,TV-MA,131 min,"Comedies, British TV Shows",A story exploring themes of comedies.,2016.0,131.0,
+s243,Movie,Movie Title 243,Jane Campion,"Actor 362, Actor 74, Actor 107, Actor 267, Actor 303","Germany, India",2013-07-01,2010,NR,156 min,"Music & Musicals, Comedies",A story exploring themes of music & musicals.,2013.0,156.0,
+s244,Movie,Movie Title 244,Martin Scorsese,"Actor 148, Actor 55","France, Canada",2005-11-18,2003,TV-MA,64 min,International Movies,A story exploring themes of international movies.,2005.0,64.0,
+s245,Movie,Movie Title 245,Sofia Coppola,Actor 177,"Nigeria, India",2016-09-18,2015,NR,118 min,"Action & Adventure, International Movies",A story exploring themes of action & adventure.,2016.0,118.0,
+s246,Movie,Movie Title 246,Greg Daniels,"Actor 392, Actor 381, Actor 328, Actor 238","Australia, South Korea",2008-02-20,2005,PG,108 min,"Reality TV, Documentaries, Thrillers",A story exploring themes of reality tv.,2008.0,108.0,
+s247,Movie,Movie Title 247,Martin Scorsese,"Actor 303, Actor 69, Actor 53, Actor 122","Germany, Japan",2008-10-07,2006,TV-G,93 min,"Romantic Movies, Horror Movies",A story exploring themes of romantic movies.,2008.0,93.0,
+s248,Movie,Movie Title 248,Unknown,"Actor 240, Actor 170",Canada,2007-08-12,2004,TV-Y7,79 min,"Thrillers, Kids' TV",A story exploring themes of thrillers.,2007.0,79.0,
+s249,TV Show,Series Title 249,Unknown,"Actor 312, Actor 13, Actor 135, Actor 373","United Kingdom, India",2009-12-12,2009,TV-G,7 Season,"Crime TV Shows, Reality TV, Romantic Movies",A story exploring themes of crime tv shows.,2009.0,,7.0
+s250,Movie,Movie Title 250,Denis Villeneuve,Not listed,Unknown,2000-05-22,1999,NR,151 min,"Crime TV Shows, Comedies",A story exploring themes of crime tv shows.,2000.0,151.0,
+s251,Movie,Movie Title 251,Unknown,"Actor 243, Actor 118, Actor 114, Actor 199",Spain,2019-06-10,2018,PG,61 min,International Movies,A story exploring themes of international movies.,2019.0,61.0,
+s252,Movie,Movie Title 252,Sofia Coppola,"Actor 55, Actor 233, Actor 364, Actor 47, Actor 319",Unknown,2003-07-09,2003,PG-13,101 min,"Comedies, Horror Movies, Anime Series",A story exploring themes of comedies.,2003.0,101.0,
+s253,Movie,Movie Title 253,Bong Joon Ho,"Actor 40, Actor 175","Mexico, United Kingdom",2005-08-09,2003,NR,147 min,Anime Series,A story exploring themes of anime series.,2005.0,147.0,
+s254,Movie,Movie Title 254,Unknown,"Actor 229, Actor 300, Actor 137, Actor 331",Unknown,2014-02-27,2013,TV-PG,90 min,"Horror Movies, Thrillers",A story exploring themes of horror movies.,2014.0,90.0,
+s255,Movie,Movie Title 255,Unknown,Actor 354,Japan,,2004,PG-13,151 min,International Movies,A story exploring themes of international movies.,,151.0,
+s256,Movie,Movie Title 256,Bong Joon Ho,"Actor 185, Actor 164, Actor 217, Actor 352, Actor 123","South Korea, United Kingdom",2001-02-06,1999,TV-MA,167 min,"Horror Movies, Documentaries, Thrillers",A story exploring themes of horror movies.,2001.0,167.0,
+s257,Movie,Movie Title 257,Sofia Coppola,Not listed,"United States, Spain",2022-04-08,2021,R,97 min,"Thrillers, Crime TV Shows, Reality TV",A story exploring themes of thrillers.,2022.0,97.0,
+s258,TV Show,Series Title 258,Ava DuVernay,Not listed,United States,2019-07-27,2018,TV-PG,7 Seasons,"Crime TV Shows, Dramas",A story exploring themes of crime tv shows.,2019.0,,7.0
+s259,Movie,Movie Title 259,Greg Daniels,Not listed,"South Korea, United States",,2010,TV-MA,128 min,"Stand-Up Comedy, International Movies",A story exploring themes of stand-up comedy.,,128.0,
+s260,Movie,Movie Title 260,Jane Campion,"Actor 353, Actor 379",Japan,2003-08-09,2000,TV-PG,112 min,"Comedies, International Movies",A story exploring themes of comedies.,2003.0,112.0,
+s261,Movie,Movie Title 261,Sofia Coppola,"Actor 155, Actor 191, Actor 298, Actor 394, Actor 132",Canada,2009-09-07,2008,R,89 min,"Action & Adventure, Crime TV Shows",A story exploring themes of action & adventure.,2009.0,89.0,
+s262,TV Show,Series Title 262,Unknown,Not listed,France,1999-08-07,1999,R,2 Seasons,"Thrillers, Anime Series, Action & Adventure",A story exploring themes of thrillers.,1999.0,,2.0
+s263,Movie,Movie Title 263,Denis Villeneuve,"Actor 98, Actor 320, Actor 55, Actor 158, Actor 169",Canada,2020-03-01,2018,TV-PG,86 min,"Music & Musicals, Stand-Up Comedy, Reality TV",A story exploring themes of music & musicals.,2020.0,86.0,
+s264,Movie,Movie Title 264,Unknown,Actor 53,Mexico,1998-06-06,1998,TV-14,87 min,Music & Musicals,A story exploring themes of music & musicals.,1998.0,87.0,
+s265,Movie,Movie Title 265,Bong Joon Ho,"Actor 151, Actor 82, Actor 161",Germany,2001-08-03,2001,PG-13,176 min,Sci-Fi & Fantasy,A story exploring themes of sci-fi & fantasy.,2001.0,176.0,
+s266,Movie,Movie Title 266,Ava DuVernay,Actor 274,Japan,2009-08-14,2006,TV-14,146 min,"Anime Series, Documentaries, International Movies",A story exploring themes of anime series.,2009.0,146.0,
+s267,TV Show,Series Title 267,Unknown,"Actor 181, Actor 18, Actor 161",United Kingdom,2018-11-15,2017,R,7 Seasons,"Romantic Movies, Thrillers, International Movies",A story exploring themes of romantic movies.,2018.0,,7.0
+s268,Movie,Movie Title 268,Ava DuVernay,"Actor 354, Actor 24, Actor 289",Germany,2001-10-13,2001,TV-14,158 min,"Kids' TV, Anime Series, Dramas",A story exploring themes of kids' tv.,2001.0,158.0,
+s269,Movie,Movie Title 269,Ava DuVernay,Actor 224,Japan,2000-10-01,1998,TV-Y7,164 min,Reality TV,A story exploring themes of reality tv.,2000.0,164.0,
+s270,TV Show,Series Title 270,Kunle Afolayan,"Actor 265, Actor 65, Actor 20, Actor 73, Actor 78",France,2022-06-19,2021,TV-Y7,6 Seasons,"Sci-Fi & Fantasy, British TV Shows, Stand-Up Comedy",A story exploring themes of sci-fi & fantasy.,2022.0,,6.0
+s271,Movie,Movie Title 271,Rajiv Menon,"Actor 191, Actor 142, Actor 29, Actor 141",Australia,2019-04-26,2016,TV-PG,173 min,Stand-Up Comedy,A story exploring themes of stand-up comedy.,2019.0,173.0,
+s272,Movie,Movie Title 272,Jane Campion,"Actor 357, Actor 83, Actor 72, Actor 233, Actor 387",Canada,2010-06-25,2008,TV-G,99 min,"Horror Movies, Documentaries",A story exploring themes of horror movies.,2010.0,99.0,
+s273,Movie,Movie Title 273,Sofia Coppola,"Actor 191, Actor 13, Actor 392, Actor 3, Actor 35","Brazil, Canada",2007-07-16,2004,NR,65 min,"Horror Movies, Sci-Fi & Fantasy",A story exploring themes of horror movies.,2007.0,65.0,
+s274,TV Show,Series Title 274,Greg Daniels,"Actor 125, Actor 80, Actor 1",Spain,2008-06-08,2008,TV-Y7,4 Seasons,"Anime Series, Action & Adventure, Reality TV",A story exploring themes of anime series.,2008.0,,4.0
+s275,Movie,Movie Title 275,Kunle Afolayan,Not listed,Canada,1999-10-27,1998,R,148 min,Romantic Movies,A story exploring themes of romantic movies.,1999.0,148.0,
+s276,TV Show,Series Title 276,Unknown,"Actor 108, Actor 377",France,2019-08-20,2017,PG-13,3 Seasons,"Anime Series, Action & Adventure, Kids' TV",A story exploring themes of anime series.,2019.0,,3.0
+s277,Movie,Movie Title 277,Martin Scorsese,"Actor 163, Actor 221, Actor 121, Actor 88, Actor 69",Japan,2020-10-12,2017,PG,119 min,"Romantic Movies, Thrillers, Comedies",A story exploring themes of romantic movies.,2020.0,119.0,
+s278,TV Show,Series Title 278,Denis Villeneuve,"Actor 198, Actor 67",Nigeria,2003-06-24,2000,TV-G,6 Seasons,International Movies,A story exploring themes of international movies.,2003.0,,6.0
+s279,TV Show,Series Title 279,Bong Joon Ho,Actor 378,Brazil,2003-04-10,2001,PG,8 Seasons,"International Movies, Horror Movies",A story exploring themes of international movies.,2003.0,,8.0
+s280,TV Show,Series Title 280,Jane Campion,Not listed,Japan,2003-01-05,2002,TV-14,1 Seasons,"International Movies, Action & Adventure, Horror Movies",A story exploring themes of international movies.,2003.0,,1.0
+s281,Movie,Movie Title 281,Martin Scorsese,"Actor 230, Actor 340, Actor 75",Canada,2021-10-25,2021,TV-G,169 min,"Kids' TV, Reality TV",A story exploring themes of kids' tv.,2021.0,169.0,
+s282,Movie,Movie Title 282,Unknown,"Actor 6, Actor 275",United Kingdom,2005-08-09,2003,TV-14,134 min,"Comedies, Stand-Up Comedy",A story exploring themes of comedies.,2005.0,134.0,
+s283,Movie,Movie Title 283,Rajiv Menon,"Actor 350, Actor 340","Germany, Spain",2005-03-25,2003,R,165 min,"Dramas, Action & Adventure, Crime TV Shows",A story exploring themes of dramas.,2005.0,165.0,
+s284,Movie,Movie Title 284,Unknown,"Actor 199, Actor 387, Actor 387, Actor 252","Japan, Canada",,2021,TV-MA,66 min,"Stand-Up Comedy, British TV Shows, Reality TV",A story exploring themes of stand-up comedy.,,66.0,
+s285,TV Show,Series Title 285,Unknown,"Actor 209, Actor 104, Actor 202, Actor 256","Nigeria, India",2002-10-22,2001,TV-MA,6 Seasons,"Thrillers, Documentaries, Kids' TV",A story exploring themes of thrillers.,2002.0,,6.0
+s286,Movie,Movie Title 286,Ava DuVernay,"Actor 388, Actor 214, Actor 1",Unknown,2020-04-18,2018,PG,124 min,"Anime Series, Reality TV, Documentaries",A story exploring themes of anime series.,2020.0,124.0,
+s287,Movie,Movie Title 287,Denis Villeneuve,Not listed,Canada,2017-04-06,2014,TV-MA,166 min,Thrillers,A story exploring themes of thrillers.,2017.0,166.0,
+s288,Movie,Movie Title 288,Unknown,"Actor 24, Actor 154, Actor 286, Actor 100",United States,2013-04-21,2011,NR,78 min,"Dramas, Crime TV Shows, Music & Musicals",A story exploring themes of dramas.,2013.0,78.0,
+s289,TV Show,Series Title 289,Jane Campion,Actor 158,Nigeria,2022-12-19,2021,PG-13,4 Seasons,"Stand-Up Comedy, Romantic Movies",A story exploring themes of stand-up comedy.,2022.0,,4.0
+s290,TV Show,Series Title 290,Bong Joon Ho,"Actor 8, Actor 156, Actor 158","Canada, Australia",2013-01-20,2010,TV-Y7,4 Seasons,"Dramas, British TV Shows, Music & Musicals",A story exploring themes of dramas.,2013.0,,4.0
+s291,Movie,Movie Title 291,Greg Daniels,Actor 340,"Japan, United States",2007-05-25,2004,TV-G,152 min,Thrillers,A story exploring themes of thrillers.,2007.0,152.0,
+s292,Movie,Movie Title 292,Rajiv Menon,Actor 141,Germany,2021-10-04,2019,TV-G,60 min,"Music & Musicals, British TV Shows, Dramas",A story exploring themes of music & musicals.,2021.0,60.0,
+s293,TV Show,Series Title 293,Unknown,Not listed,"India, South Korea",2004-03-07,2002,NR,7 Seasons,Action & Adventure,A story exploring themes of action & adventure.,2004.0,,7.0
+s294,Movie,Movie Title 294,Bong Joon Ho,"Actor 212, Actor 333",Nigeria,2008-02-21,2005,TV-G,132 min,"Stand-Up Comedy, Documentaries, Anime Series",A story exploring themes of stand-up comedy.,2008.0,132.0,
+s295,TV Show,Series Title 295,Unknown,"Actor 358, Actor 96, Actor 44, Actor 165, Actor 127",Spain,2022-02-19,2021,TV-PG,3 Seasons,"Kids' TV, Romantic Movies",A story exploring themes of kids' tv.,2022.0,,3.0
+s296,TV Show,Series Title 296,Ava DuVernay,"Actor 74, Actor 96, Actor 197",France,2021-05-01,2019,PG-13,6 Season,"International Movies, Documentaries, Stand-Up Comedy",A story exploring themes of international movies.,2021.0,,6.0
+s297,TV Show,Series Title 297,Unknown,Actor 211,United Kingdom,2022-02-09,2020,R,8 Seasons,British TV Shows,A story exploring themes of british tv shows.,2022.0,,8.0
+s298,TV Show,Series Title 298,Bong Joon Ho,"Actor 201, Actor 11",Canada,2021-04-07,2018,TV-Y7,8 Seasons,"International Movies, British TV Shows, Action & Adventure",A story exploring themes of international movies.,2021.0,,8.0
+s299,TV Show,Series Title 299,Unknown,Actor 153,United States,2020-01-01,2019,R,8 Seasons,"Music & Musicals, Comedies",A story exploring themes of music & musicals.,2020.0,,8.0
+s300,Movie,Movie Title 300,Denis Villeneuve,Actor 206,India,2019-12-07,2018,TV-14,73 min,"Documentaries, International Movies, Crime TV Shows",A story exploring themes of documentaries.,2019.0,73.0,
+s301,Movie,Movie Title 301,Unknown,"Actor 188, Actor 62",South Korea,2007-06-04,2005,R,90 min,"Action & Adventure, Sci-Fi & Fantasy",A story exploring themes of action & adventure.,2007.0,90.0,
+s302,Movie,Movie Title 302,Bong Joon Ho,Actor 91,"Mexico, Brazil",2019-12-16,2017,TV-MA,91 min,Documentaries,A story exploring themes of documentaries.,2019.0,91.0,
+s303,TV Show,Series Title 303,Greg Daniels,"Actor 382, Actor 141, Actor 275, Actor 208, Actor 279",France,2006-02-24,2003,TV-Y7,7 Seasons,Crime TV Shows,A story exploring themes of crime tv shows.,2006.0,,7.0
+s304,TV Show,Series Title 304,Martin Scorsese,"Actor 63, Actor 344, Actor 50",Germany,2020-01-02,2019,TV-PG,5 Seasons,Music & Musicals,A story exploring themes of music & musicals.,2020.0,,5.0
+s305,TV Show,Series Title 305,Unknown,Actor 120,France,2006-08-03,2006,TV-PG,5 Seasons,"Stand-Up Comedy, Horror Movies",A story exploring themes of stand-up comedy.,2006.0,,5.0
+s306,Movie,Movie Title 306,Sofia Coppola,"Actor 26, Actor 68, Actor 126, Actor 79, Actor 288",Australia,2008-02-24,2007,PG-13,165 min,"Music & Musicals, International Movies",A story exploring themes of music & musicals.,2008.0,165.0,
+s307,Movie,Movie Title 307,Denis Villeneuve,Not listed,Spain,2014-08-23,2012,TV-MA,99 min,"Kids' TV, British TV Shows",A story exploring themes of kids' tv.,2014.0,99.0,
+s308,Movie,Movie Title 308,Unknown,Not listed,"United Kingdom, Canada",2020-05-17,2017,R,92 min,"British TV Shows, Dramas",A story exploring themes of british tv shows.,2020.0,92.0,
+s309,Movie,Movie Title 309,Ava DuVernay,"Actor 302, Actor 64, Actor 195, Actor 22, Actor 72",Brazil,2014-05-14,2011,TV-Y7,139 min,"British TV Shows, Reality TV",A story exploring themes of british tv shows.,2014.0,139.0,
+s310,TV Show,Series Title 310,Rajiv Menon,Not listed,Australia,2016-01-05,2013,TV-14,7 Season,Stand-Up Comedy,A story exploring themes of stand-up comedy.,2016.0,,7.0
+s311,Movie,Movie Title 311,Bong Joon Ho,"Actor 133, Actor 100, Actor 54, Actor 315","Brazil, Japan",2004-12-09,2004,R,103 min,"Sci-Fi & Fantasy, Music & Musicals, Comedies",A story exploring themes of sci-fi & fantasy.,2004.0,103.0,
+s312,Movie,Movie Title 312,Ava DuVernay,"Actor 383, Actor 267",United States,2005-09-14,2005,R,168 min,Anime Series,A story exploring themes of anime series.,2005.0,168.0,
+s313,Movie,Movie Title 313,Kunle Afolayan,Actor 114,"Japan, Spain",2013-08-10,2010,R,101 min,Crime TV Shows,A story exploring themes of crime tv shows.,2013.0,101.0,
+s314,TV Show,Series Title 314,Unknown,"Actor 259, Actor 77, Actor 137, Actor 296","Germany, India",2011-07-17,2010,TV-Y7,3 Seasons,Romantic Movies,A story exploring themes of romantic movies.,2011.0,,3.0
+s315,Movie,Movie Title 315,Unknown,"Actor 389, Actor 144",Germany,2019-06-20,2017,R,107 min,Reality TV,A story exploring themes of reality tv.,2019.0,107.0,
+s316,TV Show,Series Title 316,Martin Scorsese,Not listed,France,2013-10-12,2010,PG-13,1 Seasons,"Music & Musicals, Crime TV Shows",A story exploring themes of music & musicals.,2013.0,,1.0
+s317,TV Show,Series Title 317,Unknown,"Actor 44, Actor 177, Actor 26, Actor 257",Spain,2017-10-12,2016,TV-Y7,2 Seasons,Kids' TV,A story exploring themes of kids' tv.,2017.0,,2.0
+s318,Movie,Movie Title 318,Bong Joon Ho,Not listed,"Germany, South Korea",2022-05-05,2020,TV-G,136 min,"Reality TV, Comedies, Anime Series",A story exploring themes of reality tv.,2022.0,136.0,
+s319,Movie,Movie Title 319,Unknown,"Actor 17, Actor 215","South Korea, Germany",2007-06-09,2005,NR,97 min,Thrillers,A story exploring themes of thrillers.,2007.0,97.0,
+s320,TV Show,Series Title 320,Greg Daniels,"Actor 200, Actor 278, Actor 19, Actor 36, Actor 277","South Korea, Nigeria",2021-01-16,2020,PG-13,1 Seasons,Documentaries,A story exploring themes of documentaries.,2021.0,,1.0
+s321,TV Show,Series Title 321,Greg Daniels,"Actor 261, Actor 166, Actor 380, Actor 191","Australia, France",2008-10-17,2008,TV-14,1 Seasons,"Anime Series, Music & Musicals, Crime TV Shows",A story exploring themes of anime series.,2008.0,,1.0
+s322,Movie,Movie Title 322,Bong Joon Ho,"Actor 271, Actor 6, Actor 345, Actor 245, Actor 151","United States, United Kingdom",2007-09-16,2004,TV-MA,174 min,"Sci-Fi & Fantasy, Thrillers",A story exploring themes of sci-fi & fantasy.,2007.0,174.0,
+s323,TV Show,Series Title 323,Bong Joon Ho,"Actor 80, Actor 164, Actor 7",Nigeria,2010-08-21,2009,TV-PG,4 Seasons,"Kids' TV, British TV Shows, Stand-Up Comedy",A story exploring themes of kids' tv.,2010.0,,4.0
+s324,TV Show,Series Title 324,Denis Villeneuve,"Actor 338, Actor 99, Actor 331, Actor 273, Actor 198","Japan, United Kingdom",2017-11-01,2014,PG-13,8 Seasons,"Thrillers, Comedies, Music & Musicals",A story exploring themes of thrillers.,2017.0,,8.0
+s325,TV Show,Series Title 325,Rajiv Menon,"Actor 232, Actor 170, Actor 352",Japan,2013-12-09,2013,TV-14,1 Seasons,Documentaries,A story exploring themes of documentaries.,2013.0,,1.0
+s326,Movie,Movie Title 326,Denis Villeneuve,"Actor 86, Actor 115, Actor 117, Actor 75, Actor 142","Nigeria, South Korea",2013-05-14,2011,R,151 min,"Romantic Movies, British TV Shows, Stand-Up Comedy",A story exploring themes of romantic movies.,2013.0,151.0,
+s327,Movie,Movie Title 327,Martin Scorsese,Actor 49,South Korea,2009-05-04,2008,TV-MA,118 min,"Horror Movies, Kids' TV, Romantic Movies",A story exploring themes of horror movies.,2009.0,118.0,
+s328,TV Show,Series Title 328,Sofia Coppola,"Actor 22, Actor 124, Actor 251",Mexico,2004-02-24,2002,R,6 Seasons,"Stand-Up Comedy, Documentaries",A story exploring themes of stand-up comedy.,2004.0,,6.0
+s329,Movie,Movie Title 329,Unknown,"Actor 144, Actor 154, Actor 259, Actor 387, Actor 330","Brazil, Australia",2006-10-16,2006,PG-13,89 min,"Action & Adventure, British TV Shows, Thrillers",A story exploring themes of action & adventure.,2006.0,89.0,
+s330,Movie,Movie Title 330,Kunle Afolayan,"Actor 112, Actor 218",Canada,2022-11-11,2020,NR,134 min,International Movies,A story exploring themes of international movies.,2022.0,134.0,
+s331,Movie,Movie Title 331,Jane Campion,"Actor 225, Actor 48, Actor 194",Australia,2007-07-15,2007,TV-Y7,162 min,"Reality TV, Music & Musicals, Dramas",A story exploring themes of reality tv.,2007.0,162.0,
+s332,Movie,Movie Title 332,Unknown,"Actor 66, Actor 122, Actor 80",France,2015-04-26,2013,TV-PG,68 min,Documentaries,A story exploring themes of documentaries.,2015.0,68.0,
+s333,TV Show,Series Title 333,Unknown,"Actor 15, Actor 355, Actor 184, Actor 337, Actor 13",Spain,2014-12-14,2011,PG,4 Seasons,"Stand-Up Comedy, Action & Adventure",A story exploring themes of stand-up comedy.,2014.0,,4.0
+s334,Movie,Movie Title 334,Bong Joon Ho,"Actor 342, Actor 132, Actor 45",France,2009-03-05,2007,TV-G,139 min,"International Movies, Documentaries, Comedies",A story exploring themes of international movies.,2009.0,139.0,
+s335,TV Show,Series Title 335,Kunle Afolayan,"Actor 246, Actor 212, Actor 236, Actor 187",United States,1998-09-07,1998,PG,1 Seasons,Stand-Up Comedy,A story exploring themes of stand-up comedy.,1998.0,,1.0
+s336,Movie,Movie Title 336,Unknown,"Actor 350, Actor 191, Actor 339",Brazil,2015-12-14,2013,PG-13,167 min,Comedies,A story exploring themes of comedies.,2015.0,167.0,
+s337,TV Show,Series Title 337,Kunle Afolayan,Not listed,Australia,2000-10-25,1999,PG,8 Season,Kids' TV,A story exploring themes of kids' tv.,2000.0,,8.0
+s338,Movie,Movie Title 338,Greg Daniels,"Actor 246, Actor 142, Actor 108",Canada,2019-09-18,2017,PG,123 min,Crime TV Shows,A story exploring themes of crime tv shows.,2019.0,123.0,
+s339,Movie,Movie Title 339,Unknown,"Actor 393, Actor 353, Actor 79, Actor 21","France, India",2001-06-21,1998,PG,91 min,"Music & Musicals, Thrillers",A story exploring themes of music & musicals.,2001.0,91.0,
+s340,Movie,Movie Title 340,Sofia Coppola,"Actor 282, Actor 113, Actor 358","India, Brazil",2002-01-21,2000,TV-PG,166 min,Action & Adventure,A story exploring themes of action & adventure.,2002.0,166.0,
+s341,Movie,Movie Title 341,Unknown,"Actor 5, Actor 141",Japan,2000-08-06,1999,TV-MA,152 min,"Music & Musicals, Stand-Up Comedy",A story exploring themes of music & musicals.,2000.0,152.0,
+s342,Movie,Movie Title 342,Bong Joon Ho,"Actor 193, Actor 78, Actor 220","United States, Brazil",2022-08-08,2020,R,154 min,"Reality TV, British TV Shows, Crime TV Shows",A story exploring themes of reality tv.,2022.0,154.0,
+s343,TV Show,Series Title 343,Greg Daniels,"Actor 377, Actor 291, Actor 239, Actor 41, Actor 139","South Korea, Spain",2021-10-04,2019,PG-13,1 Seasons,"Sci-Fi & Fantasy, Action & Adventure",A story exploring themes of sci-fi & fantasy.,2021.0,,1.0
+s344,Movie,Movie Title 344,Sofia Coppola,Actor 62,Canada,2019-05-16,2019,R,82 min,International Movies,A story exploring themes of international movies.,2019.0,82.0,
+s345,Movie,Movie Title 345,Greg Daniels,"Actor 215, Actor 80, Actor 351","United Kingdom, Brazil",2017-07-25,2015,TV-PG,148 min,"Dramas, Reality TV, Documentaries",A story exploring themes of dramas.,2017.0,148.0,
+s346,TV Show,Series Title 346,Denis Villeneuve,Actor 380,"Germany, France",2018-03-19,2017,R,5 Seasons,"Thrillers, Action & Adventure",A story exploring themes of thrillers.,2018.0,,5.0
+s347,TV Show,Series Title 347,Unknown,Actor 387,Germany,2018-02-05,2015,TV-MA,2 Seasons,"Thrillers, Romantic Movies, Anime Series",A story exploring themes of thrillers.,2018.0,,2.0
+s348,TV Show,Series Title 348,Unknown,"Actor 90, Actor 301, Actor 162","India, Australia",2002-03-21,2000,TV-G,7 Seasons,British TV Shows,A story exploring themes of british tv shows.,2002.0,,7.0
+s349,Movie,Movie Title 349,Rajiv Menon,"Actor 223, Actor 110",Brazil,2019-07-20,2019,TV-G,84 min,"Stand-Up Comedy, Comedies, Thrillers",A story exploring themes of stand-up comedy.,2019.0,84.0,
+s350,Movie,Movie Title 350,Kunle Afolayan,"Actor 184, Actor 151, Actor 243, Actor 205","Australia, Spain",2014-06-15,2012,R,76 min,Crime TV Shows,A story exploring themes of crime tv shows.,2014.0,76.0,
+s351,Movie,Movie Title 351,Ava DuVernay,"Actor 200, Actor 134, Actor 360, Actor 216",Spain,2005-02-05,2002,TV-G,61 min,"Dramas, Horror Movies, Thrillers",A story exploring themes of dramas.,2005.0,61.0,
+s352,Movie,Movie Title 352,Bong Joon Ho,Not listed,Mexico,2003-06-26,2001,TV-14,94 min,Crime TV Shows,A story exploring themes of crime tv shows.,2003.0,94.0,
+s353,Movie,Movie Title 353,Bong Joon Ho,"Actor 393, Actor 382, Actor 94, Actor 286, Actor 119",Spain,2000-07-06,1998,TV-PG,168 min,British TV Shows,A story exploring themes of british tv shows.,2000.0,168.0,
+s354,Movie,Movie Title 354,Martin Scorsese,"Actor 205, Actor 85, Actor 334, Actor 119, Actor 110","Canada, Brazil",2003-05-13,2000,TV-Y7,152 min,Anime Series,A story exploring themes of anime series.,2003.0,152.0,
+s355,Movie,Movie Title 355,Greg Daniels,"Actor 170, Actor 150, Actor 28, Actor 26, Actor 7",India,2014-04-11,2012,R,65 min,"Kids' TV, Music & Musicals",A story exploring themes of kids' tv.,2014.0,65.0,
+s356,Movie,Movie Title 356,Bong Joon Ho,"Actor 314, Actor 99, Actor 34",Unknown,2012-10-01,2009,TV-14,65 min,"Horror Movies, Romantic Movies",A story exploring themes of horror movies.,2012.0,65.0,
+s357,TV Show,Series Title 357,Unknown,Not listed,Canada,2021-01-16,2019,TV-G,2 Seasons,"Sci-Fi & Fantasy, Comedies, Romantic Movies",A story exploring themes of sci-fi & fantasy.,2021.0,,2.0
+s358,Movie,Movie Title 358,Kunle Afolayan,"Actor 74, Actor 215, Actor 387","United Kingdom, Brazil",2019-04-21,2018,TV-PG,76 min,Action & Adventure,A story exploring themes of action & adventure.,2019.0,76.0,
+s359,Movie,Movie Title 359,Jane Campion,"Actor 215, Actor 81","Japan, South Korea",2000-07-12,1999,TV-Y7,154 min,"Dramas, Sci-Fi & Fantasy",A story exploring themes of dramas.,2000.0,154.0,
+s360,Movie,Movie Title 360,Denis Villeneuve,Actor 108,"Spain, United Kingdom",2020-08-26,2019,TV-14,179 min,"Horror Movies, Anime Series",A story exploring themes of horror movies.,2020.0,179.0,
+s361,Movie,Movie Title 361,Kunle Afolayan,"Actor 169, Actor 7, Actor 290, Actor 128, Actor 264",Japan,2006-08-17,2004,NR,71 min,"International Movies, Crime TV Shows",A story exploring themes of international movies.,2006.0,71.0,
+s362,Movie,Movie Title 362,Sofia Coppola,Actor 113,Spain,2019-06-18,2018,TV-MA,104 min,"British TV Shows, Dramas",A story exploring themes of british tv shows.,2019.0,104.0,
+s363,Movie,Movie Title 363,Ava DuVernay,"Actor 148, Actor 104, Actor 54","France, Mexico",2002-12-23,2001,TV-Y7,82 min,"Kids' TV, Stand-Up Comedy, Action & Adventure",A story exploring themes of kids' tv.,2002.0,82.0,
+s364,Movie,Movie Title 364,Jane Campion,"Actor 19, Actor 109, Actor 169",Canada,2003-03-22,2000,TV-14,86 min,Stand-Up Comedy,A story exploring themes of stand-up comedy.,2003.0,86.0,
+s365,Movie,Movie Title 365,Sofia Coppola,"Actor 264, Actor 122, Actor 19, Actor 211, Actor 79",Australia,2006-04-16,2006,TV-MA,60 min,Comedies,A story exploring themes of comedies.,2006.0,60.0,
+s366,Movie,Movie Title 366,Unknown,"Actor 194, Actor 74, Actor 219, Actor 22","India, Brazil",,1998,NR,100 min,"Romantic Movies, Stand-Up Comedy",A story exploring themes of romantic movies.,,100.0,
+s367,Movie,Movie Title 367,Greg Daniels,"Actor 293, Actor 266, Actor 90","Nigeria, Canada",2009-06-02,2006,R,130 min,Documentaries,A story exploring themes of documentaries.,2009.0,130.0,
+s368,TV Show,Series Title 368,Ava DuVernay,Not listed,India,2014-05-10,2013,PG,2 Seasons,"Horror Movies, Dramas, Music & Musicals",A story exploring themes of horror movies.,2014.0,,2.0
+s369,TV Show,Series Title 369,Sofia Coppola,Not listed,India,,2018,TV-G,8 Seasons,"Stand-Up Comedy, Dramas",A story exploring themes of stand-up comedy.,,,8.0
+s370,Movie,Movie Title 370,Sofia Coppola,Actor 141,Canada,2013-05-14,2011,PG-13,171 min,"Documentaries, Reality TV, Crime TV Shows",A story exploring themes of documentaries.,2013.0,171.0,
+s371,Movie,Movie Title 371,Ava DuVernay,"Actor 196, Actor 28",Unknown,2009-05-10,2006,TV-Y7,60 min,"Horror Movies, British TV Shows, Romantic Movies",A story exploring themes of horror movies.,2009.0,60.0,
+s372,Movie,Movie Title 372,Unknown,"Actor 25, Actor 247",France,2011-06-02,2009,PG-13,105 min,"British TV Shows, Sci-Fi & Fantasy, Documentaries",A story exploring themes of british tv shows.,2011.0,105.0,
+s373,TV Show,Series Title 373,Ava DuVernay,Actor 56,"Nigeria, United States",2013-11-12,2012,PG,4 Seasons,Music & Musicals,A story exploring themes of music & musicals.,2013.0,,4.0
+s374,TV Show,Series Title 374,Unknown,Not listed,India,2016-02-18,2015,R,8 Seasons,Reality TV,A story exploring themes of reality tv.,2016.0,,8.0
+s375,Movie,Movie Title 375,Ava DuVernay,"Actor 131, Actor 52","France, Japan",2001-08-25,1999,NR,175 min,Action & Adventure,A story exploring themes of action & adventure.,2001.0,175.0,
+s376,TV Show,Series Title 376,Kunle Afolayan,Not listed,"United Kingdom, Germany",2009-06-01,2007,TV-G,5 Seasons,"Music & Musicals, Action & Adventure",A story exploring themes of music & musicals.,2009.0,,5.0
+s377,Movie,Movie Title 377,Denis Villeneuve,"Actor 282, Actor 373, Actor 135","Germany, Japan",2003-06-02,2001,TV-PG,82 min,"Romantic Movies, Documentaries, Crime TV Shows",A story exploring themes of romantic movies.,2003.0,82.0,
+s378,Movie,Movie Title 378,Rajiv Menon,"Actor 226, Actor 353","Spain, France",2004-12-19,2001,TV-14,106 min,"International Movies, Documentaries",A story exploring themes of international movies.,2004.0,106.0,
+s379,Movie,Movie Title 379,Martin Scorsese,"Actor 8, Actor 159, Actor 266, Actor 326, Actor 362",India,2018-10-03,2018,PG-13,130 min,"Music & Musicals, Sci-Fi & Fantasy",A story exploring themes of music & musicals.,2018.0,130.0,
+s380,TV Show,Series Title 380,Kunle Afolayan,Not listed,Unknown,2002-09-13,2000,PG-13,4 Seasons,"Documentaries, Action & Adventure",A story exploring themes of documentaries.,2002.0,,4.0
+s381,Movie,Movie Title 381,Jane Campion,"Actor 108, Actor 230","India, South Korea",2021-01-24,2018,PG-13,166 min,Kids' TV,A story exploring themes of kids' tv.,2021.0,166.0,
+s382,Movie,Movie Title 382,Unknown,"Actor 70, Actor 358, Actor 329, Actor 394, Actor 164",United States,,2021,TV-MA,105 min,Comedies,A story exploring themes of comedies.,,105.0,
+s383,Movie,Movie Title 383,Bong Joon Ho,Not listed,"Australia, Japan",2003-04-10,2000,TV-G,81 min,"Dramas, Action & Adventure",A story exploring themes of dramas.,2003.0,81.0,
+s384,Movie,Movie Title 384,Sofia Coppola,Not listed,"Canada, Brazil",2018-04-23,2017,TV-G,75 min,"Anime Series, Documentaries",A story exploring themes of anime series.,2018.0,75.0,
+s385,Movie,Movie Title 385,Jane Campion,Actor 330,Australia,2022-02-17,2019,TV-G,138 min,"International Movies, Romantic Movies",A story exploring themes of international movies.,2022.0,138.0,
+s386,Movie,Movie Title 386,Unknown,"Actor 9, Actor 19, Actor 244, Actor 77",Australia,2021-06-04,2020,TV-G,167 min,British TV Shows,A story exploring themes of british tv shows.,2021.0,167.0,
+s387,TV Show,Series Title 387,Sofia Coppola,"Actor 309, Actor 323, Actor 8",France,2001-11-11,1998,TV-MA,7 Season,Sci-Fi & Fantasy,A story exploring themes of sci-fi & fantasy.,2001.0,,7.0
+s388,TV Show,Series Title 388,Ava DuVernay,"Actor 26, Actor 76, Actor 140",India,2006-04-16,2004,TV-PG,5 Seasons,Anime Series,A story exploring themes of anime series.,2006.0,,5.0
+s389,TV Show,Series Title 389,Ava DuVernay,"Actor 192, Actor 208",United States,2020-11-13,2020,TV-PG,7 Seasons,"Action & Adventure, British TV Shows, Dramas",A story exploring themes of action & adventure.,2020.0,,7.0
+s390,TV Show,Series Title 390,Denis Villeneuve,"Actor 364, Actor 321, Actor 5, Actor 108, Actor 8",India,1999-01-15,1998,PG-13,1 Seasons,Comedies,A story exploring themes of comedies.,1999.0,,1.0
+s391,TV Show,Series Title 391,Greg Daniels,Not listed,Nigeria,2001-07-12,2000,PG,4 Seasons,Comedies,A story exploring themes of comedies.,2001.0,,4.0
+s392,TV Show,Series Title 392,Denis Villeneuve,Actor 89,Spain,2021-03-26,2020,PG,2 Seasons,"International Movies, Documentaries, British TV Shows",A story exploring themes of international movies.,2021.0,,2.0
+s393,TV Show,Series Title 393,Martin Scorsese,"Actor 113, Actor 316",France,2013-01-11,2011,TV-Y7,5 Season,"Sci-Fi & Fantasy, Horror Movies, Music & Musicals",A story exploring themes of sci-fi & fantasy.,2013.0,,5.0
+s394,TV Show,Series Title 394,Bong Joon Ho,"Actor 60, Actor 20, Actor 20, Actor 76","Spain, South Korea",2007-03-12,2005,NR,3 Seasons,Action & Adventure,A story exploring themes of action & adventure.,2007.0,,3.0
+s395,Movie,Movie Title 395,Ava DuVernay,"Actor 354, Actor 244, Actor 236",Australia,2004-09-14,2004,PG-13,139 min,Music & Musicals,A story exploring themes of music & musicals.,2004.0,139.0,
+s396,Movie,Movie Title 396,Unknown,"Actor 387, Actor 256, Actor 131, Actor 277",Australia,2009-11-26,2008,PG-13,68 min,"Anime Series, Action & Adventure, British TV Shows",A story exploring themes of anime series.,2009.0,68.0,
+s397,TV Show,Series Title 397,Rajiv Menon,Not listed,Canada,2022-03-07,2020,NR,1 Seasons,Comedies,A story exploring themes of comedies.,2022.0,,1.0
+s398,Movie,Movie Title 398,Martin Scorsese,Actor 341,"France, South Korea",2010-12-17,2008,TV-PG,112 min,"Dramas, British TV Shows",A story exploring themes of dramas.,2010.0,112.0,
+s399,TV Show,Series Title 399,Rajiv Menon,"Actor 265, Actor 258, Actor 105","Nigeria, United States",2007-01-02,2006,TV-MA,8 Seasons,Documentaries,A story exploring themes of documentaries.,2007.0,,8.0
+s400,Movie,Movie Title 400,Denis Villeneuve,"Actor 126, Actor 312",Canada,2001-04-14,2001,TV-14,148 min,"Thrillers, Anime Series",A story exploring themes of thrillers.,2001.0,148.0,
+s401,Movie,Movie Title 401,Greg Daniels,"Actor 285, Actor 103, Actor 70","Canada, United States",2022-04-10,2019,PG-13,123 min,"Romantic Movies, Sci-Fi & Fantasy",A story exploring themes of romantic movies.,2022.0,123.0,
+s402,TV Show,Series Title 402,Greg Daniels,"Actor 41, Actor 313, Actor 277, Actor 175","South Korea, France",2015-12-13,2012,TV-G,8 Seasons,"Romantic Movies, British TV Shows, Reality TV",A story exploring themes of romantic movies.,2015.0,,8.0
+s403,Movie,Movie Title 403,Unknown,"Actor 196, Actor 267",Japan,2013-09-25,2010,R,102 min,"Kids' TV, Comedies",A story exploring themes of kids' tv.,2013.0,102.0,
+s404,Movie,Movie Title 404,Ava DuVernay,"Actor 305, Actor 217, Actor 147, Actor 84, Actor 340",Unknown,2008-01-25,2006,TV-PG,161 min,Crime TV Shows,A story exploring themes of crime tv shows.,2008.0,161.0,
+s405,Movie,Movie Title 405,Jane Campion,"Actor 196, Actor 212, Actor 342, Actor 297","South Korea, Mexico",2009-02-16,2006,TV-G,149 min,"Action & Adventure, Reality TV, Thrillers",A story exploring themes of action & adventure.,2009.0,149.0,
+s406,TV Show,Series Title 406,Greg Daniels,Not listed,"France, United Kingdom",2008-05-22,2005,TV-MA,7 Seasons,"Dramas, Horror Movies, Music & Musicals",A story exploring themes of dramas.,2008.0,,7.0
+s407,Movie,Movie Title 407,Greg Daniels,"Actor 214, Actor 179","France, Japan",2005-08-25,2003,PG-13,168 min,Reality TV,A story exploring themes of reality tv.,2005.0,168.0,
+s408,TV Show,Series Title 408,Unknown,"Actor 326, Actor 34, Actor 41, Actor 369, Actor 185","Canada, Brazil",2021-11-14,2021,R,3 Seasons,"Romantic Movies, Comedies, British TV Shows",A story exploring themes of romantic movies.,2021.0,,3.0
+s409,Movie,Movie Title 409,Bong Joon Ho,"Actor 118, Actor 166, Actor 47, Actor 325, Actor 326",Australia,2013-02-16,2013,TV-MA,132 min,"Stand-Up Comedy, Documentaries",A story exploring themes of stand-up comedy.,2013.0,132.0,
+s410,TV Show,Series Title 410,Unknown,Not listed,"Germany, India",2016-12-21,2016,R,6 Seasons,Reality TV,A story exploring themes of reality tv.,2016.0,,6.0
+s411,TV Show,Series Title 411,Denis Villeneuve,Not listed,France,2006-05-11,2004,TV-Y7,6 Seasons,"Anime Series, Sci-Fi & Fantasy",A story exploring themes of anime series.,2006.0,,6.0
+s412,Movie,Movie Title 412,Ava DuVernay,Actor 329,Unknown,2014-08-02,2013,TV-Y7,117 min,Romantic Movies,A story exploring themes of romantic movies.,2014.0,117.0,
+s413,TV Show,Series Title 413,Martin Scorsese,"Actor 365, Actor 348, Actor 194, Actor 162, Actor 40",South Korea,2005-05-02,2002,TV-Y7,1 Seasons,Comedies,A story exploring themes of comedies.,2005.0,,1.0
+s414,Movie,Movie Title 414,Rajiv Menon,"Actor 119, Actor 382",India,2017-05-04,2014,TV-14,128 min,"Stand-Up Comedy, Anime Series, Music & Musicals",A story exploring themes of stand-up comedy.,2017.0,128.0,
+s415,Movie,Movie Title 415,Ava DuVernay,Actor 144,"Japan, United Kingdom",2013-04-04,2012,TV-Y7,66 min,"Stand-Up Comedy, Romantic Movies, Documentaries",A story exploring themes of stand-up comedy.,2013.0,66.0,
+s416,TV Show,Series Title 416,Greg Daniels,Actor 351,Unknown,2004-07-04,2003,PG-13,3 Seasons,"Documentaries, Stand-Up Comedy, Romantic Movies",A story exploring themes of documentaries.,2004.0,,3.0
+s417,TV Show,Series Title 417,Unknown,"Actor 133, Actor 169, Actor 31, Actor 13",Japan,2015-09-05,2013,TV-G,6 Seasons,"Crime TV Shows, Sci-Fi & Fantasy, Action & Adventure",A story exploring themes of crime tv shows.,2015.0,,6.0
+s418,Movie,Movie Title 418,Rajiv Menon,Actor 87,France,2002-07-13,1999,TV-G,106 min,Anime Series,A story exploring themes of anime series.,2002.0,106.0,
+s419,Movie,Movie Title 419,Unknown,Not listed,"Mexico, India",2002-03-12,2000,NR,71 min,"Kids' TV, Music & Musicals",A story exploring themes of kids' tv.,2002.0,71.0,
+s420,Movie,Movie Title 420,Greg Daniels,Actor 225,Unknown,,2001,TV-PG,101 min,"Romantic Movies, Music & Musicals",A story exploring themes of romantic movies.,,101.0,
+s421,Movie,Movie Title 421,Ava DuVernay,Not listed,Spain,,2000,TV-Y7,98 min,"Horror Movies, British TV Shows",A story exploring themes of horror movies.,,98.0,
+s422,TV Show,Series Title 422,Kunle Afolayan,"Actor 196, Actor 123, Actor 274, Actor 226","United States, United Kingdom",2019-02-14,2018,PG-13,2 Seasons,"Music & Musicals, Action & Adventure, Reality TV",A story exploring themes of music & musicals.,2019.0,,2.0
+s423,Movie,Movie Title 423,Rajiv Menon,Actor 161,"United Kingdom, Japan",2012-06-25,2009,TV-MA,112 min,Music & Musicals,A story exploring themes of music & musicals.,2012.0,112.0,
+s424,TV Show,Series Title 424,Unknown,"Actor 5, Actor 373",Mexico,2018-09-11,2015,TV-PG,7 Seasons,"Anime Series, Documentaries",A story exploring themes of anime series.,2018.0,,7.0
+s425,Movie,Movie Title 425,Rajiv Menon,"Actor 215, Actor 90, Actor 263, Actor 376","South Korea, United Kingdom",2014-06-24,2011,TV-14,68 min,"British TV Shows, Kids' TV, Action & Adventure",A story exploring themes of british tv shows.,2014.0,68.0,
+s426,TV Show,Series Title 426,Sofia Coppola,Not listed,"Spain, France",2012-11-05,2009,TV-PG,7 Seasons,"Music & Musicals, Anime Series, Documentaries",A story exploring themes of music & musicals.,2012.0,,7.0
+s427,Movie,Movie Title 427,Ava DuVernay,Actor 389,Brazil,2015-09-08,2015,TV-14,101 min,Thrillers,A story exploring themes of thrillers.,2015.0,101.0,
+s428,Movie,Movie Title 428,Denis Villeneuve,Actor 81,"Brazil, United States",2008-07-27,2007,TV-14,171 min,Kids' TV,A story exploring themes of kids' tv.,2008.0,171.0,
+s429,TV Show,Series Title 429,Unknown,"Actor 270, Actor 78, Actor 368, Actor 363, Actor 262",Japan,2014-06-12,2013,PG-13,8 Seasons,"Reality TV, Sci-Fi & Fantasy",A story exploring themes of reality tv.,2014.0,,8.0
+s430,Movie,Movie Title 430,Kunle Afolayan,Actor 343,"Brazil, South Korea",2013-08-22,2012,R,171 min,Romantic Movies,A story exploring themes of romantic movies.,2013.0,171.0,
+s431,TV Show,Series Title 431,Ava DuVernay,"Actor 32, Actor 315","France, Japan",2004-03-02,2004,TV-PG,7 Season,Horror Movies,A story exploring themes of horror movies.,2004.0,,7.0
+s432,Movie,Movie Title 432,Unknown,"Actor 343, Actor 292, Actor 192, Actor 278",Australia,2011-03-05,2008,TV-Y7,153 min,Action & Adventure,A story exploring themes of action & adventure.,2011.0,153.0,
+s433,Movie,Movie Title 433,Denis Villeneuve,"Actor 268, Actor 114",Spain,2021-04-24,2020,NR,113 min,Stand-Up Comedy,A story exploring themes of stand-up comedy.,2021.0,113.0,
+s434,Movie,Movie Title 434,Unknown,"Actor 119, Actor 250, Actor 364, Actor 143, Actor 68",Unknown,2001-09-14,1998,TV-Y7,132 min,"Action & Adventure, Kids' TV",A story exploring themes of action & adventure.,2001.0,132.0,
+s435,TV Show,Series Title 435,Bong Joon Ho,"Actor 114, Actor 191, Actor 380",Mexico,2019-05-21,2019,TV-MA,2 Seasons,"Crime TV Shows, Dramas",A story exploring themes of crime tv shows.,2019.0,,2.0
+s436,Movie,Movie Title 436,Bong Joon Ho,Actor 110,Brazil,2001-06-11,2000,PG,139 min,Documentaries,A story exploring themes of documentaries.,2001.0,139.0,
+s437,Movie,Movie Title 437,Jane Campion,"Actor 360, Actor 276, Actor 182, Actor 258, Actor 126","Germany, United Kingdom",2010-09-26,2007,TV-14,113 min,Thrillers,A story exploring themes of thrillers.,2010.0,113.0,
+s438,Movie,Movie Title 438,Jane Campion,"Actor 109, Actor 129, Actor 354",Australia,2002-04-19,2000,TV-14,142 min,"Action & Adventure, Kids' TV, Stand-Up Comedy",A story exploring themes of action & adventure.,2002.0,142.0,
+s439,Movie,Movie Title 439,Rajiv Menon,"Actor 268, Actor 10, Actor 357, Actor 350","Nigeria, United Kingdom",2009-09-07,2006,R,172 min,Thrillers,A story exploring themes of thrillers.,2009.0,172.0,
+s440,Movie,Movie Title 440,Kunle Afolayan,"Actor 163, Actor 299, Actor 208","Spain, Mexico",2002-12-08,2002,NR,75 min,"Sci-Fi & Fantasy, British TV Shows, Dramas",A story exploring themes of sci-fi & fantasy.,2002.0,75.0,
+s441,Movie,Movie Title 441,Martin Scorsese,"Actor 378, Actor 229, Actor 80, Actor 123, Actor 323",Australia,2002-08-13,2002,NR,126 min,"Anime Series, Kids' TV, British TV Shows",A story exploring themes of anime series.,2002.0,126.0,
+s442,Movie,Movie Title 442,Greg Daniels,"Actor 79, Actor 346, Actor 218, Actor 4, Actor 378",Japan,2013-10-06,2013,TV-Y7,163 min,"Documentaries, Reality TV",A story exploring themes of documentaries.,2013.0,163.0,
+s443,Movie,Movie Title 443,Ava DuVernay,"Actor 276, Actor 367, Actor 328",Unknown,2000-08-23,2000,TV-Y7,112 min,"Horror Movies, Music & Musicals, Sci-Fi & Fantasy",A story exploring themes of horror movies.,2000.0,112.0,
+s444,TV Show,Series Title 444,Unknown,Actor 144,Canada,1999-01-27,1999,R,2 Seasons,"Crime TV Shows, Action & Adventure, Stand-Up Comedy",A story exploring themes of crime tv shows.,1999.0,,2.0
+s445,Movie,Movie Title 445,Ava DuVernay,"Actor 388, Actor 208",France,2000-08-24,1999,PG,179 min,"Stand-Up Comedy, Music & Musicals, Comedies",A story exploring themes of stand-up comedy.,2000.0,179.0,
+s446,Movie,Movie Title 446,Kunle Afolayan,Not listed,"Germany, Canada",2013-05-02,2012,PG,154 min,"Thrillers, Kids' TV, Action & Adventure",A story exploring themes of thrillers.,2013.0,154.0,
+s447,TV Show,Series Title 447,Unknown,Not listed,Germany,2002-01-27,2001,R,1 Seasons,"Romantic Movies, Action & Adventure",A story exploring themes of romantic movies.,2002.0,,1.0
+s448,TV Show,Series Title 448,Kunle Afolayan,Not listed,"Nigeria, Germany",2012-01-25,2010,PG-13,4 Seasons,International Movies,A story exploring themes of international movies.,2012.0,,4.0
+s449,Movie,Movie Title 449,Jane Campion,"Actor 300, Actor 238",United Kingdom,2011-06-15,2011,PG,137 min,"Crime TV Shows, Action & Adventure, Anime Series",A story exploring themes of crime tv shows.,2011.0,137.0,
+s450,TV Show,Series Title 450,Unknown,"Actor 384, Actor 360, Actor 197",Australia,2009-02-05,2007,PG,8 Seasons,"Kids' TV, Stand-Up Comedy, British TV Shows",A story exploring themes of kids' tv.,2009.0,,8.0
+s451,Movie,Movie Title 451,Unknown,Not listed,"Nigeria, France",2004-05-05,2001,NR,123 min,Stand-Up Comedy,A story exploring themes of stand-up comedy.,2004.0,123.0,
+s452,Movie,Movie Title 452,Unknown,"Actor 201, Actor 368",India,2009-11-05,2006,PG,150 min,"Dramas, Thrillers",A story exploring themes of dramas.,2009.0,150.0,
+s453,TV Show,Series Title 453,Greg Daniels,"Actor 97, Actor 102, Actor 375, Actor 82","France, Japan",2019-06-02,2017,PG-13,8 Seasons,"Action & Adventure, Crime TV Shows, Dramas",A story exploring themes of action & adventure.,2019.0,,8.0
+s454,Movie,Movie Title 454,Martin Scorsese,"Actor 247, Actor 344, Actor 354",Japan,2003-12-07,2000,NR,170 min,"Crime TV Shows, Horror Movies",A story exploring themes of crime tv shows.,2003.0,170.0,
+s455,Movie,Movie Title 455,Unknown,"Actor 33, Actor 273, Actor 362, Actor 210, Actor 206","Mexico, Nigeria",2005-11-16,2002,TV-G,131 min,"Documentaries, International Movies",A story exploring themes of documentaries.,2005.0,131.0,
+s456,Movie,Movie Title 456,Unknown,Actor 22,Canada,2022-12-11,2021,TV-G,134 min,"Anime Series, Thrillers",A story exploring themes of anime series.,2022.0,134.0,
+s457,Movie,Movie Title 457,Denis Villeneuve,Actor 374,Brazil,1999-04-16,1998,PG,94 min,"Thrillers, Kids' TV, Stand-Up Comedy",A story exploring themes of thrillers.,1999.0,94.0,
+s458,Movie,Movie Title 458,Jane Campion,"Actor 149, Actor 205","Mexico, United Kingdom",2010-10-08,2007,TV-14,173 min,"British TV Shows, Dramas, Documentaries",A story exploring themes of british tv shows.,2010.0,173.0,
+s459,TV Show,Series Title 459,Unknown,"Actor 351, Actor 70, Actor 164, Actor 67, Actor 37",Japan,2009-10-03,2008,PG-13,1 Seasons,"Romantic Movies, Documentaries, Action & Adventure",A story exploring themes of romantic movies.,2009.0,,1.0
+s460,Movie,Movie Title 460,Sofia Coppola,"Actor 40, Actor 64, Actor 240, Actor 9",Germany,2001-05-09,2001,TV-14,95 min,Comedies,A story exploring themes of comedies.,2001.0,95.0,
+s461,Movie,Movie Title 461,Greg Daniels,"Actor 58, Actor 321, Actor 18","Nigeria, Brazil",2006-06-17,2006,PG,142 min,"Documentaries, Stand-Up Comedy, Sci-Fi & Fantasy",A story exploring themes of documentaries.,2006.0,142.0,
+s462,TV Show,Series Title 462,Bong Joon Ho,"Actor 182, Actor 236","United States, South Korea",2011-09-09,2010,TV-G,6 Seasons,Stand-Up Comedy,A story exploring themes of stand-up comedy.,2011.0,,6.0
+s463,Movie,Movie Title 463,Unknown,"Actor 183, Actor 34, Actor 244",United Kingdom,,2001,TV-PG,148 min,Reality TV,A story exploring themes of reality tv.,,148.0,
+s464,Movie,Movie Title 464,Sofia Coppola,"Actor 80, Actor 239, Actor 333",United States,2005-04-09,2003,R,67 min,British TV Shows,A story exploring themes of british tv shows.,2005.0,67.0,
+s465,TV Show,Series Title 465,Ava DuVernay,"Actor 37, Actor 213, Actor 190, Actor 192","United States, Brazil",2019-01-03,2017,TV-Y7,1 Season,"Horror Movies, Reality TV",A story exploring themes of horror movies.,2019.0,,1.0
+s466,Movie,Movie Title 466,Denis Villeneuve,"Actor 282, Actor 361, Actor 98, Actor 42, Actor 300",India,1999-05-23,1998,TV-Y7,91 min,Thrillers,A story exploring themes of thrillers.,1999.0,91.0,
+s467,TV Show,Series Title 467,Unknown,Not listed,Mexico,2012-06-06,2012,PG,6 Seasons,"Kids' TV, British TV Shows, Action & Adventure",A story exploring themes of kids' tv.,2012.0,,6.0
+s468,TV Show,Series Title 468,Unknown,"Actor 300, Actor 341, Actor 393",Japan,2002-04-20,2001,TV-Y7,8 Seasons,International Movies,A story exploring themes of international movies.,2002.0,,8.0
+s469,Movie,Movie Title 469,Sofia Coppola,"Actor 10, Actor 188, Actor 399","Japan, Brazil",2015-05-21,2014,TV-14,67 min,"Horror Movies, Anime Series",A story exploring themes of horror movies.,2015.0,67.0,
+s470,TV Show,Series Title 470,Bong Joon Ho,"Actor 4, Actor 175, Actor 15","India, Brazil",2011-07-27,2011,TV-MA,7 Season,Horror Movies,A story exploring themes of horror movies.,2011.0,,7.0
+s471,Movie,Movie Title 471,Unknown,Actor 341,Australia,2004-08-25,2002,PG-13,76 min,"Horror Movies, Anime Series",A story exploring themes of horror movies.,2004.0,76.0,
+s472,Movie,Movie Title 472,Unknown,"Actor 299, Actor 76, Actor 385",United Kingdom,2010-10-19,2008,NR,146 min,International Movies,A story exploring themes of international movies.,2010.0,146.0,
+s473,TV Show,Series Title 473,Ava DuVernay,"Actor 339, Actor 20",France,2012-07-09,2012,PG,1 Season,Music & Musicals,A story exploring themes of music & musicals.,2012.0,,1.0
+s474,Movie,Movie Title 474,Unknown,"Actor 143, Actor 74, Actor 351, Actor 253",India,2012-11-26,2009,TV-G,131 min,Sci-Fi & Fantasy,A story exploring themes of sci-fi & fantasy.,2012.0,131.0,
+s475,Movie,Movie Title 475,Jane Campion,"Actor 95, Actor 358","Spain, Japan",2013-01-14,2012,PG-13,171 min,Stand-Up Comedy,A story exploring themes of stand-up comedy.,2013.0,171.0,
+s476,Movie,Movie Title 476,Bong Joon Ho,"Actor 41, Actor 31, Actor 92","United Kingdom, Japan",2019-02-01,2016,TV-G,147 min,"Reality TV, Horror Movies",A story exploring themes of reality tv.,2019.0,147.0,
+s477,Movie,Movie Title 477,Ava DuVernay,"Actor 14, Actor 324, Actor 293, Actor 30",South Korea,2019-04-22,2018,TV-PG,105 min,"Comedies, Stand-Up Comedy",A story exploring themes of comedies.,2019.0,105.0,
+s478,Movie,Movie Title 478,Bong Joon Ho,"Actor 310, Actor 267, Actor 346, Actor 116, Actor 9","United Kingdom, Canada",2003-07-02,2002,TV-PG,129 min,"British TV Shows, Romantic Movies",A story exploring themes of british tv shows.,2003.0,129.0,
+s479,Movie,Movie Title 479,Denis Villeneuve,"Actor 197, Actor 63, Actor 385, Actor 211",Brazil,2007-05-02,2007,R,94 min,Reality TV,A story exploring themes of reality tv.,2007.0,94.0,
+s480,Movie,Movie Title 480,Greg Daniels,"Actor 349, Actor 382",Brazil,2019-08-14,2017,TV-Y7,143 min,Sci-Fi & Fantasy,A story exploring themes of sci-fi & fantasy.,2019.0,143.0,
+s481,Movie,Movie Title 481,Unknown,"Actor 269, Actor 321, Actor 385, Actor 8, Actor 253",Unknown,2003-12-18,2003,TV-PG,168 min,"Music & Musicals, Romantic Movies, Thrillers",A story exploring themes of music & musicals.,2003.0,168.0,
+s482,Movie,Movie Title 482,Ava DuVernay,"Actor 321, Actor 210, Actor 162, Actor 333","Brazil, Nigeria",,2016,TV-MA,93 min,"Anime Series, Kids' TV",A story exploring themes of anime series.,,93.0,
+s483,Movie,Movie Title 483,Greg Daniels,"Actor 216, Actor 204, Actor 241, Actor 336, Actor 219","France, United Kingdom",2011-12-12,2011,NR,62 min,"Sci-Fi & Fantasy, Music & Musicals",A story exploring themes of sci-fi & fantasy.,2011.0,62.0,
+s484,TV Show,Series Title 484,Unknown,"Actor 396, Actor 198",Spain,1999-06-06,1998,TV-PG,3 Seasons,Horror Movies,A story exploring themes of horror movies.,1999.0,,3.0
+s485,Movie,Movie Title 485,Bong Joon Ho,Actor 298,Canada,2011-11-26,2008,R,147 min,"Romantic Movies, Stand-Up Comedy, Action & Adventure",A story exploring themes of romantic movies.,2011.0,147.0,
+s486,Movie,Movie Title 486,Kunle Afolayan,"Actor 388, Actor 143",United States,2012-01-14,2010,TV-MA,125 min,Romantic Movies,A story exploring themes of romantic movies.,2012.0,125.0,
+s487,Movie,Movie Title 487,Unknown,Actor 56,Brazil,2011-09-11,2011,TV-14,76 min,"Thrillers, Horror Movies, Action & Adventure",A story exploring themes of thrillers.,2011.0,76.0,
+s488,Movie,Movie Title 488,Sofia Coppola,"Actor 265, Actor 98",Spain,2011-07-15,2011,TV-PG,104 min,"Comedies, Horror Movies, Kids' TV",A story exploring themes of comedies.,2011.0,104.0,
+s489,TV Show,Series Title 489,Greg Daniels,"Actor 27, Actor 340",Australia,2018-02-26,2018,NR,7 Seasons,Comedies,A story exploring themes of comedies.,2018.0,,7.0
+s490,TV Show,Series Title 490,Martin Scorsese,Actor 266,United States,2022-06-19,2020,TV-G,6 Seasons,"Action & Adventure, Reality TV",A story exploring themes of action & adventure.,2022.0,,6.0
+s491,Movie,Movie Title 491,Kunle Afolayan,"Actor 62, Actor 379, Actor 36","Australia, Mexico",2012-11-18,2011,R,77 min,"Sci-Fi & Fantasy, Kids' TV",A story exploring themes of sci-fi & fantasy.,2012.0,77.0,
+s492,Movie,Movie Title 492,Ava DuVernay,"Actor 174, Actor 245, Actor 135, Actor 77","Canada, India",2016-01-13,2016,TV-Y7,68 min,Romantic Movies,A story exploring themes of romantic movies.,2016.0,68.0,
+s493,TV Show,Series Title 493,Kunle Afolayan,"Actor 339, Actor 101","Brazil, Mexico",2005-02-16,2003,TV-PG,6 Seasons,Romantic Movies,A story exploring themes of romantic movies.,2005.0,,6.0
+s494,Movie,Movie Title 494,Martin Scorsese,"Actor 316, Actor 252, Actor 383, Actor 80",Japan,2004-12-21,2001,TV-PG,65 min,"Reality TV, Dramas",A story exploring themes of reality tv.,2004.0,65.0,
+s495,TV Show,Series Title 495,Unknown,"Actor 31, Actor 189, Actor 121, Actor 73, Actor 187","France, Germany",1999-08-17,1998,R,1 Seasons,"Thrillers, Horror Movies, Dramas",A story exploring themes of thrillers.,1999.0,,1.0
+s496,Movie,Movie Title 496,Unknown,"Actor 117, Actor 43, Actor 126",Nigeria,2012-12-07,2012,PG-13,172 min,"International Movies, Kids' TV",A story exploring themes of international movies.,2012.0,172.0,
+s497,TV Show,Series Title 497,Jane Campion,Actor 311,"South Korea, Spain",2002-07-21,2002,PG,4 Season,"Thrillers, Horror Movies, Kids' TV",A story exploring themes of thrillers.,2002.0,,4.0
+s498,Movie,Movie Title 498,Bong Joon Ho,Not listed,Unknown,2011-09-24,2009,TV-Y7,174 min,"Horror Movies, Stand-Up Comedy, Crime TV Shows",A story exploring themes of horror movies.,2011.0,174.0,
+s499,Movie,Movie Title 499,Greg Daniels,Not listed,"United Kingdom, Mexico",2007-02-03,2004,TV-MA,161 min,British TV Shows,A story exploring themes of british tv shows.,2007.0,161.0,
+s500,Movie,Movie Title 500,Denis Villeneuve,Not listed,Nigeria,,2002,TV-14,159 min,Kids' TV,A story exploring themes of kids' tv.,,159.0,
+s501,Movie,Movie Title 501,Rajiv Menon,Actor 252,Germany,2017-02-21,2016,TV-MA,168 min,"Reality TV, Anime Series",A story exploring themes of reality tv.,2017.0,168.0,
+s502,TV Show,Series Title 502,Kunle Afolayan,"Actor 269, Actor 259, Actor 190, Actor 111","Canada, Spain",2020-10-21,2020,PG-13,5 Seasons,"Horror Movies, British TV Shows",A story exploring themes of horror movies.,2020.0,,5.0
+s503,TV Show,Series Title 503,Martin Scorsese,"Actor 292, Actor 203, Actor 126, Actor 99, Actor 226","Nigeria, United Kingdom",2018-03-27,2016,PG-13,5 Seasons,"Comedies, Documentaries, Kids' TV",A story exploring themes of comedies.,2018.0,,5.0
+s504,Movie,Movie Title 504,Greg Daniels,"Actor 318, Actor 123",Australia,2016-09-04,2014,PG-13,151 min,"Stand-Up Comedy, Thrillers, International Movies",A story exploring themes of stand-up comedy.,2016.0,151.0,
+s505,TV Show,Series Title 505,Greg Daniels,"Actor 214, Actor 293","Japan, Mexico",2007-01-06,2004,TV-G,3 Seasons,"Sci-Fi & Fantasy, Thrillers, Comedies",A story exploring themes of sci-fi & fantasy.,2007.0,,3.0
+s506,Movie,Movie Title 506,Rajiv Menon,Not listed,Japan,2016-04-12,2015,TV-PG,88 min,Stand-Up Comedy,A story exploring themes of stand-up comedy.,2016.0,88.0,
+s507,Movie,Movie Title 507,Martin Scorsese,"Actor 341, Actor 200, Actor 387, Actor 237",Brazil,2006-03-17,2006,NR,164 min,Action & Adventure,A story exploring themes of action & adventure.,2006.0,164.0,
+s508,Movie,Movie Title 508,Jane Campion,Not listed,India,,2000,TV-14,168 min,"Sci-Fi & Fantasy, Anime Series",A story exploring themes of sci-fi & fantasy.,,168.0,
+s509,Movie,Movie Title 509,Jane Campion,Not listed,South Korea,2013-03-18,2012,PG-13,95 min,"Comedies, Kids' TV",A story exploring themes of comedies.,2013.0,95.0,
+s510,Movie,Movie Title 510,Martin Scorsese,Actor 327,"Australia, Japan",2007-08-08,2007,R,149 min,"Action & Adventure, Sci-Fi & Fantasy, Crime TV Shows",A story exploring themes of action & adventure.,2007.0,149.0,
+s511,TV Show,Series Title 511,Martin Scorsese,Not listed,Brazil,2019-03-16,2017,NR,2 Seasons,Dramas,A story exploring themes of dramas.,2019.0,,2.0
+s512,TV Show,Series Title 512,Jane Campion,Not listed,Japan,2005-04-06,2003,PG-13,5 Seasons,"Sci-Fi & Fantasy, Dramas, Thrillers",A story exploring themes of sci-fi & fantasy.,2005.0,,5.0
+s513,Movie,Movie Title 513,Jane Campion,"Actor 180, Actor 165",Spain,2015-06-07,2012,R,154 min,"Dramas, Action & Adventure, Music & Musicals",A story exploring themes of dramas.,2015.0,154.0,
+s514,TV Show,Series Title 514,Sofia Coppola,"Actor 78, Actor 46, Actor 391, Actor 148",United States,2001-12-01,2000,TV-Y7,3 Season,"Documentaries, Horror Movies",A story exploring themes of documentaries.,2001.0,,3.0
+s515,TV Show,Series Title 515,Kunle Afolayan,"Actor 367, Actor 340","Nigeria, Japan",2014-05-03,2013,NR,5 Seasons,"Thrillers, International Movies, Stand-Up Comedy",A story exploring themes of thrillers.,2014.0,,5.0
+s516,Movie,Movie Title 516,Unknown,"Actor 171, Actor 196, Actor 265, Actor 342",Mexico,2008-12-11,2007,TV-Y7,130 min,Action & Adventure,A story exploring themes of action & adventure.,2008.0,130.0,
+s517,Movie,Movie Title 517,Sofia Coppola,"Actor 29, Actor 384, Actor 272, Actor 332, Actor 167","India, Brazil",2004-07-14,2001,NR,64 min,"Crime TV Shows, Action & Adventure, British TV Shows",A story exploring themes of crime tv shows.,2004.0,64.0,
+s518,TV Show,Series Title 518,Unknown,"Actor 264, Actor 389, Actor 203, Actor 268, Actor 317","France, Germany",2007-06-03,2007,TV-PG,2 Seasons,"Horror Movies, International Movies, Reality TV",A story exploring themes of horror movies.,2007.0,,2.0
+s519,Movie,Movie Title 519,Bong Joon Ho,"Actor 274, Actor 181, Actor 64, Actor 225, Actor 302","Spain, Brazil",2014-06-27,2014,NR,67 min,Documentaries,A story exploring themes of documentaries.,2014.0,67.0,
+s520,Movie,Movie Title 520,Unknown,Actor 6,South Korea,2010-02-20,2010,PG-13,70 min,"Documentaries, Reality TV",A story exploring themes of documentaries.,2010.0,70.0,
+s521,Movie,Movie Title 521,Bong Joon Ho,"Actor 62, Actor 47, Actor 2, Actor 339, Actor 45",India,2019-07-04,2019,TV-MA,140 min,"Reality TV, Sci-Fi & Fantasy",A story exploring themes of reality tv.,2019.0,140.0,
+s522,Movie,Movie Title 522,Jane Campion,"Actor 243, Actor 10, Actor 308, Actor 236, Actor 98",France,2016-08-24,2014,TV-G,164 min,"Documentaries, Action & Adventure",A story exploring themes of documentaries.,2016.0,164.0,
+s523,Movie,Movie Title 523,Greg Daniels,"Actor 291, Actor 300, Actor 81",Japan,2004-12-22,2002,TV-Y7,124 min,Dramas,A story exploring themes of dramas.,2004.0,124.0,
+s524,Movie,Movie Title 524,Jane Campion,"Actor 180, Actor 356, Actor 323, Actor 113","Japan, Nigeria",2004-04-08,2003,TV-MA,118 min,Dramas,A story exploring themes of dramas.,2004.0,118.0,
+s525,Movie,Movie Title 525,Ava DuVernay,Actor 243,"South Korea, United States",2020-09-24,2020,TV-MA,113 min,Anime Series,A story exploring themes of anime series.,2020.0,113.0,
+s526,Movie,Movie Title 526,Kunle Afolayan,"Actor 303, Actor 144, Actor 201",Germany,2014-08-15,2012,TV-14,69 min,"International Movies, Thrillers",A story exploring themes of international movies.,2014.0,69.0,
+s527,Movie,Movie Title 527,Sofia Coppola,"Actor 286, Actor 206","United Kingdom, Mexico",2018-06-05,2017,TV-PG,61 min,"Kids' TV, Comedies",A story exploring themes of kids' tv.,2018.0,61.0,
+s528,TV Show,Series Title 528,Unknown,"Actor 206, Actor 323, Actor 70, Actor 235",Germany,2006-05-10,2006,TV-G,7 Season,"Reality TV, Documentaries",A story exploring themes of reality tv.,2006.0,,7.0
+s529,Movie,Movie Title 529,Bong Joon Ho,Actor 251,"United Kingdom, Nigeria",2016-09-09,2013,PG,90 min,"Sci-Fi & Fantasy, British TV Shows",A story exploring themes of sci-fi & fantasy.,2016.0,90.0,
+s530,Movie,Movie Title 530,Martin Scorsese,"Actor 79, Actor 161, Actor 204, Actor 253, Actor 305",Unknown,2010-12-20,2007,TV-MA,97 min,"Comedies, Music & Musicals",A story exploring themes of comedies.,2010.0,97.0,
+s531,Movie,Movie Title 531,Kunle Afolayan,"Actor 134, Actor 250, Actor 177","South Korea, France",2013-10-15,2012,NR,176 min,Crime TV Shows,A story exploring themes of crime tv shows.,2013.0,176.0,
+s532,Movie,Movie Title 532,Martin Scorsese,"Actor 338, Actor 23, Actor 238",India,2013-06-20,2011,NR,62 min,Dramas,A story exploring themes of dramas.,2013.0,62.0,
+s533,Movie,Movie Title 533,Unknown,Actor 267,Mexico,2016-02-03,2014,NR,74 min,"Romantic Movies, Crime TV Shows, Horror Movies",A story exploring themes of romantic movies.,2016.0,74.0,
+s534,TV Show,Series Title 534,Unknown,"Actor 50, Actor 84, Actor 44, Actor 235, Actor 277",United States,2017-10-13,2014,TV-Y7,5 Seasons,Crime TV Shows,A story exploring themes of crime tv shows.,2017.0,,5.0
+s535,TV Show,Series Title 535,Kunle Afolayan,Not listed,Spain,2016-09-21,2015,TV-MA,2 Seasons,"Thrillers, Sci-Fi & Fantasy",A story exploring themes of thrillers.,2016.0,,2.0
+s536,Movie,Movie Title 536,Jane Campion,"Actor 190, Actor 53, Actor 94","Brazil, Australia",2001-05-17,1998,TV-14,154 min,Stand-Up Comedy,A story exploring themes of stand-up comedy.,2001.0,154.0,
+s537,Movie,Movie Title 537,Sofia Coppola,"Actor 268, Actor 263, Actor 358","South Korea, Brazil",2017-09-05,2017,TV-G,95 min,"Anime Series, Romantic Movies",A story exploring themes of anime series.,2017.0,95.0,
+s538,Movie,Movie Title 538,Jane Campion,Not listed,"Germany, Spain",2010-08-09,2010,PG-13,174 min,"Crime TV Shows, Sci-Fi & Fantasy",A story exploring themes of crime tv shows.,2010.0,174.0,
+s539,TV Show,Series Title 539,Greg Daniels,"Actor 153, Actor 143, Actor 101, Actor 239","Mexico, Japan",2014-02-16,2014,TV-14,4 Seasons,Documentaries,A story exploring themes of documentaries.,2014.0,,4.0
+s540,Movie,Movie Title 540,Bong Joon Ho,Not listed,Nigeria,2009-06-01,2006,TV-MA,179 min,"Horror Movies, British TV Shows",A story exploring themes of horror movies.,2009.0,179.0,
+s541,TV Show,Series Title 541,Sofia Coppola,"Actor 194, Actor 142, Actor 141, Actor 219, Actor 344",Japan,2003-03-11,2003,TV-Y7,3 Seasons,"Romantic Movies, Dramas, Horror Movies",A story exploring themes of romantic movies.,2003.0,,3.0
+s542,Movie,Movie Title 542,Denis Villeneuve,"Actor 350, Actor 162",Unknown,2005-02-14,2005,TV-14,132 min,"Crime TV Shows, Reality TV, Action & Adventure",A story exploring themes of crime tv shows.,2005.0,132.0,
+s543,Movie,Movie Title 543,Greg Daniels,Actor 128,Japan,2012-03-20,2010,PG-13,155 min,"Crime TV Shows, Stand-Up Comedy, Reality TV",A story exploring themes of crime tv shows.,2012.0,155.0,
+s544,TV Show,Series Title 544,Sofia Coppola,"Actor 344, Actor 109, Actor 341",Canada,2007-05-27,2007,TV-MA,3 Seasons,Music & Musicals,A story exploring themes of music & musicals.,2007.0,,3.0
+s545,TV Show,Series Title 545,Sofia Coppola,Not listed,Mexico,2014-09-20,2012,TV-MA,6 Seasons,"Comedies, Anime Series, Sci-Fi & Fantasy",A story exploring themes of comedies.,2014.0,,6.0
+s546,Movie,Movie Title 546,Denis Villeneuve,"Actor 341, Actor 68, Actor 272, Actor 144","Germany, Japan",2018-02-05,2018,R,70 min,"Kids' TV, Romantic Movies, British TV Shows",A story exploring themes of kids' tv.,2018.0,70.0,
+s547,Movie,Movie Title 547,Denis Villeneuve,"Actor 388, Actor 300",Australia,2020-02-16,2017,TV-PG,66 min,"Documentaries, International Movies",A story exploring themes of documentaries.,2020.0,66.0,
+s548,Movie,Movie Title 548,Denis Villeneuve,"Actor 103, Actor 267, Actor 10",Nigeria,2022-05-04,2020,TV-Y7,171 min,Dramas,A story exploring themes of dramas.,2022.0,171.0,
+s549,Movie,Movie Title 549,Unknown,Not listed,"France, Canada",2009-02-01,2006,TV-14,138 min,Romantic Movies,A story exploring themes of romantic movies.,2009.0,138.0,
+s550,Movie,Movie Title 550,Unknown,Not listed,United Kingdom,2021-04-11,2021,TV-MA,85 min,"Stand-Up Comedy, Dramas",A story exploring themes of stand-up comedy.,2021.0,85.0,
+s551,Movie,Movie Title 551,Rajiv Menon,"Actor 178, Actor 44, Actor 177",United Kingdom,2022-12-21,2019,PG-13,111 min,Music & Musicals,A story exploring themes of music & musicals.,2022.0,111.0,
+s552,Movie,Movie Title 552,Kunle Afolayan,"Actor 130, Actor 101, Actor 321",Germany,2007-08-03,2004,TV-PG,62 min,"Romantic Movies, Kids' TV",A story exploring themes of romantic movies.,2007.0,62.0,
+s553,Movie,Movie Title 553,Sofia Coppola,"Actor 314, Actor 347, Actor 304","Germany, Canada",2015-12-20,2015,TV-G,171 min,Kids' TV,A story exploring themes of kids' tv.,2015.0,171.0,
+s554,Movie,Movie Title 554,Kunle Afolayan,"Actor 58, Actor 372, Actor 113, Actor 158","Germany, Brazil",2016-08-25,2014,TV-Y7,179 min,"Dramas, Stand-Up Comedy",A story exploring themes of dramas.,2016.0,179.0,
+s555,Movie,Movie Title 555,Rajiv Menon,"Actor 84, Actor 98, Actor 137",Canada,2009-06-24,2008,TV-PG,130 min,"Stand-Up Comedy, British TV Shows, Music & Musicals",A story exploring themes of stand-up comedy.,2009.0,130.0,
+s556,Movie,Movie Title 556,Ava DuVernay,"Actor 213, Actor 110, Actor 263, Actor 106",Mexico,2018-09-10,2016,TV-14,129 min,Stand-Up Comedy,A story exploring themes of stand-up comedy.,2018.0,129.0,
+s557,TV Show,Series Title 557,Unknown,"Actor 73, Actor 73, Actor 255, Actor 309","Mexico, India",2016-07-10,2013,R,3 Season,Reality TV,A story exploring themes of reality tv.,2016.0,,3.0
+s558,Movie,Movie Title 558,Greg Daniels,"Actor 186, Actor 118, Actor 333",Mexico,2011-02-05,2011,TV-MA,175 min,"Anime Series, Stand-Up Comedy, Horror Movies",A story exploring themes of anime series.,2011.0,175.0,
+s559,Movie,Movie Title 559,Unknown,"Actor 337, Actor 118, Actor 179, Actor 50",Unknown,2006-02-18,2005,TV-Y7,169 min,Comedies,A story exploring themes of comedies.,2006.0,169.0,
+s560,Movie,Movie Title 560,Sofia Coppola,Actor 32,United States,2011-05-17,2011,TV-Y7,96 min,British TV Shows,A story exploring themes of british tv shows.,2011.0,96.0,
+s561,Movie,Movie Title 561,Unknown,"Actor 65, Actor 3, Actor 283, Actor 345",Germany,2008-05-25,2006,TV-G,153 min,"British TV Shows, Comedies, Action & Adventure",A story exploring themes of british tv shows.,2008.0,153.0,
+s562,Movie,Movie Title 562,Denis Villeneuve,Actor 247,South Korea,2004-10-06,2004,NR,125 min,"Crime TV Shows, Music & Musicals, Horror Movies",A story exploring themes of crime tv shows.,2004.0,125.0,
+s563,Movie,Movie Title 563,Greg Daniels,Not listed,Japan,2008-12-03,2006,TV-14,121 min,Kids' TV,A story exploring themes of kids' tv.,2008.0,121.0,
+s564,Movie,Movie Title 564,Unknown,"Actor 187, Actor 346, Actor 6","Germany, India",2017-06-07,2017,NR,87 min,"Romantic Movies, British TV Shows, Reality TV",A story exploring themes of romantic movies.,2017.0,87.0,
+s565,Movie,Movie Title 565,Rajiv Menon,Actor 218,Nigeria,2002-03-15,2002,PG,70 min,Documentaries,A story exploring themes of documentaries.,2002.0,70.0,
+s566,TV Show,Series Title 566,Unknown,"Actor 240, Actor 270, Actor 348",United States,2009-09-09,2006,TV-PG,7 Seasons,"Thrillers, Crime TV Shows",A story exploring themes of thrillers.,2009.0,,7.0
+s567,Movie,Movie Title 567,Martin Scorsese,"Actor 222, Actor 39, Actor 286, Actor 203",Germany,2001-11-20,1999,TV-G,132 min,"Romantic Movies, Comedies, Horror Movies",A story exploring themes of romantic movies.,2001.0,132.0,
+s568,Movie,Movie Title 568,Ava DuVernay,"Actor 264, Actor 93, Actor 83, Actor 381, Actor 341",Spain,2020-12-15,2020,PG,151 min,"International Movies, Thrillers",A story exploring themes of international movies.,2020.0,151.0,
+s569,Movie,Movie Title 569,Rajiv Menon,"Actor 169, Actor 321",Brazil,2012-11-04,2011,TV-MA,145 min,"Reality TV, Music & Musicals",A story exploring themes of reality tv.,2012.0,145.0,
+s570,Movie,Movie Title 570,Kunle Afolayan,Actor 174,"United Kingdom, India",2000-01-04,1998,TV-14,64 min,"Documentaries, Reality TV",A story exploring themes of documentaries.,2000.0,64.0,
+s571,TV Show,Series Title 571,Jane Campion,"Actor 319, Actor 324","United States, South Korea",2015-09-27,2013,TV-14,5 Seasons,International Movies,A story exploring themes of international movies.,2015.0,,5.0
+s572,Movie,Movie Title 572,Unknown,"Actor 40, Actor 379, Actor 53",France,2001-06-05,1999,TV-PG,101 min,"British TV Shows, Action & Adventure, Reality TV",A story exploring themes of british tv shows.,2001.0,101.0,
+s573,TV Show,Series Title 573,Jane Campion,"Actor 278, Actor 210, Actor 273, Actor 73, Actor 306",United Kingdom,2004-08-19,2002,TV-Y7,5 Seasons,Dramas,A story exploring themes of dramas.,2004.0,,5.0
+s574,TV Show,Series Title 574,Unknown,"Actor 93, Actor 144, Actor 218, Actor 140, Actor 222",India,2020-06-19,2019,R,1 Seasons,Stand-Up Comedy,A story exploring themes of stand-up comedy.,2020.0,,1.0
+s575,Movie,Movie Title 575,Martin Scorsese,"Actor 101, Actor 188, Actor 280, Actor 251, Actor 99",Nigeria,2014-12-05,2012,TV-14,169 min,Documentaries,A story exploring themes of documentaries.,2014.0,169.0,
+s576,Movie,Movie Title 576,Greg Daniels,Actor 105,India,2010-01-20,2010,PG,143 min,Romantic Movies,A story exploring themes of romantic movies.,2010.0,143.0,
+s577,Movie,Movie Title 577,Rajiv Menon,"Actor 360, Actor 370",India,2008-09-15,2006,TV-14,80 min,"British TV Shows, Thrillers, Anime Series",A story exploring themes of british tv shows.,2008.0,80.0,
+s578,Movie,Movie Title 578,Martin Scorsese,"Actor 47, Actor 61, Actor 378, Actor 298",Australia,2018-01-03,2018,TV-MA,85 min,International Movies,A story exploring themes of international movies.,2018.0,85.0,
+s579,TV Show,Series Title 579,Unknown,"Actor 291, Actor 233, Actor 33","South Korea, United States",2019-07-24,2016,TV-PG,5 Seasons,"Music & Musicals, International Movies",A story exploring themes of music & musicals.,2019.0,,5.0
+s580,Movie,Movie Title 580,Denis Villeneuve,Not listed,Mexico,,2001,TV-MA,121 min,"Anime Series, Music & Musicals",A story exploring themes of anime series.,,121.0,
+s581,TV Show,Series Title 581,Ava DuVernay,Not listed,"United Kingdom, Germany",2020-01-15,2018,TV-Y7,7 Seasons,International Movies,A story exploring themes of international movies.,2020.0,,7.0
+s582,TV Show,Series Title 582,Unknown,Not listed,"Germany, United Kingdom",2017-03-24,2017,PG-13,1 Seasons,"Romantic Movies, Thrillers",A story exploring themes of romantic movies.,2017.0,,1.0
+s583,Movie,Movie Title 583,Jane Campion,Not listed,Japan,2020-03-06,2017,TV-MA,157 min,"Thrillers, British TV Shows, Anime Series",A story exploring themes of thrillers.,2020.0,157.0,
+s584,Movie,Movie Title 584,Denis Villeneuve,Actor 126,"Mexico, Nigeria",2019-10-23,2019,TV-Y7,84 min,"Anime Series, Action & Adventure",A story exploring themes of anime series.,2019.0,84.0,
+s585,Movie,Movie Title 585,Unknown,"Actor 125, Actor 120, Actor 102, Actor 184, Actor 198",Spain,2007-06-21,2005,TV-G,79 min,Anime Series,A story exploring themes of anime series.,2007.0,79.0,
+s586,TV Show,Series Title 586,Jane Campion,"Actor 388, Actor 254, Actor 112, Actor 96",Unknown,2019-05-16,2019,TV-PG,3 Seasons,"Stand-Up Comedy, Thrillers, Comedies",A story exploring themes of stand-up comedy.,2019.0,,3.0
+s587,TV Show,Series Title 587,Martin Scorsese,"Actor 109, Actor 71, Actor 278","South Korea, Australia",2007-10-10,2004,TV-Y7,5 Seasons,"Action & Adventure, Crime TV Shows, Sci-Fi & Fantasy",A story exploring themes of action & adventure.,2007.0,,5.0
+s588,TV Show,Series Title 588,Bong Joon Ho,Not listed,"Japan, Spain",2001-08-13,1998,TV-14,5 Season,"Sci-Fi & Fantasy, British TV Shows, Anime Series",A story exploring themes of sci-fi & fantasy.,2001.0,,5.0
+s589,Movie,Movie Title 589,Ava DuVernay,"Actor 164, Actor 366, Actor 68, Actor 56, Actor 122",United States,2015-11-19,2013,PG-13,139 min,"Stand-Up Comedy, Sci-Fi & Fantasy",A story exploring themes of stand-up comedy.,2015.0,139.0,
+s590,Movie,Movie Title 590,Kunle Afolayan,"Actor 386, Actor 389, Actor 291",Brazil,,2001,TV-MA,124 min,"British TV Shows, Music & Musicals, Sci-Fi & Fantasy",A story exploring themes of british tv shows.,,124.0,
+s591,Movie,Movie Title 591,Ava DuVernay,"Actor 99, Actor 4, Actor 222","United States, Germany",2001-04-08,2000,PG,143 min,Anime Series,A story exploring themes of anime series.,2001.0,143.0,
+s592,Movie,Movie Title 592,Sofia Coppola,Actor 43,"Brazil, United States",2009-02-09,2009,PG-13,88 min,"Thrillers, Stand-Up Comedy, Horror Movies",A story exploring themes of thrillers.,2009.0,88.0,
+s593,TV Show,Series Title 593,Rajiv Menon,"Actor 302, Actor 54, Actor 47",India,2014-09-11,2011,PG,8 Seasons,"Documentaries, Anime Series",A story exploring themes of documentaries.,2014.0,,8.0
+s594,Movie,Movie Title 594,Ava DuVernay,"Actor 143, Actor 374, Actor 380, Actor 47, Actor 279",Unknown,2021-12-21,2021,TV-14,105 min,"Romantic Movies, Dramas",A story exploring themes of romantic movies.,2021.0,105.0,
+s595,Movie,Movie Title 595,Kunle Afolayan,"Actor 100, Actor 265, Actor 152",Mexico,2010-08-12,2010,TV-Y7,150 min,"Sci-Fi & Fantasy, Crime TV Shows",A story exploring themes of sci-fi & fantasy.,2010.0,150.0,
+s596,Movie,Movie Title 596,Greg Daniels,"Actor 345, Actor 340, Actor 298, Actor 185, Actor 5",India,2011-08-04,2009,TV-Y7,115 min,British TV Shows,A story exploring themes of british tv shows.,2011.0,115.0,
+s597,Movie,Movie Title 597,Jane Campion,Not listed,Spain,2022-04-14,2020,TV-Y7,166 min,"Crime TV Shows, Sci-Fi & Fantasy, British TV Shows",A story exploring themes of crime tv shows.,2022.0,166.0,
+s598,TV Show,Series Title 598,Unknown,Not listed,"Canada, Germany",2014-12-25,2014,PG-13,1 Seasons,"Kids' TV, Anime Series",A story exploring themes of kids' tv.,2014.0,,1.0
+s599,TV Show,Series Title 599,Sofia Coppola,"Actor 220, Actor 81, Actor 351, Actor 34",Germany,2006-08-05,2005,R,1 Season,"Anime Series, Comedies, British TV Shows",A story exploring themes of anime series.,2006.0,,1.0
+s600,Movie,Movie Title 600,Unknown,Actor 321,"Germany, Canada",2010-04-13,2008,NR,137 min,Sci-Fi & Fantasy,A story exploring themes of sci-fi & fantasy.,2010.0,137.0,

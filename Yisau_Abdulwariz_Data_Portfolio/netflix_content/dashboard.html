@@ -1,0 +1,3431 @@
+<!doctype html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Netflix Content Portfolio</title><script src='https://cdn.plot.ly/plotly-2.35.2.min.js'></script><link rel='preconnect' href='https://fonts.googleapis.com'><link href='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap' rel='stylesheet'><style>
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Arial;background:radial-gradient(circle at top right,#183766 0,#0b1020 42%,#070b15 100%);color:#eaf0ff}.wrap{max-width:1500px;margin:auto;padding:28px}.nav{display:flex;justify-content:space-between;gap:12px;color:#9fb0d0;font-size:13px}.nav a{color:#7dd3fc;text-decoration:none;font-weight:800}.eyebrow{margin-top:40px;color:#38bdf8;font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}h1{font-size:clamp(35px,5vw,60px);letter-spacing:-.06em;margin:10px 0}.intro{font-size:18px;color:#aab9d5;max-width:840px;line-height:1.6}.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin:28px 0 18px}.kpi,.card{background:rgba(21,28,50,.9);border:1px solid rgba(148,163,184,.18);border-radius:18px;box-shadow:0 16px 35px rgba(0,0,0,.2)}.kpi{padding:20px}.label{font-size:11px;color:#9fb0d0;font-weight:800;letter-spacing:.1em;text-transform:uppercase}.value{font-size:29px;font-weight:800;letter-spacing:-.05em;margin:11px 0}.detail{font-size:12px;color:#86efac}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{padding:18px;min-width:0}.head{display:flex;justify-content:space-between;gap:12px}.head h2{margin:0 0 4px;font-size:18px}.head p,.method p{margin:0;color:#9fb0d0;font-size:13px;line-height:1.45}.head button{height:35px;border-radius:8px;border:1px solid #3b82f6;background:#142340;color:#bae6fd;padding:0 10px;cursor:pointer}.chart{height:430px}.section{font-size:24px;margin:36px 0 13px}.insights{padding:25px}.insights li{margin:11px 0;line-height:1.55;color:#dbeafe}.table{padding:18px}.search{background:#0c1428;color:#eaf0ff;border:1px solid #304367;border-radius:8px;padding:10px;width:320px;max-width:100%;margin:8px 0 14px}.scroll{max-height:540px;overflow:auto}table{width:100%;border-collapse:collapse;font-size:13px}th{position:sticky;top:0;background:#1b2949;color:#e0edff;cursor:pointer}td,th{padding:10px;border-bottom:1px solid rgba(148,163,184,.15);text-align:left;white-space:nowrap}td{color:#cbd7ec}footer{color:#7183aa;text-align:center;font-size:12px;padding:34px 0}@media(max-width:950px){.kpis{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}}@media(max-width:560px){.wrap{padding:18px}.kpis{grid-template-columns:1fr}.nav{flex-direction:column}}
+</style></head><body><main class='wrap'><nav class='nav'><a href='../index.html'>← Portfolio Index</a><span>Analytics Team • 15 September 2026</span></nav><div class='eyebrow'>Executive dashboard</div><h1>Netflix Content Portfolio</h1><p class='intro'>Catalog composition, release cadence, genres, and geographic content footprint.</p><section class='kpis'><div class='kpi'><div class='label'>Titles</div><div class='value'>600</div><div class='detail'>Catalog records</div></div><div class='kpi'><div class='label'>Movies</div><div class='value'>409</div><div class='detail'>68.2% of catalog</div></div><div class='kpi'><div class='label'>TV shows</div><div class='value'>191</div><div class='detail'>31.8% of catalog</div></div><div class='kpi'><div class='label'>Median movie length</div><div class='value'>121 min</div><div class='detail'>Parsed movie records</div></div><div class='kpi'><div class='label'>Top genre</div><div class='value'>Stand-Up Comedy</div><div class='detail'>87 tags</div></div></section><section class='grid'><section class='card'><div class='head'><div><h2>Content Mix</h2><p>Movie and TV show composition.</p></div><button onclick="Plotly.downloadImage('c1',{format:'png',filename:'c1',scale:2})">Export PNG</button></div><div id='c1' class='chart'></div></section><section class='card'><div class='head'><div><h2>Top Genre Tags</h2><p>Titles may have multiple genre tags.</p></div><button onclick="Plotly.downloadImage('c2',{format:'png',filename:'c2',scale:2})">Export PNG</button></div><div id='c2' class='chart'></div></section><section class='card'><div class='head'><div><h2>Catalog Additions</h2><p>Titles added by year.</p></div><button onclick="Plotly.downloadImage('c3',{format:'png',filename:'c3',scale:2})">Export PNG</button></div><div id='c3' class='chart'></div></section><section class='card'><div class='head'><div><h2>Country Footprint</h2><p>Listed production country tags.</p></div><button onclick="Plotly.downloadImage('c4',{format:'png',filename:'c4',scale:2})">Export PNG</button></div><div id='c4' class='chart'></div></section><section class='card'><div class='head'><div><h2>Movie Duration</h2><p>Movies with parsed minute durations.</p></div><button onclick="Plotly.downloadImage('c5',{format:'png',filename:'c5',scale:2})">Export PNG</button></div><div id='c5' class='chart'></div></section><section class='card'><div class='head'><div><h2>Rating Mix</h2><p>Most frequent maturity ratings.</p></div><button onclick="Plotly.downloadImage('c6',{format:'png',filename:'c6',scale:2})">Export PNG</button></div><div id='c6' class='chart'></div></section></section><h2 class='section'>Executive Findings</h2><section class='card insights'><ul><li>The catalog has <b>600</b> titles; movies represent <b>68.2%</b>.</li><li><b>Stand-Up Comedy</b> is the most frequent tag (<b>87</b> titles).</li><li><b>Brazil</b> is the leading listed production country (<b>80</b> titles).</li><li>Catalog additions peak in <b>2009</b> with <b>32</b> titles.</li><li>Median movie duration is <b>121 minutes</b>.</li><li><b>R</b> is the most common maturity rating.</li></ul></section><h2 class='section'>Explorable Data</h2><section class='card table'><input class='search' id='search' placeholder='Search all visible fields…'><div class='scroll'><table class="dataframe data-table" id="dataTable">
+  <thead>
+    <tr style="text-align: right;">
+      <th>show_id</th>
+      <th>type</th>
+      <th>title</th>
+      <th>director</th>
+      <th>cast</th>
+      <th>country</th>
+      <th>date_added</th>
+      <th>release_year</th>
+      <th>rating</th>
+      <th>duration</th>
+      <th>listed_in</th>
+      <th>description</th>
+      <th>year_added</th>
+      <th>duration_minutes</th>
+      <th>duration_seasons</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>s1</td>
+      <td>Movie</td>
+      <td>Movie Title 1</td>
+      <td>Bong Joon Ho</td>
+      <td>Actor 109</td>
+      <td>Spain</td>
+      <td>2018-12-21</td>
+      <td>2015</td>
+      <td>PG</td>
+      <td>70 min</td>
+      <td>Comedies, Crime TV Shows</td>
+      <td>A story exploring themes of comedies.</td>
+      <td>2018.0</td>
+      <td>70.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s2</td>
+      <td>TV Show</td>
+      <td>Series Title 2</td>
+      <td>Rajiv Menon</td>
+      <td>Actor 377, Actor 98, Actor 31, Actor 57</td>
+      <td>India</td>
+      <td>2020-04-12</td>
+      <td>2020</td>
+      <td>TV-G</td>
+      <td>8 Seasons</td>
+      <td>Documentaries, Thrillers, Sci-Fi &amp; Fantasy</td>
+      <td>A story exploring themes of documentaries.</td>
+      <td>2020.0</td>
+      <td>NaN</td>
+      <td>8.0</td>
+    </tr>
+    <tr>
+      <td>s3</td>
+      <td>TV Show</td>
+      <td>Series Title 3</td>
+      <td>Greg Daniels</td>
+      <td>Actor 47, Actor 365, Actor 206</td>
+      <td>Australia</td>
+      <td>2017-03-08</td>
+      <td>2017</td>
+      <td>TV-MA</td>
+      <td>7 Seasons</td>
+      <td>Horror Movies, Action &amp; Adventure, Stand-Up Comedy</td>
+      <td>A story exploring themes of horror movies.</td>
+      <td>2017.0</td>
+      <td>NaN</td>
+      <td>7.0</td>
+    </tr>
+    <tr>
+      <td>s4</td>
+      <td>Movie</td>
+      <td>Movie Title 4</td>
+      <td>Jane Campion</td>
+      <td>Actor 233</td>
+      <td>Brazil, Germany</td>
+      <td>2004-07-03</td>
+      <td>2001</td>
+      <td>TV-Y7</td>
+      <td>83 min</td>
+      <td>Horror Movies</td>
+      <td>A story exploring themes of horror movies.</td>
+      <td>2004.0</td>
+      <td>83.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s5</td>
+      <td>Movie</td>
+      <td>Movie Title 5</td>
+      <td>Martin Scorsese</td>
+      <td>Actor 279</td>
+      <td>Mexico</td>
+      <td>NaN</td>
+      <td>2018</td>
+      <td>R</td>
+      <td>150 min</td>
+      <td>Action &amp; Adventure, Horror Movies, Kids' TV</td>
+      <td>A story exploring themes of action &amp; adventure.</td>
+      <td>NaN</td>
+      <td>150.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s6</td>
+      <td>TV Show</td>
+      <td>Series Title 6</td>
+      <td>Bong Joon Ho</td>
+      <td>Actor 179, Actor 153</td>
+      <td>Australia</td>
+      <td>2008-07-20</td>
+      <td>2005</td>
+      <td>TV-PG</td>
+      <td>2 Seasons</td>
+      <td>Crime TV Shows, Stand-Up Comedy, International Movies</td>
+      <td>A story exploring themes of crime tv shows.</td>
+      <td>2008.0</td>
+      <td>NaN</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <td>s7</td>
+      <td>Movie</td>
+      <td>Movie Title 7</td>
+      <td>Denis Villeneuve</td>
+      <td>Actor 86, Actor 143</td>
+      <td>Brazil, United States</td>
+      <td>2002-03-17</td>
+      <td>1999</td>
+      <td>PG</td>
+      <td>92 min</td>
+      <td>Documentaries</td>
+      <td>A story exploring themes of documentaries.</td>
+      <td>2002.0</td>
+      <td>92.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s8</td>
+      <td>TV Show</td>
+      <td>Series Title 8</td>
+      <td>Rajiv Menon</td>
+      <td>Actor 329, Actor 190, Actor 320, Actor 322, Actor 139</td>
+      <td>Australia</td>
+      <td>2004-07-15</td>
+      <td>2004</td>
+      <td>TV-PG</td>
+      <td>5 Seasons</td>
+      <td>Romantic Movies</td>
+      <td>A story exploring themes of romantic movies.</td>
+      <td>2004.0</td>
+      <td>NaN</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <td>s9</td>
+      <td>TV Show</td>
+      <td>Series Title 9</td>
+      <td>Unknown</td>
+      <td>Actor 116</td>
+      <td>India, Mexico</td>
+      <td>2021-11-01</td>
+      <td>2018</td>
+      <td>NR</td>
+      <td>1 Seasons</td>
+      <td>Action &amp; Adventure, Thrillers</td>
+      <td>A story exploring themes of action &amp; adventure.</td>
+      <td>2021.0</td>
+      <td>NaN</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <td>s10</td>
+      <td>Movie</td>
+      <td>Movie Title 10</td>
+      <td>Rajiv Menon</td>
+      <td>Actor 33</td>
+      <td>United Kingdom</td>
+      <td>2011-12-27</td>
+      <td>2008</td>
+      <td>PG</td>
+      <td>98 min</td>
+      <td>Horror Movies, Dramas</td>
+      <td>A story exploring themes of horror movies.</td>
+      <td>2011.0</td>
+      <td>98.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s11</td>
+      <td>Movie</td>
+      <td>Movie Title 11</td>
+      <td>Kunle Afolayan</td>
+      <td>Actor 29, Actor 321, Actor 387</td>
+      <td>Germany, Brazil</td>
+      <td>2013-07-18</td>
+      <td>2011</td>
+      <td>TV-PG</td>
+      <td>153 min</td>
+      <td>Anime Series</td>
+      <td>A story exploring themes of anime series.</td>
+      <td>2013.0</td>
+      <td>153.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s12</td>
+      <td>Movie</td>
+      <td>Movie Title 12</td>
+      <td>Unknown</td>
+      <td>Actor 293, Actor 127, Actor 161, Actor 165, Actor 108</td>
+      <td>India, Australia</td>
+      <td>2014-06-05</td>
+      <td>2011</td>
+      <td>R</td>
+      <td>79 min</td>
+      <td>Anime Series, British TV Shows</td>
+      <td>A story exploring themes of anime series.</td>
+      <td>2014.0</td>
+      <td>79.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s13</td>
+      <td>Movie</td>
+      <td>Movie Title 13</td>
+      <td>Greg Daniels</td>
+      <td>Not listed</td>
+      <td>Germany</td>
+      <td>2009-03-16</td>
+      <td>2007</td>
+      <td>PG-13</td>
+      <td>77 min</td>
+      <td>Reality TV</td>
+      <td>A story exploring themes of reality tv.</td>
+      <td>2009.0</td>
+      <td>77.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s14</td>
+      <td>Movie</td>
+      <td>Movie Title 14</td>
+      <td>Sofia Coppola</td>
+      <td>Actor 197</td>
+      <td>Mexico</td>
+      <td>2015-03-25</td>
+      <td>2012</td>
+      <td>NR</td>
+      <td>144 min</td>
+      <td>Kids' TV</td>
+      <td>A story exploring themes of kids' tv.</td>
+      <td>2015.0</td>
+      <td>144.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s15</td>
+      <td>Movie</td>
+      <td>Movie Title 15</td>
+      <td>Unknown</td>
+      <td>Actor 392, Actor 305, Actor 300</td>
+      <td>India</td>
+      <td>2002-03-05</td>
+      <td>1999</td>
+      <td>TV-14</td>
+      <td>118 min</td>
+      <td>Horror Movies, Crime TV Shows, Kids' TV</td>
+      <td>A story exploring themes of horror movies.</td>
+      <td>2002.0</td>
+      <td>118.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s16</td>
+      <td>Movie</td>
+      <td>Movie Title 16</td>
+      <td>Ava DuVernay</td>
+      <td>Actor 242, Actor 265</td>
+      <td>United Kingdom, Nigeria</td>
+      <td>2005-11-22</td>
+      <td>2004</td>
+      <td>TV-PG</td>
+      <td>90 min</td>
+      <td>Crime TV Shows</td>
+      <td>A story exploring themes of crime tv shows.</td>
+      <td>2005.0</td>
+      <td>90.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s17</td>
+      <td>TV Show</td>
+      <td>Series Title 17</td>
+      <td>Bong Joon Ho</td>
+      <td>Actor 235, Actor 293</td>
+      <td>Japan</td>
+      <td>NaN</td>
+      <td>2009</td>
+      <td>PG-13</td>
+      <td>8 Season</td>
+      <td>Documentaries, Action &amp; Adventure, British TV Shows</td>
+      <td>A story exploring themes of documentaries.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>8.0</td>
+    </tr>
+    <tr>
+      <td>s18</td>
+      <td>TV Show</td>
+      <td>Series Title 18</td>
+      <td>Denis Villeneuve</td>
+      <td>Actor 215, Actor 367, Actor 156, Actor 124, Actor 25</td>
+      <td>Canada</td>
+      <td>2008-10-21</td>
+      <td>2005</td>
+      <td>TV-PG</td>
+      <td>3 Seasons</td>
+      <td>Romantic Movies, Sci-Fi &amp; Fantasy</td>
+      <td>A story exploring themes of romantic movies.</td>
+      <td>2008.0</td>
+      <td>NaN</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <td>s19</td>
+      <td>Movie</td>
+      <td>Movie Title 19</td>
+      <td>Denis Villeneuve</td>
+      <td>Actor 389, Actor 79</td>
+      <td>Australia, South Korea</td>
+      <td>2004-06-09</td>
+      <td>2001</td>
+      <td>TV-14</td>
+      <td>132 min</td>
+      <td>Reality TV, Documentaries, Stand-Up Comedy</td>
+      <td>A story exploring themes of reality tv.</td>
+      <td>2004.0</td>
+      <td>132.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s20</td>
+      <td>TV Show</td>
+      <td>Series Title 20</td>
+      <td>Kunle Afolayan</td>
+      <td>Actor 140, Actor 245, Actor 348, Actor 27, Actor 197</td>
+      <td>United States, Australia</td>
+      <td>2022-02-20</td>
+      <td>2019</td>
+      <td>TV-G</td>
+      <td>1 Seasons</td>
+      <td>Dramas</td>
+      <td>A story exploring themes of dramas.</td>
+      <td>2022.0</td>
+      <td>NaN</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <td>s21</td>
+      <td>Movie</td>
+      <td>Movie Title 21</td>
+      <td>Rajiv Menon</td>
+      <td>Actor 313, Actor 281, Actor 356</td>
+      <td>Japan, Brazil</td>
+      <td>2012-09-23</td>
+      <td>2011</td>
+      <td>NR</td>
+      <td>141 min</td>
+      <td>Anime Series, British TV Shows</td>
+      <td>A story exploring themes of anime series.</td>
+      <td>2012.0</td>
+      <td>141.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s22</td>
+      <td>Movie</td>
+      <td>Movie Title 22</td>
+      <td>Martin Scorsese</td>
+      <td>Actor 87, Actor 302</td>
+      <td>Brazil</td>
+      <td>2004-04-26</td>
+      <td>2003</td>
+      <td>TV-PG</td>
+      <td>119 min</td>
+      <td>Anime Series, Thrillers, Romantic Movies</td>
+      <td>A story exploring themes of anime series.</td>
+      <td>2004.0</td>
+      <td>119.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s23</td>
+      <td>Movie</td>
+      <td>Movie Title 23</td>
+      <td>Greg Daniels</td>
+      <td>Actor 18, Actor 226, Actor 188, Actor 269</td>
+      <td>Australia</td>
+      <td>2004-02-12</td>
+      <td>2003</td>
+      <td>TV-G</td>
+      <td>148 min</td>
+      <td>Documentaries</td>
+      <td>A story exploring themes of documentaries.</td>
+      <td>2004.0</td>
+      <td>148.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s24</td>
+      <td>Movie</td>
+      <td>Movie Title 24</td>
+      <td>Jane Campion</td>
+      <td>Actor 125</td>
+      <td>Japan, Germany</td>
+      <td>2010-07-08</td>
+      <td>2010</td>
+      <td>PG-13</td>
+      <td>111 min</td>
+      <td>Kids' TV</td>
+      <td>A story exploring themes of kids' tv.</td>
+      <td>2010.0</td>
+      <td>111.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s25</td>
+      <td>Movie</td>
+      <td>Movie Title 25</td>
+      <td>Unknown</td>
+      <td>Actor 14, Actor 296, Actor 162</td>
+      <td>Germany</td>
+      <td>2003-09-05</td>
+      <td>2000</td>
+      <td>PG</td>
+      <td>150 min</td>
+      <td>International Movies</td>
+      <td>A story exploring themes of international movies.</td>
+      <td>2003.0</td>
+      <td>150.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s26</td>
+      <td>Movie</td>
+      <td>Movie Title 26</td>
+      <td>Ava DuVernay</td>
+      <td>Actor 124, Actor 81, Actor 290, Actor 102, Actor 310</td>
+      <td>United Kingdom, India</td>
+      <td>2014-11-17</td>
+      <td>2013</td>
+      <td>PG</td>
+      <td>150 min</td>
+      <td>Documentaries, Horror Movies</td>
+      <td>A story exploring themes of documentaries.</td>
+      <td>2014.0</td>
+      <td>150.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s27</td>
+      <td>Movie</td>
+      <td>Movie Title 27</td>
+      <td>Bong Joon Ho</td>
+      <td>Actor 281</td>
+      <td>Nigeria</td>
+      <td>2005-08-02</td>
+      <td>2004</td>
+      <td>R</td>
+      <td>178 min</td>
+      <td>Sci-Fi &amp; Fantasy, British TV Shows</td>
+      <td>A story exploring themes of sci-fi &amp; fantasy.</td>
+      <td>2005.0</td>
+      <td>178.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s28</td>
+      <td>TV Show</td>
+      <td>Series Title 28</td>
+      <td>Ava DuVernay</td>
+      <td>Actor 29, Actor 203, Actor 13</td>
+      <td>Australia, United Kingdom</td>
+      <td>2020-05-01</td>
+      <td>2020</td>
+      <td>NR</td>
+      <td>6 Seasons</td>
+      <td>Comedies</td>
+      <td>A story exploring themes of comedies.</td>
+      <td>2020.0</td>
+      <td>NaN</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <td>s29</td>
+      <td>Movie</td>
+      <td>Movie Title 29</td>
+      <td>Martin Scorsese</td>
+      <td>Actor 261, Actor 359, Actor 77, Actor 254, Actor 370</td>
+      <td>Japan</td>
+      <td>2019-08-20</td>
+      <td>2019</td>
+      <td>R</td>
+      <td>166 min</td>
+      <td>Anime Series</td>
+      <td>A story exploring themes of anime series.</td>
+      <td>2019.0</td>
+      <td>166.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s30</td>
+      <td>Movie</td>
+      <td>Movie Title 30</td>
+      <td>Denis Villeneuve</td>
+      <td>Actor 63</td>
+      <td>Canada, Spain</td>
+      <td>2001-03-27</td>
+      <td>1998</td>
+      <td>NR</td>
+      <td>63 min</td>
+      <td>Documentaries</td>
+      <td>A story exploring themes of documentaries.</td>
+      <td>2001.0</td>
+      <td>63.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s31</td>
+      <td>Movie</td>
+      <td>Movie Title 31</td>
+      <td>Jane Campion</td>
+      <td>Actor 93</td>
+      <td>United States, India</td>
+      <td>2011-03-03</td>
+      <td>2010</td>
+      <td>TV-Y7</td>
+      <td>138 min</td>
+      <td>Crime TV Shows, Comedies, Stand-Up Comedy</td>
+      <td>A story exploring themes of crime tv shows.</td>
+      <td>2011.0</td>
+      <td>138.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s32</td>
+      <td>Movie</td>
+      <td>Movie Title 32</td>
+      <td>Martin Scorsese</td>
+      <td>Actor 27</td>
+      <td>Unknown</td>
+      <td>2020-08-17</td>
+      <td>2017</td>
+      <td>TV-14</td>
+      <td>122 min</td>
+      <td>Dramas</td>
+      <td>A story exploring themes of dramas.</td>
+      <td>2020.0</td>
+      <td>122.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s33</td>
+      <td>Movie</td>
+      <td>Movie Title 33</td>
+      <td>Unknown</td>
+      <td>Actor 128, Actor 391, Actor 335, Actor 98, Actor 368</td>
+      <td>Canada</td>
+      <td>2020-12-22</td>
+      <td>2017</td>
+      <td>NR</td>
+      <td>91 min</td>
+      <td>Anime Series, Documentaries</td>
+      <td>A story exploring themes of anime series.</td>
+      <td>2020.0</td>
+      <td>91.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s34</td>
+      <td>Movie</td>
+      <td>Movie Title 34</td>
+      <td>Unknown</td>
+      <td>Actor 358, Actor 397, Actor 127, Actor 318, Actor 112</td>
+      <td>Nigeria, Germany</td>
+      <td>2006-07-10</td>
+      <td>2005</td>
+      <td>NR</td>
+      <td>60 min</td>
+      <td>Action &amp; Adventure, Sci-Fi &amp; Fantasy, Romantic Movies</td>
+      <td>A story exploring themes of action &amp; adventure.</td>
+      <td>2006.0</td>
+      <td>60.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s35</td>
+      <td>TV Show</td>
+      <td>Series Title 35</td>
+      <td>Greg Daniels</td>
+      <td>Actor 174, Actor 368, Actor 380</td>
+      <td>Nigeria</td>
+      <td>2000-03-02</td>
+      <td>2000</td>
+      <td>NR</td>
+      <td>4 Seasons</td>
+      <td>Kids' TV, Dramas, Stand-Up Comedy</td>
+      <td>A story exploring themes of kids' tv.</td>
+      <td>2000.0</td>
+      <td>NaN</td>
+      <td>4.0</td>
+    </tr>
+    <tr>
+      <td>s36</td>
+      <td>Movie</td>
+      <td>Movie Title 36</td>
+      <td>Unknown</td>
+      <td>Actor 166, Actor 6, Actor 173, Actor 279</td>
+      <td>Canada, India</td>
+      <td>2013-04-12</td>
+      <td>2013</td>
+      <td>TV-14</td>
+      <td>142 min</td>
+      <td>Sci-Fi &amp; Fantasy, Anime Series, Music &amp; Musicals</td>
+      <td>A story exploring themes of sci-fi &amp; fantasy.</td>
+      <td>2013.0</td>
+      <td>142.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s37</td>
+      <td>Movie</td>
+      <td>Movie Title 37</td>
+      <td>Bong Joon Ho</td>
+      <td>Actor 132, Actor 23, Actor 214</td>
+      <td>United Kingdom</td>
+      <td>NaN</td>
+      <td>2009</td>
+      <td>TV-Y7</td>
+      <td>90 min</td>
+      <td>Romantic Movies</td>
+      <td>A story exploring themes of romantic movies.</td>
+      <td>NaN</td>
+      <td>90.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s38</td>
+      <td>Movie</td>
+      <td>Movie Title 38</td>
+      <td>Denis Villeneuve</td>
+      <td>Actor 197, Actor 291, Actor 186, Actor 263, Actor 343</td>
+      <td>Australia, Canada</td>
+      <td>2012-05-24</td>
+      <td>2010</td>
+      <td>PG-13</td>
+      <td>120 min</td>
+      <td>Sci-Fi &amp; Fantasy, International Movies, Stand-Up Comedy</td>
+      <td>A story exploring themes of sci-fi &amp; fantasy.</td>
+      <td>2012.0</td>
+      <td>120.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s39</td>
+      <td>TV Show</td>
+      <td>Series Title 39</td>
+      <td>Greg Daniels</td>
+      <td>Actor 217, Actor 198, Actor 152, Actor 376</td>
+      <td>United States, France</td>
+      <td>2012-10-20</td>
+      <td>2011</td>
+      <td>TV-PG</td>
+      <td>6 Seasons</td>
+      <td>Anime Series, Action &amp; Adventure</td>
+      <td>A story exploring themes of anime series.</td>
+      <td>2012.0</td>
+      <td>NaN</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <td>s40</td>
+      <td>Movie</td>
+      <td>Movie Title 40</td>
+      <td>Unknown</td>
+      <td>Not listed</td>
+      <td>Unknown</td>
+      <td>2005-08-02</td>
+      <td>2004</td>
+      <td>TV-G</td>
+      <td>71 min</td>
+      <td>Stand-Up Comedy, Dramas</td>
+      <td>A story exploring themes of stand-up comedy.</td>
+      <td>2005.0</td>
+      <td>71.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s41</td>
+      <td>Movie</td>
+      <td>Movie Title 41</td>
+      <td>Ava DuVernay</td>
+      <td>Actor 209, Actor 242</td>
+      <td>Germany</td>
+      <td>2002-12-12</td>
+      <td>2002</td>
+      <td>NR</td>
+      <td>84 min</td>
+      <td>Reality TV, International Movies</td>
+      <td>A story exploring themes of reality tv.</td>
+      <td>2002.0</td>
+      <td>84.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s42</td>
+      <td>TV Show</td>
+      <td>Series Title 42</td>
+      <td>Martin Scorsese</td>
+      <td>Actor 297</td>
+      <td>France</td>
+      <td>2006-02-10</td>
+      <td>2004</td>
+      <td>TV-G</td>
+      <td>2 Season</td>
+      <td>Horror Movies, Reality TV, Sci-Fi &amp; Fantasy</td>
+      <td>A story exploring themes of horror movies.</td>
+      <td>2006.0</td>
+      <td>NaN</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <td>s43</td>
+      <td>Movie</td>
+      <td>Movie Title 43</td>
+      <td>Denis Villeneuve</td>
+      <td>Actor 361, Actor 380, Actor 99, Actor 173</td>
+      <td>Japan</td>
+      <td>2012-06-04</td>
+      <td>2011</td>
+      <td>PG</td>
+      <td>111 min</td>
+      <td>Stand-Up Comedy, Documentaries, British TV Shows</td>
+      <td>A story exploring themes of stand-up comedy.</td>
+      <td>2012.0</td>
+      <td>111.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s44</td>
+      <td>TV Show</td>
+      <td>Series Title 44</td>
+      <td>Unknown</td>
+      <td>Actor 112, Actor 12, Actor 281, Actor 121, Actor 167</td>
+      <td>United States</td>
+      <td>NaN</td>
+      <td>2019</td>
+      <td>TV-Y7</td>
+      <td>5 Seasons</td>
+      <td>Reality TV, Stand-Up Comedy, Kids' TV</td>
+      <td>A story exploring themes of reality tv.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <td>s45</td>
+      <td>Movie</td>
+      <td>Movie Title 45</td>
+      <td>Kunle Afolayan</td>
+      <td>Actor 44, Actor 324, Actor 324</td>
+      <td>France</td>
+      <td>2002-03-25</td>
+      <td>2001</td>
+      <td>TV-G</td>
+      <td>70 min</td>
+      <td>Crime TV Shows, Kids' TV</td>
+      <td>A story exploring themes of crime tv shows.</td>
+      <td>2002.0</td>
+      <td>70.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s46</td>
+      <td>TV Show</td>
+      <td>Series Title 46</td>
+      <td>Kunle Afolayan</td>
+      <td>Actor 204, Actor 295, Actor 46, Actor 284</td>
+      <td>Nigeria, Australia</td>
+      <td>2009-03-15</td>
+      <td>2009</td>
+      <td>TV-PG</td>
+      <td>1 Seasons</td>
+      <td>Romantic Movies</td>
+      <td>A story exploring themes of romantic movies.</td>
+      <td>2009.0</td>
+      <td>NaN</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <td>s47</td>
+      <td>Movie</td>
+      <td>Movie Title 47</td>
+      <td>Kunle Afolayan</td>
+      <td>Actor 71, Actor 331, Actor 256</td>
+      <td>Japan</td>
+      <td>2018-04-22</td>
+      <td>2015</td>
+      <td>TV-Y7</td>
+      <td>179 min</td>
+      <td>Sci-Fi &amp; Fantasy, Stand-Up Comedy</td>
+      <td>A story exploring themes of sci-fi &amp; fantasy.</td>
+      <td>2018.0</td>
+      <td>179.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s48</td>
+      <td>Movie</td>
+      <td>Movie Title 48</td>
+      <td>Unknown</td>
+      <td>Actor 359, Actor 164, Actor 247, Actor 374</td>
+      <td>Brazil, France</td>
+      <td>NaN</td>
+      <td>2007</td>
+      <td>NR</td>
+      <td>81 min</td>
+      <td>British TV Shows, International Movies</td>
+      <td>A story exploring themes of british tv shows.</td>
+      <td>NaN</td>
+      <td>81.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s49</td>
+      <td>Movie</td>
+      <td>Movie Title 49</td>
+      <td>Martin Scorsese</td>
+      <td>Not listed</td>
+      <td>France</td>
+      <td>2003-05-17</td>
+      <td>2000</td>
+      <td>TV-PG</td>
+      <td>110 min</td>
+      <td>British TV Shows</td>
+      <td>A story exploring themes of british tv shows.</td>
+      <td>2003.0</td>
+      <td>110.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s50</td>
+      <td>TV Show</td>
+      <td>Series Title 50</td>
+      <td>Greg Daniels</td>
+      <td>Actor 228, Actor 174, Actor 3, Actor 325</td>
+      <td>Unknown</td>
+      <td>2011-08-09</td>
+      <td>2010</td>
+      <td>R</td>
+      <td>8 Seasons</td>
+      <td>Reality TV</td>
+      <td>A story exploring themes of reality tv.</td>
+      <td>2011.0</td>
+      <td>NaN</td>
+      <td>8.0</td>
+    </tr>
+    <tr>
+      <td>s51</td>
+      <td>Movie</td>
+      <td>Movie Title 51</td>
+      <td>Rajiv Menon</td>
+      <td>Actor 116, Actor 121, Actor 358, Actor 389</td>
+      <td>Brazil</td>
+      <td>2001-11-21</td>
+      <td>2000</td>
+      <td>R</td>
+      <td>138 min</td>
+      <td>International Movies</td>
+      <td>A story exploring themes of international movies.</td>
+      <td>2001.0</td>
+      <td>138.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s52</td>
+      <td>Movie</td>
+      <td>Movie Title 52</td>
+      <td>Ava DuVernay</td>
+      <td>Actor 24, Actor 382, Actor 237</td>
+      <td>Mexico, India</td>
+      <td>2018-06-06</td>
+      <td>2016</td>
+      <td>NR</td>
+      <td>77 min</td>
+      <td>Crime TV Shows, Dramas, International Movies</td>
+      <td>A story exploring themes of crime tv shows.</td>
+      <td>2018.0</td>
+      <td>77.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s53</td>
+      <td>Movie</td>
+      <td>Movie Title 53</td>
+      <td>Martin Scorsese</td>
+      <td>Not listed</td>
+      <td>India</td>
+      <td>2001-10-03</td>
+      <td>1998</td>
+      <td>TV-Y7</td>
+      <td>95 min</td>
+      <td>Action &amp; Adventure, Kids' TV, Music &amp; Musicals</td>
+      <td>A story exploring themes of action &amp; adventure.</td>
+      <td>2001.0</td>
+      <td>95.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s54</td>
+      <td>Movie</td>
+      <td>Movie Title 54</td>
+      <td>Greg Daniels</td>
+      <td>Actor 180</td>
+      <td>United States, Australia</td>
+      <td>2006-11-09</td>
+      <td>2005</td>
+      <td>PG-13</td>
+      <td>138 min</td>
+      <td>Stand-Up Comedy, Romantic Movies</td>
+      <td>A story exploring themes of stand-up comedy.</td>
+      <td>2006.0</td>
+      <td>138.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s55</td>
+      <td>Movie</td>
+      <td>Movie Title 55</td>
+      <td>Sofia Coppola</td>
+      <td>Not listed</td>
+      <td>Brazil, France</td>
+      <td>2012-07-25</td>
+      <td>2011</td>
+      <td>TV-G</td>
+      <td>151 min</td>
+      <td>Stand-Up Comedy</td>
+      <td>A story exploring themes of stand-up comedy.</td>
+      <td>2012.0</td>
+      <td>151.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s56</td>
+      <td>Movie</td>
+      <td>Movie Title 56</td>
+      <td>Unknown</td>
+      <td>Not listed</td>
+      <td>Spain</td>
+      <td>2014-01-06</td>
+      <td>2012</td>
+      <td>R</td>
+      <td>112 min</td>
+      <td>Thrillers, Kids' TV</td>
+      <td>A story exploring themes of thrillers.</td>
+      <td>2014.0</td>
+      <td>112.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s57</td>
+      <td>TV Show</td>
+      <td>Series Title 57</td>
+      <td>Unknown</td>
+      <td>Actor 211, Actor 113, Actor 26, Actor 51, Actor 113</td>
+      <td>United States</td>
+      <td>2008-08-24</td>
+      <td>2007</td>
+      <td>R</td>
+      <td>8 Seasons</td>
+      <td>Crime TV Shows, Stand-Up Comedy, Horror Movies</td>
+      <td>A story exploring themes of crime tv shows.</td>
+      <td>2008.0</td>
+      <td>NaN</td>
+      <td>8.0</td>
+    </tr>
+    <tr>
+      <td>s58</td>
+      <td>Movie</td>
+      <td>Movie Title 58</td>
+      <td>Martin Scorsese</td>
+      <td>Actor 350, Actor 114, Actor 121, Actor 62</td>
+      <td>Unknown</td>
+      <td>2018-08-17</td>
+      <td>2018</td>
+      <td>TV-Y7</td>
+      <td>121 min</td>
+      <td>International Movies, Sci-Fi &amp; Fantasy, Comedies</td>
+      <td>A story exploring themes of international movies.</td>
+      <td>2018.0</td>
+      <td>121.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s59</td>
+      <td>TV Show</td>
+      <td>Series Title 59</td>
+      <td>Unknown</td>
+      <td>Actor 242, Actor 366, Actor 221</td>
+      <td>United States</td>
+      <td>2010-02-14</td>
+      <td>2009</td>
+      <td>PG</td>
+      <td>4 Seasons</td>
+      <td>Reality TV</td>
+      <td>A story exploring themes of reality tv.</td>
+      <td>2010.0</td>
+      <td>NaN</td>
+      <td>4.0</td>
+    </tr>
+    <tr>
+      <td>s60</td>
+      <td>Movie</td>
+      <td>Movie Title 60</td>
+      <td>Bong Joon Ho</td>
+      <td>Actor 105, Actor 374, Actor 222, Actor 205</td>
+      <td>Japan</td>
+      <td>2012-06-22</td>
+      <td>2009</td>
+      <td>TV-MA</td>
+      <td>178 min</td>
+      <td>Comedies, Kids' TV, British TV Shows</td>
+      <td>A story exploring themes of comedies.</td>
+      <td>2012.0</td>
+      <td>178.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s61</td>
+      <td>Movie</td>
+      <td>Movie Title 61</td>
+      <td>Unknown</td>
+      <td>Actor 360, Actor 198, Actor 357, Actor 355</td>
+      <td>France</td>
+      <td>2000-03-20</td>
+      <td>2000</td>
+      <td>PG</td>
+      <td>70 min</td>
+      <td>Horror Movies</td>
+      <td>A story exploring themes of horror movies.</td>
+      <td>2000.0</td>
+      <td>70.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s62</td>
+      <td>Movie</td>
+      <td>Movie Title 62</td>
+      <td>Denis Villeneuve</td>
+      <td>Actor 366, Actor 251, Actor 387, Actor 181</td>
+      <td>Mexico</td>
+      <td>1999-05-25</td>
+      <td>1998</td>
+      <td>NR</td>
+      <td>175 min</td>
+      <td>Kids' TV, Horror Movies</td>
+      <td>A story exploring themes of kids' tv.</td>
+      <td>1999.0</td>
+      <td>175.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s63</td>
+      <td>Movie</td>
+      <td>Movie Title 63</td>
+      <td>Rajiv Menon</td>
+      <td>Actor 224</td>
+      <td>Japan, Brazil</td>
+      <td>2021-05-27</td>
+      <td>2018</td>
+      <td>TV-PG</td>
+      <td>71 min</td>
+      <td>Anime Series, Stand-Up Comedy</td>
+      <td>A story exploring themes of anime series.</td>
+      <td>2021.0</td>
+      <td>71.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s64</td>
+      <td>Movie</td>
+      <td>Movie Title 64</td>
+      <td>Unknown</td>
+      <td>Actor 121, Actor 75, Actor 102, Actor 4, Actor 304</td>
+      <td>United States</td>
+      <td>2018-05-27</td>
+      <td>2017</td>
+      <td>R</td>
+      <td>154 min</td>
+      <td>Reality TV, Thrillers, Action &amp; Adventure</td>
+      <td>A story exploring themes of reality tv.</td>
+      <td>2018.0</td>
+      <td>154.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s65</td>
+      <td>Movie</td>
+      <td>Movie Title 65</td>
+      <td>Denis Villeneuve</td>
+      <td>Not listed</td>
+      <td>Nigeria</td>
+      <td>2016-09-02</td>
+      <td>2014</td>
+      <td>TV-G</td>
+      <td>65 min</td>
+      <td>Music &amp; Musicals, Comedies, Crime TV Shows</td>
+      <td>A story exploring themes of music &amp; musicals.</td>
+      <td>2016.0</td>
+      <td>65.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s66</td>
+      <td>Movie</td>
+      <td>Movie Title 66</td>
+      <td>Unknown</td>
+      <td>Actor 20, Actor 353, Actor 375</td>
+      <td>India</td>
+      <td>2014-01-15</td>
+      <td>2012</td>
+      <td>TV-14</td>
+      <td>88 min</td>
+      <td>British TV Shows</td>
+      <td>A story exploring themes of british tv shows.</td>
+      <td>2014.0</td>
+      <td>88.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s67</td>
+      <td>Movie</td>
+      <td>Movie Title 67</td>
+      <td>Sofia Coppola</td>
+      <td>Actor 302, Actor 389, Actor 169, Actor 7</td>
+      <td>France</td>
+      <td>2009-09-20</td>
+      <td>2007</td>
+      <td>TV-Y7</td>
+      <td>89 min</td>
+      <td>Romantic Movies, Reality TV, Horror Movies</td>
+      <td>A story exploring themes of romantic movies.</td>
+      <td>2009.0</td>
+      <td>89.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s68</td>
+      <td>Movie</td>
+      <td>Movie Title 68</td>
+      <td>Unknown</td>
+      <td>Actor 193, Actor 187, Actor 239, Actor 165</td>
+      <td>Germany, Japan</td>
+      <td>2008-06-15</td>
+      <td>2007</td>
+      <td>R</td>
+      <td>133 min</td>
+      <td>Music &amp; Musicals, Romantic Movies</td>
+      <td>A story exploring themes of music &amp; musicals.</td>
+      <td>2008.0</td>
+      <td>133.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s69</td>
+      <td>TV Show</td>
+      <td>Series Title 69</td>
+      <td>Greg Daniels</td>
+      <td>Not listed</td>
+      <td>Brazil, South Korea</td>
+      <td>2020-04-07</td>
+      <td>2019</td>
+      <td>TV-14</td>
+      <td>8 Seasons</td>
+      <td>Anime Series, Romantic Movies</td>
+      <td>A story exploring themes of anime series.</td>
+      <td>2020.0</td>
+      <td>NaN</td>
+      <td>8.0</td>
+    </tr>
+    <tr>
+      <td>s70</td>
+      <td>Movie</td>
+      <td>Movie Title 70</td>
+      <td>Unknown</td>
+      <td>Not listed</td>
+      <td>Brazil</td>
+      <td>2022-05-06</td>
+      <td>2019</td>
+      <td>PG-13</td>
+      <td>126 min</td>
+      <td>Romantic Movies, Horror Movies</td>
+      <td>A story exploring themes of romantic movies.</td>
+      <td>2022.0</td>
+      <td>126.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s71</td>
+      <td>Movie</td>
+      <td>Movie Title 71</td>
+      <td>Kunle Afolayan</td>
+      <td>Actor 272</td>
+      <td>Nigeria</td>
+      <td>2017-08-11</td>
+      <td>2017</td>
+      <td>TV-14</td>
+      <td>164 min</td>
+      <td>Horror Movies, Music &amp; Musicals, International Movies</td>
+      <td>A story exploring themes of horror movies.</td>
+      <td>2017.0</td>
+      <td>164.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s72</td>
+      <td>Movie</td>
+      <td>Movie Title 72</td>
+      <td>Jane Campion</td>
+      <td>Actor 319, Actor 230, Actor 66</td>
+      <td>India, Spain</td>
+      <td>2022-02-22</td>
+      <td>2020</td>
+      <td>TV-PG</td>
+      <td>99 min</td>
+      <td>Thrillers, Action &amp; Adventure</td>
+      <td>A story exploring themes of thrillers.</td>
+      <td>2022.0</td>
+      <td>99.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s73</td>
+      <td>TV Show</td>
+      <td>Series Title 73</td>
+      <td>Unknown</td>
+      <td>Actor 260, Actor 355, Actor 2, Actor 23, Actor 24</td>
+      <td>Germany, Mexico</td>
+      <td>2006-09-03</td>
+      <td>2003</td>
+      <td>PG</td>
+      <td>4 Season</td>
+      <td>British TV Shows, Action &amp; Adventure, Thrillers</td>
+      <td>A story exploring themes of british tv shows.</td>
+      <td>2006.0</td>
+      <td>NaN</td>
+      <td>4.0</td>
+    </tr>
+    <tr>
+      <td>s74</td>
+      <td>Movie</td>
+      <td>Movie Title 74</td>
+      <td>Unknown</td>
+      <td>Actor 271</td>
+      <td>Germany, United States</td>
+      <td>2015-05-11</td>
+      <td>2014</td>
+      <td>R</td>
+      <td>98 min</td>
+      <td>Crime TV Shows, Thrillers</td>
+      <td>A story exploring themes of crime tv shows.</td>
+      <td>2015.0</td>
+      <td>98.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s75</td>
+      <td>Movie</td>
+      <td>Movie Title 75</td>
+      <td>Martin Scorsese</td>
+      <td>Actor 336, Actor 88</td>
+      <td>United States</td>
+      <td>2006-08-17</td>
+      <td>2005</td>
+      <td>R</td>
+      <td>63 min</td>
+      <td>Thrillers, Anime Series</td>
+      <td>A story exploring themes of thrillers.</td>
+      <td>2006.0</td>
+      <td>63.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s76</td>
+      <td>TV Show</td>
+      <td>Series Title 76</td>
+      <td>Bong Joon Ho</td>
+      <td>Actor 51, Actor 104, Actor 356</td>
+      <td>Germany</td>
+      <td>2022-10-25</td>
+      <td>2020</td>
+      <td>TV-14</td>
+      <td>6 Seasons</td>
+      <td>Comedies</td>
+      <td>A story exploring themes of comedies.</td>
+      <td>2022.0</td>
+      <td>NaN</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <td>s77</td>
+      <td>TV Show</td>
+      <td>Series Title 77</td>
+      <td>Kunle Afolayan</td>
+      <td>Actor 316, Actor 265, Actor 56, Actor 118</td>
+      <td>Japan</td>
+      <td>2010-02-04</td>
+      <td>2009</td>
+      <td>PG-13</td>
+      <td>2 Seasons</td>
+      <td>Action &amp; Adventure, Horror Movies, Thrillers</td>
+      <td>A story exploring themes of action &amp; adventure.</td>
+      <td>2010.0</td>
+      <td>NaN</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <td>s78</td>
+      <td>TV Show</td>
+      <td>Series Title 78</td>
+      <td>Ava DuVernay</td>
+      <td>Actor 4, Actor 396, Actor 83, Actor 245</td>
+      <td>India</td>
+      <td>2005-10-10</td>
+      <td>2004</td>
+      <td>TV-G</td>
+      <td>6 Seasons</td>
+      <td>British TV Shows</td>
+      <td>A story exploring themes of british tv shows.</td>
+      <td>2005.0</td>
+      <td>NaN</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <td>s79</td>
+      <td>Movie</td>
+      <td>Movie Title 79</td>
+      <td>Bong Joon Ho</td>
+      <td>Actor 16, Actor 370, Actor 389</td>
+      <td>Brazil</td>
+      <td>2018-12-18</td>
+      <td>2016</td>
+      <td>TV-G</td>
+      <td>85 min</td>
+      <td>Stand-Up Comedy</td>
+      <td>A story exploring themes of stand-up comedy.</td>
+      <td>2018.0</td>
+      <td>85.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s80</td>
+      <td>Movie</td>
+      <td>Movie Title 80</td>
+      <td>Greg Daniels</td>
+      <td>Actor 186</td>
+      <td>Mexico</td>
+      <td>1998-09-12</td>
+      <td>1998</td>
+      <td>TV-14</td>
+      <td>113 min</td>
+      <td>Action &amp; Adventure, Comedies, Horror Movies</td>
+      <td>A story exploring themes of action &amp; adventure.</td>
+      <td>1998.0</td>
+      <td>113.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s81</td>
+      <td>Movie</td>
+      <td>Movie Title 81</td>
+      <td>Unknown</td>
+      <td>Actor 69</td>
+      <td>Mexico</td>
+      <td>2016-10-06</td>
+      <td>2014</td>
+      <td>TV-MA</td>
+      <td>129 min</td>
+      <td>Documentaries</td>
+      <td>A story exploring themes of documentaries.</td>
+      <td>2016.0</td>
+      <td>129.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s82</td>
+      <td>TV Show</td>
+      <td>Series Title 82</td>
+      <td>Kunle Afolayan</td>
+      <td>Actor 185, Actor 279, Actor 238, Actor 332</td>
+      <td>Mexico, Brazil</td>
+      <td>2022-11-03</td>
+      <td>2020</td>
+      <td>PG-13</td>
+      <td>6 Seasons</td>
+      <td>British TV Shows</td>
+      <td>A story exploring themes of british tv shows.</td>
+      <td>2022.0</td>
+      <td>NaN</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <td>s83</td>
+      <td>Movie</td>
+      <td>Movie Title 83</td>
+      <td>Unknown</td>
+      <td>Actor 318, Actor 148</td>
+      <td>Japan</td>
+      <td>2006-08-10</td>
+      <td>2004</td>
+      <td>R</td>
+      <td>80 min</td>
+      <td>Reality TV</td>
+      <td>A story exploring themes of reality tv.</td>
+      <td>2006.0</td>
+      <td>80.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s84</td>
+      <td>Movie</td>
+      <td>Movie Title 84</td>
+      <td>Unknown</td>
+      <td>Actor 15, Actor 380</td>
+      <td>United States</td>
+      <td>2010-05-19</td>
+      <td>2008</td>
+      <td>TV-MA</td>
+      <td>131 min</td>
+      <td>Thrillers, Documentaries, Action &amp; Adventure</td>
+      <td>A story exploring themes of thrillers.</td>
+      <td>2010.0</td>
+      <td>131.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s85</td>
+      <td>TV Show</td>
+      <td>Series Title 85</td>
+      <td>Bong Joon Ho</td>
+      <td>Actor 78, Actor 173, Actor 123, Actor 62</td>
+      <td>Nigeria</td>
+      <td>2018-09-14</td>
+      <td>2015</td>
+      <td>R</td>
+      <td>6 Seasons</td>
+      <td>Anime Series, Romantic Movies</td>
+      <td>A story exploring themes of anime series.</td>
+      <td>2018.0</td>
+      <td>NaN</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <td>s86</td>
+      <td>Movie</td>
+      <td>Movie Title 86</td>
+      <td>Martin Scorsese</td>
+      <td>Actor 171, Actor 330, Actor 79, Actor 178</td>
+      <td>Brazil, Spain</td>
+      <td>2007-03-25</td>
+      <td>2006</td>
+      <td>TV-PG</td>
+      <td>172 min</td>
+      <td>Documentaries, Dramas</td>
+      <td>A story exploring themes of documentaries.</td>
+      <td>2007.0</td>
+      <td>172.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s87</td>
+      <td>Movie</td>
+      <td>Movie Title 87</td>
+      <td>Kunle Afolayan</td>
+      <td>Actor 59, Actor 362</td>
+      <td>Mexico</td>
+      <td>2009-05-04</td>
+      <td>2006</td>
+      <td>TV-Y7</td>
+      <td>170 min</td>
+      <td>Kids' TV, Stand-Up Comedy</td>
+      <td>A story exploring themes of kids' tv.</td>
+      <td>2009.0</td>
+      <td>170.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s88</td>
+      <td>Movie</td>
+      <td>Movie Title 88</td>
+      <td>Denis Villeneuve</td>
+      <td>Actor 5, Actor 21</td>
+      <td>South Korea</td>
+      <td>2001-12-24</td>
+      <td>1998</td>
+      <td>TV-PG</td>
+      <td>100 min</td>
+      <td>Documentaries, Sci-Fi &amp; Fantasy, Comedies</td>
+      <td>A story exploring themes of documentaries.</td>
+      <td>2001.0</td>
+      <td>100.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s89</td>
+      <td>Movie</td>
+      <td>Movie Title 89</td>
+      <td>Unknown</td>
+      <td>Not listed</td>
+      <td>Mexico</td>
+      <td>2018-06-24</td>
+      <td>2016</td>
+      <td>TV-PG</td>
+      <td>124 min</td>
+      <td>Crime TV Shows</td>
+      <td>A story exploring themes of crime tv shows.</td>
+      <td>2018.0</td>
+      <td>124.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s90</td>
+      <td>Movie</td>
+      <td>Movie Title 90</td>
+      <td>Kunle Afolayan</td>
+      <td>Actor 99, Actor 174, Actor 383</td>
+      <td>United Kingdom</td>
+      <td>2000-06-12</td>
+      <td>1999</td>
+      <td>TV-Y7</td>
+      <td>88 min</td>
+      <td>Comedies</td>
+      <td>A story exploring themes of comedies.</td>
+      <td>2000.0</td>
+      <td>88.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s91</td>
+      <td>Movie</td>
+      <td>Movie Title 91</td>
+      <td>Kunle Afolayan</td>
+      <td>Actor 1, Actor 308</td>
+      <td>United Kingdom</td>
+      <td>2001-03-09</td>
+      <td>1999</td>
+      <td>TV-MA</td>
+      <td>168 min</td>
+      <td>Music &amp; Musicals, Crime TV Shows</td>
+      <td>A story exploring themes of music &amp; musicals.</td>
+      <td>2001.0</td>
+      <td>168.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s92</td>
+      <td>TV Show</td>
+      <td>Series Title 92</td>
+      <td>Unknown</td>
+      <td>Actor 124</td>
+      <td>India</td>
+      <td>2007-07-19</td>
+      <td>2006</td>
+      <td>PG-13</td>
+      <td>5 Seasons</td>
+      <td>Horror Movies</td>
+      <td>A story exploring themes of horror movies.</td>
+      <td>2007.0</td>
+      <td>NaN</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <td>s93</td>
+      <td>Movie</td>
+      <td>Movie Title 93</td>
+      <td>Greg Daniels</td>
+      <td>Actor 54, Actor 369, Actor 143, Actor 238</td>
+      <td>Canada</td>
+      <td>2022-01-19</td>
+      <td>2020</td>
+      <td>R</td>
+      <td>164 min</td>
+      <td>Documentaries</td>
+      <td>A story exploring themes of documentaries.</td>
+      <td>2022.0</td>
+      <td>164.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s94</td>
+      <td>Movie</td>
+      <td>Movie Title 94</td>
+      <td>Jane Campion</td>
+      <td>Not listed</td>
+      <td>United States</td>
+      <td>2022-05-24</td>
+      <td>2021</td>
+      <td>TV-G</td>
+      <td>93 min</td>
+      <td>Reality TV, Action &amp; Adventure</td>
+      <td>A story exploring themes of reality tv.</td>
+      <td>2022.0</td>
+      <td>93.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s95</td>
+      <td>Movie</td>
+      <td>Movie Title 95</td>
+      <td>Bong Joon Ho</td>
+      <td>Actor 88, Actor 255</td>
+      <td>Nigeria, India</td>
+      <td>2016-12-02</td>
+      <td>2013</td>
+      <td>TV-Y7</td>
+      <td>127 min</td>
+      <td>Documentaries, Sci-Fi &amp; Fantasy</td>
+      <td>A story exploring themes of documentaries.</td>
+      <td>2016.0</td>
+      <td>127.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s96</td>
+      <td>TV Show</td>
+      <td>Series Title 96</td>
+      <td>Denis Villeneuve</td>
+      <td>Actor 95, Actor 261, Actor 26, Actor 273, Actor 77</td>
+      <td>France, Nigeria</td>
+      <td>2000-11-27</td>
+      <td>2000</td>
+      <td>TV-14</td>
+      <td>5 Seasons</td>
+      <td>Horror Movies</td>
+      <td>A story exploring themes of horror movies.</td>
+      <td>2000.0</td>
+      <td>NaN</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <td>s97</td>
+      <td>Movie</td>
+      <td>Movie Title 97</td>
+      <td>Jane Campion</td>
+      <td>Actor 354, Actor 107</td>
+      <td>Spain, United Kingdom</td>
+      <td>2011-05-10</td>
+      <td>2010</td>
+      <td>TV-PG</td>
+      <td>136 min</td>
+      <td>Action &amp; Adventure, Dramas, Thrillers</td>
+      <td>A story exploring themes of action &amp; adventure.</td>
+      <td>2011.0</td>
+      <td>136.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s98</td>
+      <td>Movie</td>
+      <td>Movie Title 98</td>
+      <td>Unknown</td>
+      <td>Actor 317, Actor 120, Actor 394, Actor 263, Actor 97</td>
+      <td>United Kingdom</td>
+      <td>2022-06-23</td>
+      <td>2020</td>
+      <td>PG</td>
+      <td>137 min</td>
+      <td>Reality TV</td>
+      <td>A story exploring themes of reality tv.</td>
+      <td>2022.0</td>
+      <td>137.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s99</td>
+      <td>Movie</td>
+      <td>Movie Title 99</td>
+      <td>Denis Villeneuve</td>
+      <td>Actor 134, Actor 255, Actor 307</td>
+      <td>Germany, Canada</td>
+      <td>2021-06-21</td>
+      <td>2018</td>
+      <td>TV-G</td>
+      <td>161 min</td>
+      <td>Crime TV Shows</td>
+      <td>A story exploring themes of crime tv shows.</td>
+      <td>2021.0</td>
+      <td>161.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s100</td>
+      <td>Movie</td>
+      <td>Movie Title 100</td>
+      <td>Martin Scorsese</td>
+      <td>Actor 19, Actor 271, Actor 352, Actor 108</td>
+      <td>Canada</td>
+      <td>NaN</td>
+      <td>2011</td>
+      <td>R</td>
+      <td>146 min</td>
+      <td>Kids' TV, Music &amp; Musicals</td>
+      <td>A story exploring themes of kids' tv.</td>
+      <td>NaN</td>
+      <td>146.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s101</td>
+      <td>TV Show</td>
+      <td>Series Title 101</td>
+      <td>Martin Scorsese</td>
+      <td>Actor 92</td>
+      <td>United States, Mexico</td>
+      <td>2011-05-08</td>
+      <td>2008</td>
+      <td>NR</td>
+      <td>2 Season</td>
+      <td>Crime TV Shows, International Movies</td>
+      <td>A story exploring themes of crime tv shows.</td>
+      <td>2011.0</td>
+      <td>NaN</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <td>s102</td>
+      <td>Movie</td>
+      <td>Movie Title 102</td>
+      <td>Ava DuVernay</td>
+      <td>Actor 340, Actor 65, Actor 243</td>
+      <td>Mexico, Brazil</td>
+      <td>2001-05-16</td>
+      <td>1999</td>
+      <td>R</td>
+      <td>122 min</td>
+      <td>Comedies</td>
+      <td>A story exploring themes of comedies.</td>
+      <td>2001.0</td>
+      <td>122.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s103</td>
+      <td>Movie</td>
+      <td>Movie Title 103</td>
+      <td>Sofia Coppola</td>
+      <td>Actor 151, Actor 63, Actor 247, Actor 296</td>
+      <td>France</td>
+      <td>2007-01-21</td>
+      <td>2005</td>
+      <td>TV-14</td>
+      <td>108 min</td>
+      <td>International Movies, Romantic Movies, Comedies</td>
+      <td>A story exploring themes of international movies.</td>
+      <td>2007.0</td>
+      <td>108.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s104</td>
+      <td>Movie</td>
+      <td>Movie Title 104</td>
+      <td>Unknown</td>
+      <td>Actor 339, Actor 339</td>
+      <td>Brazil</td>
+      <td>2020-07-14</td>
+      <td>2017</td>
+      <td>TV-Y7</td>
+      <td>115 min</td>
+      <td>Horror Movies</td>
+      <td>A story exploring themes of horror movies.</td>
+      <td>2020.0</td>
+      <td>115.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s105</td>
+      <td>TV Show</td>
+      <td>Series Title 105</td>
+      <td>Greg Daniels</td>
+      <td>Not listed</td>
+      <td>Spain</td>
+      <td>NaN</td>
+      <td>2015</td>
+      <td>R</td>
+      <td>6 Seasons</td>
+      <td>Anime Series</td>
+      <td>A story exploring themes of anime series.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <td>s106</td>
+      <td>Movie</td>
+      <td>Movie Title 106</td>
+      <td>Bong Joon Ho</td>
+      <td>Actor 396</td>
+      <td>Spain, United States</td>
+      <td>2008-06-21</td>
+      <td>2006</td>
+      <td>R</td>
+      <td>164 min</td>
+      <td>Music &amp; Musicals, International Movies, Comedies</td>
+      <td>A story exploring themes of music &amp; musicals.</td>
+      <td>2008.0</td>
+      <td>164.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s107</td>
+      <td>Movie</td>
+      <td>Movie Title 107</td>
+      <td>Denis Villeneuve</td>
+      <td>Actor 99, Actor 221, Actor 283, Actor 145</td>
+      <td>Nigeria</td>
+      <td>2002-07-27</td>
+      <td>2002</td>
+      <td>TV-PG</td>
+      <td>101 min</td>
+      <td>Stand-Up Comedy</td>
+      <td>A story exploring themes of stand-up comedy.</td>
+      <td>2002.0</td>
+      <td>101.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s108</td>
+      <td>TV Show</td>
+      <td>Series Title 108</td>
+      <td>Ava DuVernay</td>
+      <td>Actor 109, Actor 207, Actor 150</td>
+      <td>Germany</td>
+      <td>1999-12-18</td>
+      <td>1999</td>
+      <td>TV-PG</td>
+      <td>5 Seasons</td>
+      <td>Thrillers</td>
+      <td>A story exploring themes of thrillers.</td>
+      <td>1999.0</td>
+      <td>NaN</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <td>s109</td>
+      <td>Movie</td>
+      <td>Movie Title 109</td>
+      <td>Bong Joon Ho</td>
+      <td>Actor 5, Actor 390, Actor 390, Actor 250</td>
+      <td>Canada</td>
+      <td>2007-10-19</td>
+      <td>2006</td>
+      <td>TV-Y7</td>
+      <td>112 min</td>
+      <td>Romantic Movies, Dramas</td>
+      <td>A story exploring themes of romantic movies.</td>
+      <td>2007.0</td>
+      <td>112.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s110</td>
+      <td>Movie</td>
+      <td>Movie Title 110</td>
+      <td>Jane Campion</td>
+      <td>Actor 150, Actor 293, Actor 67, Actor 370</td>
+      <td>United Kingdom</td>
+      <td>2007-01-24</td>
+      <td>2006</td>
+      <td>R</td>
+      <td>168 min</td>
+      <td>British TV Shows</td>
+      <td>A story exploring themes of british tv shows.</td>
+      <td>2007.0</td>
+      <td>168.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s111</td>
+      <td>TV Show</td>
+      <td>Series Title 111</td>
+      <td>Kunle Afolayan</td>
+      <td>Actor 279, Actor 180</td>
+      <td>Mexico</td>
+      <td>NaN</td>
+      <td>2016</td>
+      <td>TV-G</td>
+      <td>1 Seasons</td>
+      <td>Comedies</td>
+      <td>A story exploring themes of comedies.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <td>s112</td>
+      <td>TV Show</td>
+      <td>Series Title 112</td>
+      <td>Jane Campion</td>
+      <td>Actor 62</td>
+      <td>Germany</td>
+      <td>2020-10-08</td>
+      <td>2019</td>
+      <td>TV-G</td>
+      <td>7 Seasons</td>
+      <td>Crime TV Shows, Dramas, Action &amp; Adventure</td>
+      <td>A story exploring themes of crime tv shows.</td>
+      <td>2020.0</td>
+      <td>NaN</td>
+      <td>7.0</td>
+    </tr>
+    <tr>
+      <td>s113</td>
+      <td>Movie</td>
+      <td>Movie Title 113</td>
+      <td>Greg Daniels</td>
+      <td>Not listed</td>
+      <td>Canada, Germany</td>
+      <td>2018-10-05</td>
+      <td>2016</td>
+      <td>PG</td>
+      <td>117 min</td>
+      <td>Action &amp; Adventure, Kids' TV, Dramas</td>
+      <td>A story exploring themes of action &amp; adventure.</td>
+      <td>2018.0</td>
+      <td>117.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s114</td>
+      <td>TV Show</td>
+      <td>Series Title 114</td>
+      <td>Sofia Coppola</td>
+      <td>Not listed</td>
+      <td>Nigeria</td>
+      <td>2014-03-22</td>
+      <td>2013</td>
+      <td>TV-Y7</td>
+      <td>6 Seasons</td>
+      <td>Crime TV Shows</td>
+      <td>A story exploring themes of crime tv shows.</td>
+      <td>2014.0</td>
+      <td>NaN</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <td>s115</td>
+      <td>Movie</td>
+      <td>Movie Title 115</td>
+      <td>Greg Daniels</td>
+      <td>Actor 125, Actor 112, Actor 96, Actor 299</td>
+      <td>United Kingdom, Germany</td>
+      <td>2001-04-25</td>
+      <td>2001</td>
+      <td>TV-G</td>
+      <td>91 min</td>
+      <td>Dramas, Sci-Fi &amp; Fantasy, Action &amp; Adventure</td>
+      <td>A story exploring themes of dramas.</td>
+      <td>2001.0</td>
+      <td>91.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s116</td>
+      <td>TV Show</td>
+      <td>Series Title 116</td>
+      <td>Unknown</td>
+      <td>Actor 254</td>
+      <td>Nigeria</td>
+      <td>2016-12-13</td>
+      <td>2014</td>
+      <td>TV-Y7</td>
+      <td>7 Seasons</td>
+      <td>Stand-Up Comedy, Crime TV Shows</td>
+      <td>A story exploring themes of stand-up comedy.</td>
+      <td>2016.0</td>
+      <td>NaN</td>
+      <td>7.0</td>
+    </tr>
+    <tr>
+      <td>s117</td>
+      <td>TV Show</td>
+      <td>Series Title 117</td>
+      <td>Unknown</td>
+      <td>Actor 126, Actor 37, Actor 365</td>
+      <td>Australia, South Korea</td>
+      <td>2004-08-26</td>
+      <td>2002</td>
+      <td>PG</td>
+      <td>5 Season</td>
+      <td>International Movies</td>
+      <td>A story exploring themes of international movies.</td>
+      <td>2004.0</td>
+      <td>NaN</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <td>s118</td>
+      <td>Movie</td>
+      <td>Movie Title 118</td>
+      <td>Unknown</td>
+      <td>Actor 13</td>
+      <td>Brazil</td>
+      <td>2009-11-15</td>
+      <td>2007</td>
+      <td>TV-PG</td>
+      <td>173 min</td>
+      <td>British TV Shows</td>
+      <td>A story exploring themes of british tv shows.</td>
+      <td>2009.0</td>
+      <td>173.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s119</td>
+      <td>Movie</td>
+      <td>Movie Title 119</td>
+      <td>Unknown</td>
+      <td>Not listed</td>
+      <td>Spain</td>
+      <td>2007-01-01</td>
+      <td>2004</td>
+      <td>TV-PG</td>
+      <td>90 min</td>
+      <td>Action &amp; Adventure</td>
+      <td>A story exploring themes of action &amp; adventure.</td>
+      <td>2007.0</td>
+      <td>90.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s120</td>
+      <td>TV Show</td>
+      <td>Series Title 120</td>
+      <td>Martin Scorsese</td>
+      <td>Actor 131, Actor 85, Actor 339, Actor 370, Actor 371</td>
+      <td>Brazil</td>
+      <td>2005-05-19</td>
+      <td>2002</td>
+      <td>PG</td>
+      <td>2 Seasons</td>
+      <td>Reality TV</td>
+      <td>A story exploring themes of reality tv.</td>
+      <td>2005.0</td>
+      <td>NaN</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <td>s121</td>
+      <td>Movie</td>
+      <td>Movie Title 121</td>
+      <td>Kunle Afolayan</td>
+      <td>Actor 279</td>
+      <td>United States, Germany</td>
+      <td>2010-09-26</td>
+      <td>2007</td>
+      <td>TV-14</td>
+      <td>160 min</td>
+      <td>Comedies, Sci-Fi &amp; Fantasy</td>
+      <td>A story exploring themes of comedies.</td>
+      <td>2010.0</td>
+      <td>160.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s122</td>
+      <td>Movie</td>
+      <td>Movie Title 122</td>
+      <td>Unknown</td>
+      <td>Actor 88</td>
+      <td>Unknown</td>
+      <td>2020-05-01</td>
+      <td>2020</td>
+      <td>TV-PG</td>
+      <td>83 min</td>
+      <td>Action &amp; Adventure, Dramas</td>
+      <td>A story exploring themes of action &amp; adventure.</td>
+      <td>2020.0</td>
+      <td>83.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s123</td>
+      <td>TV Show</td>
+      <td>Series Title 123</td>
+      <td>Unknown</td>
+      <td>Actor 58</td>
+      <td>Australia</td>
+      <td>2002-11-08</td>
+      <td>2002</td>
+      <td>PG</td>
+      <td>3 Seasons</td>
+      <td>Comedies, British TV Shows</td>
+      <td>A story exploring themes of comedies.</td>
+      <td>2002.0</td>
+      <td>NaN</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <td>s124</td>
+      <td>Movie</td>
+      <td>Movie Title 124</td>
+      <td>Unknown</td>
+      <td>Actor 21</td>
+      <td>Japan</td>
+      <td>2004-05-09</td>
+      <td>2002</td>
+      <td>TV-G</td>
+      <td>127 min</td>
+      <td>Dramas, Action &amp; Adventure</td>
+      <td>A story exploring themes of dramas.</td>
+      <td>2004.0</td>
+      <td>127.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s125</td>
+      <td>TV Show</td>
+      <td>Series Title 125</td>
+      <td>Unknown</td>
+      <td>Actor 59, Actor 137, Actor 107, Actor 231, Actor 325</td>
+      <td>Spain</td>
+      <td>2007-09-21</td>
+      <td>2006</td>
+      <td>TV-14</td>
+      <td>4 Season</td>
+      <td>International Movies</td>
+      <td>A story exploring themes of international movies.</td>
+      <td>2007.0</td>
+      <td>NaN</td>
+      <td>4.0</td>
+    </tr>
+    <tr>
+      <td>s126</td>
+      <td>Movie</td>
+      <td>Movie Title 126</td>
+      <td>Kunle Afolayan</td>
+      <td>Actor 112, Actor 340</td>
+      <td>Germany, India</td>
+      <td>2017-02-02</td>
+      <td>2017</td>
+      <td>R</td>
+      <td>147 min</td>
+      <td>Reality TV, International Movies, Horror Movies</td>
+      <td>A story exploring themes of reality tv.</td>
+      <td>2017.0</td>
+      <td>147.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s127</td>
+      <td>Movie</td>
+      <td>Movie Title 127</td>
+      <td>Bong Joon Ho</td>
+      <td>Actor 99, Actor 220</td>
+      <td>United States, Brazil</td>
+      <td>2002-06-18</td>
+      <td>2000</td>
+      <td>PG</td>
+      <td>146 min</td>
+      <td>Sci-Fi &amp; Fantasy</td>
+      <td>A story exploring themes of sci-fi &amp; fantasy.</td>
+      <td>2002.0</td>
+      <td>146.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s128</td>
+      <td>Movie</td>
+      <td>Movie Title 128</td>
+      <td>Sofia Coppola</td>
+      <td>Actor 322</td>
+      <td>Mexico, Brazil</td>
+      <td>2021-09-22</td>
+      <td>2019</td>
+      <td>TV-G</td>
+      <td>99 min</td>
+      <td>Crime TV Shows</td>
+      <td>A story exploring themes of crime tv shows.</td>
+      <td>2021.0</td>
+      <td>99.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s129</td>
+      <td>Movie</td>
+      <td>Movie Title 129</td>
+      <td>Unknown</td>
+      <td>Actor 338, Actor 45, Actor 163</td>
+      <td>United States, Germany</td>
+      <td>2020-01-11</td>
+      <td>2017</td>
+      <td>TV-MA</td>
+      <td>92 min</td>
+      <td>Anime Series, Horror Movies, Stand-Up Comedy</td>
+      <td>A story exploring themes of anime series.</td>
+      <td>2020.0</td>
+      <td>92.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s130</td>
+      <td>Movie</td>
+      <td>Movie Title 130</td>
+      <td>Kunle Afolayan</td>
+      <td>Actor 285, Actor 4, Actor 331</td>
+      <td>United States, Brazil</td>
+      <td>NaN</td>
+      <td>1998</td>
+      <td>TV-PG</td>
+      <td>123 min</td>
+      <td>Documentaries</td>
+      <td>A story exploring themes of documentaries.</td>
+      <td>NaN</td>
+      <td>123.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s131</td>
+      <td>TV Show</td>
+      <td>Series Title 131</td>
+      <td>Greg Daniels</td>
+      <td>Actor 349, Actor 126</td>
+      <td>Brazil</td>
+      <td>2022-10-19</td>
+      <td>2020</td>
+      <td>TV-G</td>
+      <td>4 Seasons</td>
+      <td>International Movies</td>
+      <td>A story exploring themes of international movies.</td>
+      <td>2022.0</td>
+      <td>NaN</td>
+      <td>4.0</td>
+    </tr>
+    <tr>
+      <td>s132</td>
+      <td>Movie</td>
+      <td>Movie Title 132</td>
+      <td>Jane Campion</td>
+      <td>Actor 171, Actor 338, Actor 227</td>
+      <td>Brazil</td>
+      <td>2007-01-15</td>
+      <td>2006</td>
+      <td>PG-13</td>
+      <td>87 min</td>
+      <td>Romantic Movies, International Movies</td>
+      <td>A story exploring themes of romantic movies.</td>
+      <td>2007.0</td>
+      <td>87.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s133</td>
+      <td>Movie</td>
+      <td>Movie Title 133</td>
+      <td>Kunle Afolayan</td>
+      <td>Actor 93</td>
+      <td>South Korea</td>
+      <td>2005-07-13</td>
+      <td>2002</td>
+      <td>TV-Y7</td>
+      <td>145 min</td>
+      <td>Horror Movies, Romantic Movies</td>
+      <td>A story exploring themes of horror movies.</td>
+      <td>2005.0</td>
+      <td>145.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s134</td>
+      <td>Movie</td>
+      <td>Movie Title 134</td>
+      <td>Martin Scorsese</td>
+      <td>Actor 366, Actor 176</td>
+      <td>Germany</td>
+      <td>2001-12-05</td>
+      <td>2000</td>
+      <td>TV-MA</td>
+      <td>119 min</td>
+      <td>Action &amp; Adventure, Sci-Fi &amp; Fantasy, Thrillers</td>
+      <td>A story exploring themes of action &amp; adventure.</td>
+      <td>2001.0</td>
+      <td>119.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s135</td>
+      <td>TV Show</td>
+      <td>Series Title 135</td>
+      <td>Unknown</td>
+      <td>Actor 396, Actor 331, Actor 94, Actor 295, Actor 392</td>
+      <td>Spain, United Kingdom</td>
+      <td>2017-12-19</td>
+      <td>2015</td>
+      <td>TV-14</td>
+      <td>6 Seasons</td>
+      <td>Romantic Movies, Documentaries</td>
+      <td>A story exploring themes of romantic movies.</td>
+      <td>2017.0</td>
+      <td>NaN</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <td>s136</td>
+      <td>Movie</td>
+      <td>Movie Title 136</td>
+      <td>Unknown</td>
+      <td>Actor 117, Actor 104, Actor 195</td>
+      <td>United States</td>
+      <td>2017-06-14</td>
+      <td>2016</td>
+      <td>TV-G</td>
+      <td>150 min</td>
+      <td>International Movies, Crime TV Shows, Horror Movies</td>
+      <td>A story exploring themes of international movies.</td>
+      <td>2017.0</td>
+      <td>150.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s137</td>
+      <td>TV Show</td>
+      <td>Series Title 137</td>
+      <td>Denis Villeneuve</td>
+      <td>Actor 100, Actor 130, Actor 298</td>
+      <td>Unknown</td>
+      <td>2022-01-07</td>
+      <td>2020</td>
+      <td>PG</td>
+      <td>1 Seasons</td>
+      <td>Crime TV Shows, Stand-Up Comedy, Documentaries</td>
+      <td>A story exploring themes of crime tv shows.</td>
+      <td>2022.0</td>
+      <td>NaN</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <td>s138</td>
+      <td>Movie</td>
+      <td>Movie Title 138</td>
+      <td>Unknown</td>
+      <td>Not listed</td>
+      <td>Mexico</td>
+      <td>2014-04-25</td>
+      <td>2011</td>
+      <td>TV-Y7</td>
+      <td>83 min</td>
+      <td>British TV Shows, International Movies</td>
+      <td>A story exploring themes of british tv shows.</td>
+      <td>2014.0</td>
+      <td>83.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s139</td>
+      <td>Movie</td>
+      <td>Movie Title 139</td>
+      <td>Bong Joon Ho</td>
+      <td>Not listed</td>
+      <td>Canada, Brazil</td>
+      <td>2017-06-14</td>
+      <td>2015</td>
+      <td>PG-13</td>
+      <td>62 min</td>
+      <td>Comedies</td>
+      <td>A story exploring themes of comedies.</td>
+      <td>2017.0</td>
+      <td>62.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s140</td>
+      <td>TV Show</td>
+      <td>Series Title 140</td>
+      <td>Kunle Afolayan</td>
+      <td>Actor 93</td>
+      <td>Japan, United Kingdom</td>
+      <td>2009-11-24</td>
+      <td>2006</td>
+      <td>TV-14</td>
+      <td>6 Seasons</td>
+      <td>Stand-Up Comedy, Thrillers</td>
+      <td>A story exploring themes of stand-up comedy.</td>
+      <td>2009.0</td>
+      <td>NaN</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <td>s141</td>
+      <td>TV Show</td>
+      <td>Series Title 141</td>
+      <td>Bong Joon Ho</td>
+      <td>Actor 178, Actor 168, Actor 319, Actor 66</td>
+      <td>Spain, United Kingdom</td>
+      <td>2016-10-13</td>
+      <td>2016</td>
+      <td>R</td>
+      <td>7 Seasons</td>
+      <td>Anime Series, Music &amp; Musicals, Comedies</td>
+      <td>A story exploring themes of anime series.</td>
+      <td>2016.0</td>
+      <td>NaN</td>
+      <td>7.0</td>
+    </tr>
+    <tr>
+      <td>s142</td>
+      <td>Movie</td>
+      <td>Movie Title 142</td>
+      <td>Ava DuVernay</td>
+      <td>Actor 8, Actor 337, Actor 96, Actor 355</td>
+      <td>Australia</td>
+      <td>2022-08-21</td>
+      <td>2021</td>
+      <td>NR</td>
+      <td>120 min</td>
+      <td>Thrillers, Horror Movies</td>
+      <td>A story exploring themes of thrillers.</td>
+      <td>2022.0</td>
+      <td>120.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s143</td>
+      <td>Movie</td>
+      <td>Movie Title 143</td>
+      <td>Greg Daniels</td>
+      <td>Actor 88</td>
+      <td>Japan</td>
+      <td>2022-01-17</td>
+      <td>2020</td>
+      <td>TV-G</td>
+      <td>95 min</td>
+      <td>Horror Movies, Reality TV, Kids' TV</td>
+      <td>A story exploring themes of horror movies.</td>
+      <td>2022.0</td>
+      <td>95.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s144</td>
+      <td>TV Show</td>
+      <td>Series Title 144</td>
+      <td>Denis Villeneuve</td>
+      <td>Actor 208, Actor 175</td>
+      <td>Spain</td>
+      <td>2016-07-07</td>
+      <td>2016</td>
+      <td>TV-Y7</td>
+      <td>8 Seasons</td>
+      <td>British TV Shows, Crime TV Shows</td>
+      <td>A story exploring themes of british tv shows.</td>
+      <td>2016.0</td>
+      <td>NaN</td>
+      <td>8.0</td>
+    </tr>
+    <tr>
+      <td>s145</td>
+      <td>Movie</td>
+      <td>Movie Title 145</td>
+      <td>Sofia Coppola</td>
+      <td>Actor 18, Actor 188, Actor 360</td>
+      <td>Brazil</td>
+      <td>2006-02-17</td>
+      <td>2006</td>
+      <td>R</td>
+      <td>84 min</td>
+      <td>Horror Movies, Crime TV Shows</td>
+      <td>A story exploring themes of horror movies.</td>
+      <td>2006.0</td>
+      <td>84.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s146</td>
+      <td>TV Show</td>
+      <td>Series Title 146</td>
+      <td>Martin Scorsese</td>
+      <td>Not listed</td>
+      <td>Mexico</td>
+      <td>2005-06-15</td>
+      <td>2003</td>
+      <td>TV-G</td>
+      <td>1 Seasons</td>
+      <td>Stand-Up Comedy</td>
+      <td>A story exploring themes of stand-up comedy.</td>
+      <td>2005.0</td>
+      <td>NaN</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <td>s147</td>
+      <td>Movie</td>
+      <td>Movie Title 147</td>
+      <td>Rajiv Menon</td>
+      <td>Actor 49, Actor 168</td>
+      <td>Brazil</td>
+      <td>2009-01-20</td>
+      <td>2006</td>
+      <td>R</td>
+      <td>75 min</td>
+      <td>Stand-Up Comedy, Crime TV Shows</td>
+      <td>A story exploring themes of stand-up comedy.</td>
+      <td>2009.0</td>
+      <td>75.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s148</td>
+      <td>Movie</td>
+      <td>Movie Title 148</td>
+      <td>Sofia Coppola</td>
+      <td>Actor 335, Actor 123, Actor 396, Actor 356, Actor 224</td>
+      <td>Germany, Brazil</td>
+      <td>2007-07-21</td>
+      <td>2005</td>
+      <td>R</td>
+      <td>85 min</td>
+      <td>Music &amp; Musicals, Action &amp; Adventure</td>
+      <td>A story exploring themes of music &amp; musicals.</td>
+      <td>2007.0</td>
+      <td>85.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s149</td>
+      <td>Movie</td>
+      <td>Movie Title 149</td>
+      <td>Unknown</td>
+      <td>Not listed</td>
+      <td>United States, Spain</td>
+      <td>2000-12-09</td>
+      <td>2000</td>
+      <td>TV-Y7</td>
+      <td>85 min</td>
+      <td>Dramas, Kids' TV, International Movies</td>
+      <td>A story exploring themes of dramas.</td>
+      <td>2000.0</td>
+      <td>85.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s150</td>
+      <td>TV Show</td>
+      <td>Series Title 150</td>
+      <td>Martin Scorsese</td>
+      <td>Not listed</td>
+      <td>India, Germany</td>
+      <td>2002-09-24</td>
+      <td>2001</td>
+      <td>TV-14</td>
+      <td>3 Seasons</td>
+      <td>Romantic Movies</td>
+      <td>A story exploring themes of romantic movies.</td>
+      <td>2002.0</td>
+      <td>NaN</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <td>s151</td>
+      <td>Movie</td>
+      <td>Movie Title 151</td>
+      <td>Unknown</td>
+      <td>Actor 279</td>
+      <td>United Kingdom</td>
+      <td>2016-07-21</td>
+      <td>2016</td>
+      <td>TV-14</td>
+      <td>139 min</td>
+      <td>Horror Movies, Dramas</td>
+      <td>A story exploring themes of horror movies.</td>
+      <td>2016.0</td>
+      <td>139.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s152</td>
+      <td>TV Show</td>
+      <td>Series Title 152</td>
+      <td>Ava DuVernay</td>
+      <td>Actor 209, Actor 101, Actor 232</td>
+      <td>Canada, Japan</td>
+      <td>NaN</td>
+      <td>2009</td>
+      <td>NR</td>
+      <td>5 Season</td>
+      <td>Reality TV, Anime Series, Horror Movies</td>
+      <td>A story exploring themes of reality tv.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <td>s153</td>
+      <td>Movie</td>
+      <td>Movie Title 153</td>
+      <td>Jane Campion</td>
+      <td>Actor 306</td>
+      <td>Germany, United Kingdom</td>
+      <td>2008-03-27</td>
+      <td>2005</td>
+      <td>TV-G</td>
+      <td>100 min</td>
+      <td>Comedies, Horror Movies</td>
+      <td>A story exploring themes of comedies.</td>
+      <td>2008.0</td>
+      <td>100.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s154</td>
+      <td>TV Show</td>
+      <td>Series Title 154</td>
+      <td>Sofia Coppola</td>
+      <td>Not listed</td>
+      <td>Mexico</td>
+      <td>2002-06-05</td>
+      <td>2000</td>
+      <td>TV-PG</td>
+      <td>1 Seasons</td>
+      <td>Horror Movies, British TV Shows, Anime Series</td>
+      <td>A story exploring themes of horror movies.</td>
+      <td>2002.0</td>
+      <td>NaN</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <td>s155</td>
+      <td>Movie</td>
+      <td>Movie Title 155</td>
+      <td>Kunle Afolayan</td>
+      <td>Not listed</td>
+      <td>Japan</td>
+      <td>2004-02-14</td>
+      <td>2003</td>
+      <td>TV-G</td>
+      <td>149 min</td>
+      <td>Action &amp; Adventure, Dramas, Anime Series</td>
+      <td>A story exploring themes of action &amp; adventure.</td>
+      <td>2004.0</td>
+      <td>149.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s156</td>
+      <td>TV Show</td>
+      <td>Series Title 156</td>
+      <td>Rajiv Menon</td>
+      <td>Actor 132</td>
+      <td>Brazil</td>
+      <td>2008-03-16</td>
+      <td>2005</td>
+      <td>TV-PG</td>
+      <td>3 Seasons</td>
+      <td>Kids' TV</td>
+      <td>A story exploring themes of kids' tv.</td>
+      <td>2008.0</td>
+      <td>NaN</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <td>s157</td>
+      <td>Movie</td>
+      <td>Movie Title 157</td>
+      <td>Unknown</td>
+      <td>Actor 61</td>
+      <td>Japan</td>
+      <td>2020-07-06</td>
+      <td>2018</td>
+      <td>TV-PG</td>
+      <td>164 min</td>
+      <td>Action &amp; Adventure</td>
+      <td>A story exploring themes of action &amp; adventure.</td>
+      <td>2020.0</td>
+      <td>164.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s158</td>
+      <td>Movie</td>
+      <td>Movie Title 158</td>
+      <td>Jane Campion</td>
+      <td>Actor 150, Actor 61, Actor 60, Actor 317</td>
+      <td>Germany</td>
+      <td>2018-06-23</td>
+      <td>2015</td>
+      <td>TV-14</td>
+      <td>72 min</td>
+      <td>Romantic Movies, Documentaries, Reality TV</td>
+      <td>A story exploring themes of romantic movies.</td>
+      <td>2018.0</td>
+      <td>72.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s159</td>
+      <td>Movie</td>
+      <td>Movie Title 159</td>
+      <td>Denis Villeneuve</td>
+      <td>Actor 104, Actor 71, Actor 301, Actor 249, Actor 150</td>
+      <td>Spain</td>
+      <td>2009-04-26</td>
+      <td>2006</td>
+      <td>TV-PG</td>
+      <td>143 min</td>
+      <td>Thrillers</td>
+      <td>A story exploring themes of thrillers.</td>
+      <td>2009.0</td>
+      <td>143.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s160</td>
+      <td>Movie</td>
+      <td>Movie Title 160</td>
+      <td>Unknown</td>
+      <td>Actor 332, Actor 358, Actor 150, Actor 263, Actor 209</td>
+      <td>Spain</td>
+      <td>2007-07-20</td>
+      <td>2005</td>
+      <td>TV-PG</td>
+      <td>104 min</td>
+      <td>Dramas, Reality TV</td>
+      <td>A story exploring themes of dramas.</td>
+      <td>2007.0</td>
+      <td>104.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s161</td>
+      <td>Movie</td>
+      <td>Movie Title 161</td>
+      <td>Ava DuVernay</td>
+      <td>Not listed</td>
+      <td>United Kingdom</td>
+      <td>2017-02-02</td>
+      <td>2015</td>
+      <td>TV-MA</td>
+      <td>178 min</td>
+      <td>Sci-Fi &amp; Fantasy</td>
+      <td>A story exploring themes of sci-fi &amp; fantasy.</td>
+      <td>2017.0</td>
+      <td>178.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s162</td>
+      <td>TV Show</td>
+      <td>Series Title 162</td>
+      <td>Martin Scorsese</td>
+      <td>Actor 382, Actor 39</td>
+      <td>Nigeria, Canada</td>
+      <td>2019-02-15</td>
+      <td>2016</td>
+      <td>TV-MA</td>
+      <td>8 Seasons</td>
+      <td>Anime Series, Music &amp; Musicals</td>
+      <td>A story exploring themes of anime series.</td>
+      <td>2019.0</td>
+      <td>NaN</td>
+      <td>8.0</td>
+    </tr>
+    <tr>
+      <td>s163</td>
+      <td>TV Show</td>
+      <td>Series Title 163</td>
+      <td>Jane Campion</td>
+      <td>Actor 367, Actor 127, Actor 62</td>
+      <td>France, Canada</td>
+      <td>2009-08-25</td>
+      <td>2006</td>
+      <td>TV-G</td>
+      <td>3 Seasons</td>
+      <td>Music &amp; Musicals</td>
+      <td>A story exploring themes of music &amp; musicals.</td>
+      <td>2009.0</td>
+      <td>NaN</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <td>s164</td>
+      <td>Movie</td>
+      <td>Movie Title 164</td>
+      <td>Unknown</td>
+      <td>Actor 214, Actor 360, Actor 17, Actor 65, Actor 270</td>
+      <td>France</td>
+      <td>2000-11-23</td>
+      <td>1998</td>
+      <td>PG-13</td>
+      <td>133 min</td>
+      <td>Comedies, Kids' TV</td>
+      <td>A story exploring themes of comedies.</td>
+      <td>2000.0</td>
+      <td>133.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s165</td>
+      <td>Movie</td>
+      <td>Movie Title 165</td>
+      <td>Unknown</td>
+      <td>Not listed</td>
+      <td>France</td>
+      <td>NaN</td>
+      <td>2002</td>
+      <td>NR</td>
+      <td>128 min</td>
+      <td>Stand-Up Comedy, Music &amp; Musicals, Action &amp; Adventure</td>
+      <td>A story exploring themes of stand-up comedy.</td>
+      <td>NaN</td>
+      <td>128.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s166</td>
+      <td>Movie</td>
+      <td>Movie Title 166</td>
+      <td>Ava DuVernay</td>
+      <td>Actor 340, Actor 381</td>
+      <td>Unknown</td>
+      <td>2011-08-22</td>
+      <td>2009</td>
+      <td>R</td>
+      <td>65 min</td>
+      <td>International Movies, Anime Series</td>
+      <td>A story exploring themes of international movies.</td>
+      <td>2011.0</td>
+      <td>65.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s167</td>
+      <td>Movie</td>
+      <td>Movie Title 167</td>
+      <td>Unknown</td>
+      <td>Actor 157, Actor 158, Actor 26, Actor 158</td>
+      <td>Unknown</td>
+      <td>2009-03-23</td>
+      <td>2008</td>
+      <td>TV-Y7</td>
+      <td>117 min</td>
+      <td>British TV Shows</td>
+      <td>A story exploring themes of british tv shows.</td>
+      <td>2009.0</td>
+      <td>117.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s168</td>
+      <td>Movie</td>
+      <td>Movie Title 168</td>
+      <td>Rajiv Menon</td>
+      <td>Actor 119, Actor 74</td>
+      <td>Australia, France</td>
+      <td>2013-03-25</td>
+      <td>2010</td>
+      <td>NR</td>
+      <td>125 min</td>
+      <td>Anime Series, Stand-Up Comedy</td>
+      <td>A story exploring themes of anime series.</td>
+      <td>2013.0</td>
+      <td>125.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s169</td>
+      <td>Movie</td>
+      <td>Movie Title 169</td>
+      <td>Ava DuVernay</td>
+      <td>Not listed</td>
+      <td>Spain</td>
+      <td>2021-01-21</td>
+      <td>2020</td>
+      <td>R</td>
+      <td>147 min</td>
+      <td>Comedies, Horror Movies</td>
+      <td>A story exploring themes of comedies.</td>
+      <td>2021.0</td>
+      <td>147.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s170</td>
+      <td>TV Show</td>
+      <td>Series Title 170</td>
+      <td>Bong Joon Ho</td>
+      <td>Actor 101, Actor 258, Actor 275, Actor 358, Actor 164</td>
+      <td>France, South Korea</td>
+      <td>2014-09-16</td>
+      <td>2014</td>
+      <td>R</td>
+      <td>4 Seasons</td>
+      <td>Kids' TV, International Movies, Sci-Fi &amp; Fantasy</td>
+      <td>A story exploring themes of kids' tv.</td>
+      <td>2014.0</td>
+      <td>NaN</td>
+      <td>4.0</td>
+    </tr>
+    <tr>
+      <td>s171</td>
+      <td>Movie</td>
+      <td>Movie Title 171</td>
+      <td>Sofia Coppola</td>
+      <td>Actor 340, Actor 93, Actor 33</td>
+      <td>Brazil, Japan</td>
+      <td>2000-07-13</td>
+      <td>2000</td>
+      <td>R</td>
+      <td>73 min</td>
+      <td>Sci-Fi &amp; Fantasy, Documentaries, Thrillers</td>
+      <td>A story exploring themes of sci-fi &amp; fantasy.</td>
+      <td>2000.0</td>
+      <td>73.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s172</td>
+      <td>Movie</td>
+      <td>Movie Title 172</td>
+      <td>Kunle Afolayan</td>
+      <td>Actor 277, Actor 29, Actor 19, Actor 34</td>
+      <td>Brazil, Australia</td>
+      <td>2022-12-19</td>
+      <td>2020</td>
+      <td>TV-Y7</td>
+      <td>172 min</td>
+      <td>Music &amp; Musicals, Documentaries, Dramas</td>
+      <td>A story exploring themes of music &amp; musicals.</td>
+      <td>2022.0</td>
+      <td>172.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s173</td>
+      <td>Movie</td>
+      <td>Movie Title 173</td>
+      <td>Ava DuVernay</td>
+      <td>Actor 327, Actor 39, Actor 27, Actor 198</td>
+      <td>India, Japan</td>
+      <td>2021-03-01</td>
+      <td>2020</td>
+      <td>TV-MA</td>
+      <td>76 min</td>
+      <td>Horror Movies, Comedies</td>
+      <td>A story exploring themes of horror movies.</td>
+      <td>2021.0</td>
+      <td>76.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s174</td>
+      <td>Movie</td>
+      <td>Movie Title 174</td>
+      <td>Rajiv Menon</td>
+      <td>Actor 39, Actor 119, Actor 118, Actor 393, Actor 11</td>
+      <td>South Korea, Japan</td>
+      <td>2012-08-07</td>
+      <td>2010</td>
+      <td>R</td>
+      <td>138 min</td>
+      <td>Romantic Movies, Comedies, Stand-Up Comedy</td>
+      <td>A story exploring themes of romantic movies.</td>
+      <td>2012.0</td>
+      <td>138.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s175</td>
+      <td>Movie</td>
+      <td>Movie Title 175</td>
+      <td>Sofia Coppola</td>
+      <td>Actor 89, Actor 40</td>
+      <td>India, Australia</td>
+      <td>2004-06-15</td>
+      <td>2004</td>
+      <td>TV-G</td>
+      <td>136 min</td>
+      <td>International Movies, Dramas</td>
+      <td>A story exploring themes of international movies.</td>
+      <td>2004.0</td>
+      <td>136.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s176</td>
+      <td>Movie</td>
+      <td>Movie Title 176</td>
+      <td>Bong Joon Ho</td>
+      <td>Not listed</td>
+      <td>Australia</td>
+      <td>2004-12-16</td>
+      <td>2003</td>
+      <td>TV-G</td>
+      <td>120 min</td>
+      <td>Anime Series, Music &amp; Musicals</td>
+      <td>A story exploring themes of anime series.</td>
+      <td>2004.0</td>
+      <td>120.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s177</td>
+      <td>TV Show</td>
+      <td>Series Title 177</td>
+      <td>Kunle Afolayan</td>
+      <td>Actor 24, Actor 213, Actor 248, Actor 70</td>
+      <td>Mexico</td>
+      <td>2011-03-27</td>
+      <td>2009</td>
+      <td>NR</td>
+      <td>1 Seasons</td>
+      <td>Music &amp; Musicals, Sci-Fi &amp; Fantasy, Anime Series</td>
+      <td>A story exploring themes of music &amp; musicals.</td>
+      <td>2011.0</td>
+      <td>NaN</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <td>s178</td>
+      <td>TV Show</td>
+      <td>Series Title 178</td>
+      <td>Jane Campion</td>
+      <td>Actor 27, Actor 294, Actor 6</td>
+      <td>United Kingdom, Nigeria</td>
+      <td>2013-12-23</td>
+      <td>2010</td>
+      <td>TV-Y7</td>
+      <td>4 Seasons</td>
+      <td>International Movies, Anime Series</td>
+      <td>A story exploring themes of international movies.</td>
+      <td>2013.0</td>
+      <td>NaN</td>
+      <td>4.0</td>
+    </tr>
+    <tr>
+      <td>s179</td>
+      <td>TV Show</td>
+      <td>Series Title 179</td>
+      <td>Denis Villeneuve</td>
+      <td>Actor 18, Actor 207, Actor 107</td>
+      <td>Australia, South Korea</td>
+      <td>2006-03-22</td>
+      <td>2004</td>
+      <td>R</td>
+      <td>3 Seasons</td>
+      <td>Kids' TV, Dramas, Reality TV</td>
+      <td>A story exploring themes of kids' tv.</td>
+      <td>2006.0</td>
+      <td>NaN</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <td>s180</td>
+      <td>Movie</td>
+      <td>Movie Title 180</td>
+      <td>Jane Campion</td>
+      <td>Actor 307, Actor 90, Actor 289, Actor 104</td>
+      <td>Unknown</td>
+      <td>2018-03-24</td>
+      <td>2018</td>
+      <td>NR</td>
+      <td>148 min</td>
+      <td>Crime TV Shows</td>
+      <td>A story exploring themes of crime tv shows.</td>
+      <td>2018.0</td>
+      <td>148.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s181</td>
+      <td>TV Show</td>
+      <td>Series Title 181</td>
+      <td>Unknown</td>
+      <td>Actor 151</td>
+      <td>Mexico</td>
+      <td>2002-07-04</td>
+      <td>2001</td>
+      <td>TV-Y7</td>
+      <td>6 Seasons</td>
+      <td>Crime TV Shows, Reality TV, Sci-Fi &amp; Fantasy</td>
+      <td>A story exploring themes of crime tv shows.</td>
+      <td>2002.0</td>
+      <td>NaN</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <td>s182</td>
+      <td>TV Show</td>
+      <td>Series Title 182</td>
+      <td>Greg Daniels</td>
+      <td>Actor 78, Actor 337</td>
+      <td>Germany, Canada</td>
+      <td>2008-11-01</td>
+      <td>2008</td>
+      <td>TV-G</td>
+      <td>2 Seasons</td>
+      <td>Sci-Fi &amp; Fantasy, Horror Movies</td>
+      <td>A story exploring themes of sci-fi &amp; fantasy.</td>
+      <td>2008.0</td>
+      <td>NaN</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <td>s183</td>
+      <td>TV Show</td>
+      <td>Series Title 183</td>
+      <td>Kunle Afolayan</td>
+      <td>Actor 87, Actor 185</td>
+      <td>Japan, South Korea</td>
+      <td>NaN</td>
+      <td>2021</td>
+      <td>PG-13</td>
+      <td>7 Seasons</td>
+      <td>Action &amp; Adventure, British TV Shows, Documentaries</td>
+      <td>A story exploring themes of action &amp; adventure.</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>7.0</td>
+    </tr>
+    <tr>
+      <td>s184</td>
+      <td>Movie</td>
+      <td>Movie Title 184</td>
+      <td>Unknown</td>
+      <td>Actor 277, Actor 81</td>
+      <td>Unknown</td>
+      <td>2022-12-19</td>
+      <td>2019</td>
+      <td>PG</td>
+      <td>179 min</td>
+      <td>Stand-Up Comedy, British TV Shows, Documentaries</td>
+      <td>A story exploring themes of stand-up comedy.</td>
+      <td>2022.0</td>
+      <td>179.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s185</td>
+      <td>TV Show</td>
+      <td>Series Title 185</td>
+      <td>Greg Daniels</td>
+      <td>Not listed</td>
+      <td>Brazil, Canada</td>
+      <td>2011-09-25</td>
+      <td>2008</td>
+      <td>TV-G</td>
+      <td>2 Seasons</td>
+      <td>Action &amp; Adventure, Thrillers</td>
+      <td>A story exploring themes of action &amp; adventure.</td>
+      <td>2011.0</td>
+      <td>NaN</td>
+      <td>2.0</td>
+    </tr>
+    <tr>
+      <td>s186</td>
+      <td>Movie</td>
+      <td>Movie Title 186</td>
+      <td>Sofia Coppola</td>
+      <td>Not listed</td>
+      <td>Japan</td>
+      <td>2004-11-08</td>
+      <td>2003</td>
+      <td>PG</td>
+      <td>170 min</td>
+      <td>Thrillers, Stand-Up Comedy</td>
+      <td>A story exploring themes of thrillers.</td>
+      <td>2004.0</td>
+      <td>170.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s187</td>
+      <td>Movie</td>
+      <td>Movie Title 187</td>
+      <td>Ava DuVernay</td>
+      <td>Actor 70</td>
+      <td>Brazil</td>
+      <td>2004-04-03</td>
+      <td>2003</td>
+      <td>R</td>
+      <td>91 min</td>
+      <td>Romantic Movies, Kids' TV, Action &amp; Adventure</td>
+      <td>A story exploring themes of romantic movies.</td>
+      <td>2004.0</td>
+      <td>91.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s188</td>
+      <td>Movie</td>
+      <td>Movie Title 188</td>
+      <td>Unknown</td>
+      <td>Not listed</td>
+      <td>Australia, Brazil</td>
+      <td>2014-12-12</td>
+      <td>2014</td>
+      <td>TV-G</td>
+      <td>160 min</td>
+      <td>Kids' TV, Reality TV</td>
+      <td>A story exploring themes of kids' tv.</td>
+      <td>2014.0</td>
+      <td>160.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s189</td>
+      <td>Movie</td>
+      <td>Movie Title 189</td>
+      <td>Unknown</td>
+      <td>Actor 366</td>
+      <td>Australia, United Kingdom</td>
+      <td>2015-02-05</td>
+      <td>2013</td>
+      <td>NR</td>
+      <td>93 min</td>
+      <td>Thrillers, Horror Movies</td>
+      <td>A story exploring themes of thrillers.</td>
+      <td>2015.0</td>
+      <td>93.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s190</td>
+      <td>Movie</td>
+      <td>Movie Title 190</td>
+      <td>Jane Campion</td>
+      <td>Actor 211, Actor 352, Actor 70</td>
+      <td>Japan</td>
+      <td>2016-11-17</td>
+      <td>2014</td>
+      <td>TV-Y7</td>
+      <td>108 min</td>
+      <td>British TV Shows, Reality TV, Sci-Fi &amp; Fantasy</td>
+      <td>A story exploring themes of british tv shows.</td>
+      <td>2016.0</td>
+      <td>108.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s191</td>
+      <td>Movie</td>
+      <td>Movie Title 191</td>
+      <td>Rajiv Menon</td>
+      <td>Actor 199</td>
+      <td>Nigeria</td>
+      <td>2016-02-21</td>
+      <td>2016</td>
+      <td>PG-13</td>
+      <td>105 min</td>
+      <td>Stand-Up Comedy, Dramas, Horror Movies</td>
+      <td>A story exploring themes of stand-up comedy.</td>
+      <td>2016.0</td>
+      <td>105.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s192</td>
+      <td>Movie</td>
+      <td>Movie Title 192</td>
+      <td>Rajiv Menon</td>
+      <td>Actor 288, Actor 115, Actor 101, Actor 175</td>
+      <td>Brazil, India</td>
+      <td>2008-07-13</td>
+      <td>2006</td>
+      <td>TV-G</td>
+      <td>83 min</td>
+      <td>Music &amp; Musicals, Anime Series</td>
+      <td>A story exploring themes of music &amp; musicals.</td>
+      <td>2008.0</td>
+      <td>83.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s193</td>
+      <td>Movie</td>
+      <td>Movie Title 193</td>
+      <td>Denis Villeneuve</td>
+      <td>Actor 196</td>
+      <td>Brazil, Japan</td>
+      <td>2020-08-02</td>
+      <td>2020</td>
+      <td>PG-13</td>
+      <td>170 min</td>
+      <td>Stand-Up Comedy, Action &amp; Adventure</td>
+      <td>A story exploring themes of stand-up comedy.</td>
+      <td>2020.0</td>
+      <td>170.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s194</td>
+      <td>Movie</td>
+      <td>Movie Title 194</td>
+      <td>Jane Campion</td>
+      <td>Actor 284, Actor 265, Actor 39</td>
+      <td>United Kingdom, Australia</td>
+      <td>2020-01-01</td>
+      <td>2018</td>
+      <td>TV-G</td>
+      <td>120 min</td>
+      <td>International Movies, Comedies</td>
+      <td>A story exploring themes of international movies.</td>
+      <td>2020.0</td>
+      <td>120.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s195</td>
+      <td>Movie</td>
+      <td>Movie Title 195</td>
+      <td>Unknown</td>
+      <td>Not listed</td>
+      <td>Unknown</td>
+      <td>2010-11-07</td>
+      <td>2007</td>
+      <td>TV-G</td>
+      <td>173 min</td>
+      <td>International Movies, Documentaries</td>
+      <td>A story exploring themes of international movies.</td>
+      <td>2010.0</td>
+      <td>173.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s196</td>
+      <td>Movie</td>
+      <td>Movie Title 196</td>
+      <td>Bong Joon Ho</td>
+      <td>Actor 286, Actor 38</td>
+      <td>Germany</td>
+      <td>2019-08-27</td>
+      <td>2017</td>
+      <td>TV-14</td>
+      <td>168 min</td>
+      <td>Dramas, Action &amp; Adventure</td>
+      <td>A story exploring themes of dramas.</td>
+      <td>2019.0</td>
+      <td>168.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s197</td>
+      <td>Movie</td>
+      <td>Movie Title 197</td>
+      <td>Unknown</td>
+      <td>Actor 9, Actor 22, Actor 46</td>
+      <td>Brazil</td>
+      <td>2020-06-09</td>
+      <td>2017</td>
+      <td>TV-Y7</td>
+      <td>178 min</td>
+      <td>Stand-Up Comedy</td>
+      <td>A story exploring themes of stand-up comedy.</td>
+      <td>2020.0</td>
+      <td>178.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s198</td>
+      <td>Movie</td>
+      <td>Movie Title 198</td>
+      <td>Denis Villeneuve</td>
+      <td>Actor 60, Actor 172, Actor 215</td>
+      <td>Japan</td>
+      <td>2007-06-25</td>
+      <td>2005</td>
+      <td>TV-Y7</td>
+      <td>117 min</td>
+      <td>Romantic Movies</td>
+      <td>A story exploring themes of romantic movies.</td>
+      <td>2007.0</td>
+      <td>117.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>s199</td>
+      <td>TV Show</td>
+      <td>Series Title 199</td>
+      <td>Unknown</td>
+      <td>Actor 95</td>
+      <td>United Kingdom</td>
+      <td>2014-09-26</td>
+      <td>2014</td>
+      <td>TV-G</td>
+      <td>5 Seasons</td>
+      <td>Sci-Fi &amp; Fantasy</td>
+      <td>A story exploring themes of sci-fi &amp; fantasy.</td>
+      <td>2014.0</td>
+      <td>NaN</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <td>s200</td>
+      <td>Movie</td>
+      <td>Movie Title 200</td>
+      <td>Bong Joon Ho</td>
+      <td>Actor 387, Actor 243, Actor 353, Actor 129, Actor 180</td>
+      <td>Australia</td>
+      <td>2000-03-22</td>
+      <td>1999</td>
+      <td>TV-14</td>
+      <td>122 min</td>
+      <td>Anime Series</td>
+      <td>A story exploring themes of anime series.</td>
+      <td>2000.0</td>
+      <td>122.0</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table></div></section><section class='card method'><h2>Methodology</h2><p>Original catalog records were retained. Dates and minute-based durations were parsed where available. Multi-value country and genre fields were split to evaluate tag-level composition; tag totals can therefore exceed the title count.</p></section><footer>Prepared by the Analytics Team • Values reflect the supplied project datasets.</footer></main><script>const base={paper_bgcolor:'rgba(0,0,0,0)',plot_bgcolor:'rgba(0,0,0,0)',font:{family:'Inter',color:'#dce8ff'},margin:{l:56,r:25,t:32,b:55},xaxis:{gridcolor:'rgba(148,163,184,.15)'},yaxis:{gridcolor:'rgba(148,163,184,.15)'},legend:{orientation:'h',y:-.2}};const config={responsive:true,displaylogo:false};Plotly.newPlot("c1",[{"type": "pie", "labels": ["Movie", "TV Show"], "values": [409, 191], "hole": 0.55}],Object.assign({},base,{}),config);
+Plotly.newPlot("c2",[{"type": "bar", "x": [69, 69, 70, 72, 73, 74, 74, 78, 79, 81, 86, 87], "y": ["Comedies", "Romantic Movies", "Kids' TV", "Reality TV", "Thrillers", "Documentaries", "Crime TV Shows", "Anime Series", "British TV Shows", "Horror Movies", "Action & Adventure", "Stand-Up Comedy"], "orientation": "h", "marker": {"color": "#fbbf24"}}],Object.assign({},base,{}),config);
+Plotly.newPlot("c3",[{"type": "scatter", "mode": "lines+markers", "x": [1998.0, 1999.0, 2000.0, 2001.0, 2002.0, 2003.0, 2004.0, 2005.0, 2006.0, 2007.0, 2008.0, 2009.0, 2010.0, 2011.0, 2012.0, 2013.0, 2014.0, 2015.0, 2016.0, 2017.0, 2018.0, 2019.0, 2020.0, 2021.0, 2022.0], "y": [3, 12, 19, 28, 26, 18, 29, 20, 22, 29, 23, 32, 19, 23, 22, 24, 29, 16, 24, 17, 26, 30, 29, 23, 30], "line": {"color": "#38bdf8", "width": 3}}],Object.assign({},base,{}),config);
+Plotly.newPlot("c4",[{"type": "bar", "x": [49, 55, 55, 56, 57, 58, 60, 60, 65, 72, 74, 80], "y": ["Nigeria", "United States", "Spain", "France", "Australia", "Mexico", "Canada", "United Kingdom", "India", "Germany", "Japan", "Brazil"], "orientation": "h", "marker": {"color": "#22c55e"}}],Object.assign({},base,{}),config);
+Plotly.newPlot("c5",[{"type": "histogram", "x": [70.0, 83.0, 150.0, 92.0, 98.0, 153.0, 79.0, 77.0, 144.0, 118.0, 90.0, 132.0, 141.0, 119.0, 148.0, 111.0, 150.0, 150.0, 178.0, 166.0, 63.0, 138.0, 122.0, 91.0, 60.0, 142.0, 90.0, 120.0, 71.0, 84.0, 111.0, 70.0, 179.0, 81.0, 110.0, 138.0, 77.0, 95.0, 138.0, 151.0, 112.0, 121.0, 178.0, 70.0, 175.0, 71.0, 154.0, 65.0, 88.0, 89.0, 133.0, 126.0, 164.0, 99.0, 98.0, 63.0, 85.0, 113.0, 129.0, 80.0, 131.0, 172.0, 170.0, 100.0, 124.0, 88.0, 168.0, 164.0, 93.0, 127.0, 136.0, 137.0, 161.0, 146.0, 122.0, 108.0, 115.0, 164.0, 101.0, 112.0, 168.0, 117.0, 91.0, 173.0, 90.0, 160.0, 83.0, 127.0, 147.0, 146.0, 99.0, 92.0, 123.0, 87.0, 145.0, 119.0, 150.0, 83.0, 62.0, 120.0, 95.0, 84.0, 75.0, 85.0, 85.0, 139.0, 100.0, 149.0, 164.0, 72.0, 143.0, 104.0, 178.0, 133.0, 128.0, 65.0, 117.0, 125.0, 147.0, 73.0, 172.0, 76.0, 138.0, 136.0, 120.0, 148.0, 179.0, 170.0, 91.0, 160.0, 93.0, 108.0, 105.0, 83.0, 170.0, 120.0, 173.0, 168.0, 178.0, 117.0, 122.0, 92.0, 94.0, 126.0, 82.0, 147.0, 129.0, 156.0, 133.0, 82.0, 131.0, 83.0, 65.0, 124.0, 71.0, 74.0, 134.0, 174.0, 69.0, 60.0, 164.0, 168.0, 67.0, 67.0, 146.0, 88.0, 103.0, 131.0, 156.0, 64.0, 118.0, 108.0, 93.0, 79.0, 151.0, 61.0, 101.0, 147.0, 90.0, 151.0, 167.0, 97.0, 128.0, 112.0, 89.0, 86.0, 87.0, 176.0, 146.0, 158.0, 164.0, 173.0, 99.0, 65.0, 148.0, 119.0, 169.0, 134.0, 165.0, 66.0, 124.0, 166.0, 78.0, 152.0, 60.0, 132.0, 73.0, 90.0, 91.0, 165.0, 99.0, 92.0, 139.0, 103.0, 168.0, 101.0, 107.0, 136.0, 97.0, 174.0, 151.0, 118.0, 89.0, 134.0, 162.0, 68.0, 139.0, 167.0, 123.0, 91.0, 166.0, 152.0, 154.0, 82.0, 148.0, 84.0, 76.0, 61.0, 94.0, 168.0, 152.0, 65.0, 65.0, 76.0, 154.0, 179.0, 71.0, 104.0, 82.0, 86.0, 60.0, 100.0, 130.0, 171.0, 60.0, 105.0, 175.0, 82.0, 106.0, 130.0, 166.0, 105.0, 81.0, 75.0, 138.0, 167.0, 139.0, 68.0, 112.0, 148.0, 123.0, 102.0, 161.0, 149.0, 168.0, 132.0, 117.0, 128.0, 66.0, 106.0, 71.0, 101.0, 98.0, 112.0, 68.0, 101.0, 171.0, 171.0, 153.0, 113.0, 132.0, 139.0, 113.0, 142.0, 172.0, 75.0, 126.0, 163.0, 112.0, 179.0, 154.0, 137.0, 123.0, 150.0, 170.0, 131.0, 134.0, 94.0, 173.0, 95.0, 142.0, 148.0, 67.0, 91.0, 67.0, 76.0, 146.0, 131.0, 171.0, 147.0, 105.0, 129.0, 94.0, 143.0, 168.0, 93.0, 62.0, 147.0, 125.0, 76.0, 104.0, 77.0, 68.0, 65.0, 172.0, 174.0, 161.0, 159.0, 168.0, 151.0, 88.0, 164.0, 168.0, 95.0, 149.0, 154.0, 130.0, 64.0, 67.0, 70.0, 140.0, 164.0, 124.0, 118.0, 113.0, 69.0, 61.0, 90.0, 97.0, 176.0, 62.0, 74.0, 154.0, 95.0, 174.0, 179.0, 132.0, 155.0, 70.0, 66.0, 171.0, 138.0, 85.0, 111.0, 62.0, 171.0, 179.0, 130.0, 129.0, 175.0, 169.0, 96.0, 153.0, 125.0, 121.0, 87.0, 70.0, 132.0, 151.0, 145.0, 64.0, 101.0, 169.0, 143.0, 80.0, 85.0, 121.0, 157.0, 84.0, 79.0, 139.0, 124.0, 143.0, 88.0, 105.0, 150.0, 115.0, 166.0, 137.0], "nbinsx": 30, "marker": {"color": "#a78bfa"}}],Object.assign({},base,{}),config);
+Plotly.newPlot("c6",[{"type": "bar", "x": ["R", "TV-Y7", "TV-PG", "TV-G", "PG-13", "TV-14", "NR", "TV-MA", "PG"], "y": [78, 78, 74, 73, 66, 65, 59, 57, 50], "marker": {"color": "#fb7185"}}],Object.assign({},base,{}),config);
+const s=document.getElementById('search');s.oninput=()=>document.querySelectorAll('#dataTable tbody tr').forEach(r=>r.style.display=r.innerText.toLowerCase().includes(s.value.toLowerCase())?'':'none');document.querySelectorAll('#dataTable th').forEach((h,i)=>h.onclick=()=>{let b=h.closest('table').tBodies[0],rows=[...b.rows],a=h.dataset.a!=='1';rows.sort((x,y)=>x.cells[i].innerText.localeCompare(y.cells[i].innerText,undefined,{numeric:true})*(a?1:-1));rows.forEach(r=>b.appendChild(r));h.dataset.a=a?'1':'0'});</script></body></html>
